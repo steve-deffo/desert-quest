@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
+/* ── UAE color palette exposed as Tailwind design tokens ── */
+@theme {
+  --color-gold:        #C9A84C;
+  --color-gold-light:  #E8D08A;
+  --color-uae-green:   #00732F;
+  --color-uae-red:     #FF0000;
+  --color-correct:     #4CAF50;
+  --color-wrong:       #F44336;
+  --color-sand:        #E8D5A3;
+  --color-parchment:   #FDF6E3;
+  --color-dune:        #C4A96A;
+  --color-ink:         #1A1208;
+  --color-dune-brown:  #8B6914;
+  --color-sky-day:     #87CEEB;
+  --color-sky-night:   #0A0F1E;
+  --color-night-bg:    #0D1B2A;
+  --color-night-card:  #162032;
+}
+
+/* ── Day theme ── */
+[data-theme="day"] {
+  --bg-primary:     #FDF6E3;   /* Warm parchment */
+  --bg-secondary:   #E8D5A3;   /* Sand */
+  --bg-card:        #FFF8E7;   /* Light card */
+  --text-primary:   #1A1208;   /* Deep ink */
+  --text-secondary: #8B6914;   /* Dune brown */
+  --sky-top:        #87CEEB;   /* Daytime sky */
+  --sky-bottom:     #FDD835;   /* Sun-kissed horizon */
+  --dune-color:     #C4A96A;   /* Sand dune */
+  --shadow:         rgba(139, 105, 20, 0.2);
+  --overlay:        rgba(253, 246, 227, 0.85);
+}
+
+/* ── Night theme ── */
+[data-theme="night"] {
+  --bg-primary:     #0D1B2A;   /* Deep desert night */
+  --bg-secondary:   #1B2A3B;   /* Dark card bg */
+  --bg-card:        #162032;   /* Card surface */
+  --text-primary:   #F5E6C8;   /* Warm moonlight text */
+  --text-secondary: #C9A84C;   /* Gold accent */
+  --sky-top:        #0A0F1E;   /* Midnight sky */
+  --sky-bottom:     #1A237E;   /* Deep blue horizon */
+  --dune-color:     #2C3E50;   /* Dark silhouette dunes */
+  --shadow:         rgba(0, 0, 0, 0.5);
+  --overlay:        rgba(13, 27, 42, 0.85);
+}
+
+/* ── Shared tokens (unchanged by theme) ── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-gold:       #C9A84C;
+  --color-gold-light: #E8D08A;
+  --color-uae-green:  #00732F;
+  --color-uae-red:    #FF0000;
+  --color-correct:    #4CAF50;
+  --color-wrong:      #F44336;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ── Smooth theme transitions on all elements ── */
+*, *::before, *::after {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 }

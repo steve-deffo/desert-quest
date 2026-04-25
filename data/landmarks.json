@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dubai",
+    "level": 0,
+    "en": {
+      "name": "Burj Khalifa",
+      "location": "Dubai",
+      "fact4": "The Burj Khalifa in Dubai is the tallest building in the world, standing at 828 metres — that's taller than 200 giraffes stacked up!",
+      "fact8": "Completed in 2010, the Burj Khalifa stands at 828 metres and hosts the world's highest observation deck at 555 metres. Its Y-shaped floor plan is inspired by the Hymenocallis desert flower."
+    },
+    "ar": {
+      "name": "برج خليفة",
+      "location": "دبي",
+      "fact4": "برج خليفة في دبي هو أطول مبنى في العالم، يبلغ ارتفاعه ٨٢٨ مترًا — أطول من ٢٠٠ زرافة مكدّسة فوق بعضها!",
+      "fact8": "اكتُمل بناؤه عام ٢٠١٠ ويبلغ ارتفاعه ٨٢٨ مترًا، ويضمّ أعلى منصة مشاهدة في العالم على ارتفاع ٥٥٥ مترًا. مخططه الأرضي على شكل حرف Y مستوحى من زهرة الهايمينوكاليس الصحراوية."
+    },
+    "emoji": "🏙️"
+  },
+  {
+    "id": "abu-dhabi",
+    "level": 1,
+    "en": {
+      "name": "Sheikh Zayed Grand Mosque",
+      "location": "Abu Dhabi",
+      "fact4": "The Sheikh Zayed Grand Mosque in Abu Dhabi is one of the world's largest mosques and can hold 40,000 worshippers at once — imagine your whole school times 100!",
+      "fact8": "The Sheikh Zayed Grand Mosque covers 22,412 square metres and features the world's largest hand-knotted carpet, woven by 1,200 artisans over two years. Its design masterfully blends Islamic, Moorish, and Mughal architecture."
+    },
+    "ar": {
+      "name": "جامع الشيخ زايد الكبير",
+      "location": "أبوظبي",
+      "fact4": "جامع الشيخ زايد الكبير في أبوظبي أحد أكبر مساجد العالم، ويسع ٤٠٬٠٠٠ مصلٍّ في آنٍ واحد — تخيّل مدرستك مضاعفة مئة مرة!",
+      "fact8": "يمتد الجامع على مساحة ٢٢٬٤١٢ مترًا مربعًا ويحتضن أكبر سجادة مجدولة يدويًا في العالم، نسجها ١٢٠٠ حرفي على مدى عامين. يجمع تصميمه بين الطرازين الإسلامي والمغربي والمغولي في تناسق بديع."
+    },
+    "emoji": "🕌"
+  },
+  {
+    "id": "al-ain",
+    "level": 2,
+    "en": {
+      "name": "Al Ain Oasis",
+      "location": "Al Ain",
+      "fact4": "Al Ain is called the Garden City of the UAE because it has beautiful date palm oases that are over 4,000 years old — older than the pyramids of Egypt!",
+      "fact8": "Al Ain's ancient falaj irrigation system, dating to 3,000 BCE, channels underground water through gravity-fed tunnels to sustain 147,000 date palms. UNESCO declared it a World Heritage Site in 2011 for its living agricultural heritage."
+    },
+    "ar": {
+      "name": "واحة العين",
+      "location": "العين",
+      "fact4": "تُعرف العين بـ«مدينة الحدائق» في الإمارات لأن واحاتها النخيلية الجميلة يتجاوز عمرها ٤٠٠٠ عام — أقدم من أهرامات مصر!",
+      "fact8": "يعود نظام الفلج للري في العين إلى ٣٠٠٠ ق.م، ويضخّ المياه الجوفية عبر قنوات تحت الأرض تعتمد الجاذبية لتروي ١٤٧٬٠٠٠ نخلة تمر. أدرجتها اليونسكو موقعًا للتراث العالمي عام ٢٠١١ لإرثها الزراعي الحيّ."
+    },
+    "emoji": "🌴"
+  },
+  {
+    "id": "liwa",
+    "level": 3,
+    "en": {
+      "name": "Moreeb Dune",
+      "location": "Liwa",
+      "fact4": "The Moreeb Dune in Liwa is one of the tallest sand dunes in the world — it rises about 300 metres and has a steep 50-degree slope, like a giant golden mountain of sand!",
+      "fact8": "Moreeb Dune rises 300 metres above the desert floor at a 50-degree gradient, making it one of the world's steepest dunes. The Liwa Oasis it overlooks has sustained human settlement for 2,500 years and was historically a centre for camel breeding and caravan trade."
+    },
+    "ar": {
+      "name": "كثيب مريب",
+      "location": "ليوا",
+      "fact4": "كثيب مريب في ليوا أحد أطول الكثبان الرملية في العالم — يرتفع نحو ٣٠٠ متر وينحدر بزاوية ٥٠ درجة، كجبلٍ ذهبي عملاق من الرمال!",
+      "fact8": "يرتفع كثيب مريب ٣٠٠ متر فوق سطح الصحراء بانحدار ٥٠ درجة، مما يجعله من أشد الكثبان انحدارًا في العالم. أمّنت واحة ليوا المطلّة عليه حياةً بشرية متواصلة منذ ٢٥٠٠ عام، وكانت تاريخيًا مركزًا لتربية الإبل وتجارة القوافل."
+    },
+    "emoji": "🏜️"
+  },
+  {
+    "id": "rub-al-khali",
+    "level": 4,
+    "en": {
+      "name": "The Empty Quarter",
+      "location": "Rub' al Khali",
+      "fact4": "The Rub' al Khali — or Empty Quarter — is the world's largest sand desert! It is so big it stretches across four countries: Saudi Arabia, Oman, Yemen, and the UAE.",
+      "fact8": "The Rub' al Khali spans 650,000 km² across Saudi Arabia, Oman, Yemen, and the UAE, making it Earth's largest continuous sand desert. Its dunes soar up to 250 metres, and the region holds the world's largest known conventional oil reserves beneath its sands."
+    },
+    "ar": {
+      "name": "الربع الخالي",
+      "location": "الربع الخالي",
+      "fact4": "الربع الخالي أكبر صحراء رملية في العالم! هو ضخم لدرجة أنه يمتد عبر أربع دول: المملكة العربية السعودية وعُمان واليمن والإمارات.",
+      "fact8": "يمتد الربع الخالي على ٦٥٠٬٠٠٠ كيلومتر مربع عبر المملكة العربية السعودية وعُمان واليمن والإمارات، ليكون أكبر صحراء رملية متصلة على وجه الأرض. تصل كثبانه إلى ٢٥٠ مترًا، ويحتضن باطنه أكبر احتياطيات نفط تقليدية معروفة في العالم."
+    },
+    "emoji": "🌅"
+  }
+]
