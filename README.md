@@ -3,7 +3,7 @@
 > Gamified Math Learning Platform for UAE Grade 4 & 8 Students  
 > Built for the ADEK Gamified UI Challenge — April 2026
 
-## 🌐 Live Demo
+## 🌐 Live Demo  https://desert-quest.vercel.app 
 [Live URL] — replace with Vercel URL after deployment
 
 ## 📁 Repository
