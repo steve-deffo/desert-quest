@@ -1,19 +1,15 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation";
 import { useGameStore } from "@/store/useGameStore";
 import { useTranslation } from "@/lib/i18n";
 import QuizCard from "@/components/QuizCard";
 import Starfield from "@/components/Starfield";
 import BackButton from "@/components/ui/BackButton";
 
-export default function QuizPage({
-  params,
-}: {
-  params: Promise<{ level: string }>;
-}) {
-  const { level: levelStr } = use(params);
+export default function QuizPage() {
+  const { level: levelStr } = useParams<{ level: string }>();
   const level = Number.parseInt(levelStr, 10);
   const router = useRouter();
   const { t, isRTL } = useTranslation();

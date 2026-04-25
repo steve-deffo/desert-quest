@@ -14,6 +14,7 @@ import grade8Questions from "@/data/questions/grade8.json";
 import type { Lang, QuestionData } from "@/lib/types";
 
 const TOTAL_QUESTIONS = 5;
+const REWARD_SOUND_FLAG = "desert-quest-reward-pending";
 
 type Feedback = "correct" | "wrong" | null;
 
@@ -74,6 +75,9 @@ export default function QuizCard({
       finishingRef.current = true;
       completeLevel(level, currentScore);
       setCamelState("idle");
+      if (typeof window !== "undefined") {
+        window.sessionStorage.setItem(REWARD_SOUND_FLAG, String(level));
+      }
       router.push(`/reward/${level}`);
     }
   }, [
@@ -208,6 +212,13 @@ export default function QuizCard({
           <AnswerButton
             key={`${question.id}-${idx}`}
             label={ans}
+            secondaryLabel={
+              question.en.answers[idx] !== question.arabicNumerals[idx]
+                ? language === "ar"
+                  ? question.en.answers[idx]
+                  : question.arabicNumerals[idx]
+                : undefined
+            }
             index={idx}
             playful={playful}
             isRTL={isRTL}
@@ -382,6 +393,7 @@ type Highlight = "neutral" | "correct" | "wrong" | "muted";
 
 function AnswerButton({
   label,
+  secondaryLabel,
   index,
   playful,
   isRTL,
@@ -390,6 +402,7 @@ function AnswerButton({
   onSelect,
 }: {
   label: string;
+  secondaryLabel?: string;
   index: number;
   playful: boolean;
   isRTL: boolean;
@@ -464,7 +477,17 @@ function AnswerButton({
       >
         {String.fromCharCode(65 + index)}
       </span>
-      <span className="flex-1 text-center">{label}</span>
+      <span className="flex-1 text-center leading-tight">
+        <span className="block">{label}</span>
+        {secondaryLabel && (
+          <span
+            className="mt-0.5 block text-xs font-semibold opacity-80"
+            dir="ltr"
+          >
+            {isRTL ? `${secondaryLabel} | ${label}` : `${label} | ${secondaryLabel}`}
+          </span>
+        )}
+      </span>
       <span aria-hidden className="w-7 text-center text-xl leading-none">
         {highlight === "correct" ? "✓" : highlight === "wrong" ? "✗" : ""}
       </span>

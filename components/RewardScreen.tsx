@@ -25,6 +25,7 @@ const UAE_FLAG_COLORS = [
   "#000000",
   "#C9A84C",
 ];
+const REWARD_SOUND_FLAG = "desert-quest-reward-pending";
 
 export default function RewardScreen({
   level,
@@ -49,9 +50,22 @@ export default function RewardScreen({
 
   // ── Confetti + level-complete sound on mount ────────────────
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     let active = true;
+    const shouldCelebrate =
+      window.sessionStorage.getItem(REWARD_SOUND_FLAG) === String(level);
+
+    if (!shouldCelebrate) {
+      return () => {
+        active = false;
+      };
+    }
+
+    window.sessionStorage.removeItem(REWARD_SOUND_FLAG);
     playSound(Sounds.levelComplete);
-    import("canvas-confetti").then(({ default: confetti }) => {
+    void (async () => {
+      const confetti = (await import("canvas-confetti")).default;
       if (!active) return;
       const opts = {
         particleCount: 120,
@@ -61,11 +75,11 @@ export default function RewardScreen({
       } as const;
       confetti({ ...opts, origin: { x: 0.2, y: 0.5 } });
       confetti({ ...opts, origin: { x: 0.8, y: 0.5 } });
-    });
+    })();
     return () => {
       active = false;
     };
-  }, []);
+  }, [level]);
 
   // ── Dirham counter (springs from 0 → earned) ─────────────────
   const dirhamMV = useMotionValue(0);

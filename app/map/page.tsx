@@ -52,21 +52,43 @@ export default function MapPage() {
       <BackButton href="/home" />
 
       {/* Title */}
-      <motion.h1
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="px-4 pt-6 text-center text-3xl font-extrabold tracking-tight sm:text-4xl"
-        style={{
-          fontFamily: isRTL
-            ? "var(--font-amiri), serif"
-            : "var(--font-reem-kufi), serif",
-          color: "var(--color-gold)",
-          textShadow: "0 2px 6px var(--shadow)",
-        }}
-      >
-        {t("map.title")}
-      </motion.h1>
+      <div className="px-4 pt-6">
+        <motion.h1
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl"
+          style={{
+            fontFamily: isRTL
+              ? "var(--font-amiri), serif"
+              : "var(--font-reem-kufi), serif",
+            color: "var(--color-gold)",
+            textShadow: "0 2px 6px var(--shadow)",
+          }}
+        >
+          {t("map.title")}
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, y: -6 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, ease: "easeOut", delay: 0.15 }}
+          className="mt-4 flex justify-center"
+        >
+          <button
+            type="button"
+            onClick={() => router.push("/scoreboard")}
+            className="inline-flex h-11 items-center rounded-full px-5 text-sm font-bold uppercase tracking-wider transition-transform hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-gold)]"
+            style={{
+              background:
+                "linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 100%)",
+              color: "#1A1208",
+              boxShadow: "0 4px 14px var(--shadow)",
+            }}
+          >
+            {t("scoreboard.title")}
+          </button>
+        </motion.div>
+      </div>
 
       {/* Map */}
       <div className="flex-1 px-3 pt-4 pb-6 sm:px-6">

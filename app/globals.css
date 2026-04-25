@@ -55,6 +55,9 @@
   --color-uae-red:    #FF0000;
   --color-correct:    #4CAF50;
   --color-wrong:      #F44336;
+  --font-reem-kufi:   "Reem Kufi", "Avenir Next", "Segoe UI", sans-serif;
+  --font-nunito:      "Nunito", "Avenir Next", "Segoe UI", sans-serif;
+  --font-amiri:       "Amiri", "Noto Naskh Arabic", "Geeza Pro", serif;
 }
 
 /* ── Smooth theme transitions on all elements ── */

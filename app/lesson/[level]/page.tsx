@@ -1,19 +1,15 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation";
 import { useGameStore } from "@/store/useGameStore";
 import { useTranslation } from "@/lib/i18n";
 import LessonCard from "@/components/LessonCard";
 import BackButton from "@/components/ui/BackButton";
 import Starfield from "@/components/Starfield";
 
-export default function LessonPage({
-  params,
-}: {
-  params: Promise<{ level: string }>;
-}) {
-  const { level: levelStr } = use(params);
+export default function LessonPage() {
+  const { level: levelStr } = useParams<{ level: string }>();
   const level = Number.parseInt(levelStr, 10);
   const router = useRouter();
   const { isRTL } = useTranslation();

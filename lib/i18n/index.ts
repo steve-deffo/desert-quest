@@ -1,3 +1,5 @@
+"use client";
+
 import { useGameStore } from "@/store/useGameStore";
 import en from "./en.json";
 import ar from "./ar.json";

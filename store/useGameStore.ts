@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
+import { createJSONStorage, persist } from "zustand/middleware";
 
 type Language = "en" | "ar";
 type Theme = "day" | "night";
@@ -141,6 +141,10 @@ export const useGameStore = create<GameState>()(
     }),
     {
       name: "desert-quest-store",
+      storage:
+        typeof window !== "undefined"
+          ? createJSONStorage(() => localStorage)
+          : undefined,
       partialize: (s) => ({
         language: s.language,
         theme: s.theme,

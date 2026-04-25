@@ -525,6 +525,7 @@ export default function AnimatedCamel({
               strokeWidth={0.9}
               strokeLinecap="round"
               fill="none"
+              initial={{ y: 0, rotate: 0, opacity: 0.55 }}
               {...ANIM.eyebrow[effectiveState]}
               style={{
                 transformOrigin: `${G.eyebrowOrigin.x}px ${G.eyebrowOrigin.y}px`,
