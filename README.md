@@ -4,7 +4,6 @@
 > Built for the ADEK Gamified UI Challenge — April 2026
 
 ## 🌐 Live Demo  https://desert-quest.vercel.app 
-[Live URL] — replace with Vercel URL after deployment
 
 ## 📁 Repository
 https://github.com/steve-deffo/desert-quest
@@ -53,9 +52,3 @@ lib/i18n/     → Bilingual translation system
 
 ## 🏛️ UAE Landmarks Featured
 Dubai · Abu Dhabi · Al Ain · Liwa · Rub' al Khali
-
-## 📋 Submission Notes
-- No login required
-- All data is mock (no backend)
-- Progress persists in localStorage
-- Test on Chrome, Safari, and mobile browsers
