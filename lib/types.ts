@@ -28,6 +28,29 @@ export interface QuestionLocalized {
   hint: string;
 }
 
+export type QuestionType = "mcq" | "dragdrop";
+
+export interface VariantBundle {
+  en: QuestionLocalized;
+  ar: QuestionLocalized;
+}
+
+export type AdaptiveDifficulty = "easy" | "medium" | "hard";
+
+export interface QuizAttempt {
+  id: string;
+  level: number;
+  grade: 4 | 8;
+  date: string;
+  score: number;
+  stars: number;
+  dirhamsEarned: number;
+  timeSpentSeconds: number;
+  wrongQuestionIds: string[];
+  topicId: string;
+  difficulty: AdaptiveDifficulty;
+}
+
 export interface QuestionData {
   id: string;
   grade: Grade;
@@ -37,6 +60,16 @@ export interface QuestionData {
   ar: QuestionLocalized;
   correct: number;
   arabicNumerals: string[];
+  type?: QuestionType;
+  explanation?: { en: string; ar: string };
+  variants?: { easy: VariantBundle; hard: VariantBundle };
+  difficulty?: AdaptiveDifficulty;
+}
+
+export interface ReviewEntry {
+  questionIndex: number;
+  userAnswerIndex: number; // -1 = no answer / timeout
+  isCorrect: boolean;
 }
 
 export interface Landmark {

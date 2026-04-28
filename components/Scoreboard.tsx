@@ -121,6 +121,15 @@ export default function Scoreboard() {
         >
           {t("scoreboard.switchGrade")}
         </button>
+
+        <Link
+          href="/report"
+          onClick={() => playSound(Sounds.buttonClick)}
+          className="inline-flex h-11 items-center px-3 text-xs font-bold uppercase tracking-widest underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-gold)]"
+          style={{ color: "var(--text-secondary)" }}
+        >
+          Parent View / عرض ولي الأمر
+        </Link>
       </div>
 
       <ChangeGradeModal

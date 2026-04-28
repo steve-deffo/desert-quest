@@ -10,6 +10,7 @@ import { Sounds, playSound } from "@/lib/sounds";
 import AnimatedCamel from "./AnimatedCamel";
 import VideoPlayer from "./VideoPlayer";
 import lessons from "@/data/lessons.json";
+import { Speech } from "@/lib/speech";
 import type { Lang, LessonData } from "@/lib/types";
 
 const keyPointVariants: Variants = {
@@ -170,17 +171,20 @@ export default function LessonCard({
         }}
       >
         <div className="flex-1">
-          <p
-            className="text-base leading-relaxed sm:text-lg"
-            style={{
-              color: "var(--text-primary)",
-              fontFamily: isRTL
-                ? "var(--font-amiri), serif"
-                : "var(--font-nunito), sans-serif",
-            }}
-          >
-            {content.explanation}
-          </p>
+          <div className="flex items-start gap-2">
+            <p
+              className="flex-1 text-base leading-relaxed sm:text-lg"
+              style={{
+                color: "var(--text-primary)",
+                fontFamily: isRTL
+                  ? "var(--font-amiri), serif"
+                  : "var(--font-nunito), sans-serif",
+              }}
+            >
+              {content.explanation}
+            </p>
+            <SpeakIcon text={content.explanation} lang={lang} />
+          </div>
 
           <div className="mt-4">
             <div
@@ -300,7 +304,7 @@ export default function LessonCard({
                       {fmt(i + 1)}
                     </span>
                     <div
-                      className={`flex-1 rounded-lg px-3 py-2 text-sm sm:text-base`}
+                      className={`flex flex-1 items-start gap-2 rounded-lg px-3 py-2 text-sm sm:text-base`}
                       style={{
                         background: isFinal
                           ? "color-mix(in srgb, var(--color-gold) 18%, transparent)"
@@ -314,15 +318,18 @@ export default function LessonCard({
                           : "var(--font-nunito), sans-serif",
                       }}
                     >
-                      {isFinal && (
-                        <span
-                          className="me-2 text-xs font-bold uppercase tracking-widest"
-                          style={{ color: "var(--color-gold)" }}
-                        >
-                          {t("lesson.answer")}:
-                        </span>
-                      )}
-                      {step}
+                      <span className="flex-1">
+                        {isFinal && (
+                          <span
+                            className="me-2 text-xs font-bold uppercase tracking-widest"
+                            style={{ color: "var(--color-gold)" }}
+                          >
+                            {t("lesson.answer")}:
+                          </span>
+                        )}
+                        {step}
+                      </span>
+                      <SpeakIcon text={step} lang={lang} />
                     </div>
                   </motion.li>
                 );
@@ -462,5 +469,30 @@ function FlowPill({
       </span>
       <span style={{ color: "var(--text-secondary)" }}>○ {quizLabel}</span>
     </div>
+  );
+}
+
+function SpeakIcon({
+  text,
+  lang,
+}: {
+  text: string;
+  lang: "en" | "ar";
+}) {
+  if (!Speech.isSupported()) return null;
+  return (
+    <button
+      type="button"
+      aria-label="Read aloud"
+      onClick={() => Speech.speak(text, lang)}
+      className="grid h-8 w-8 shrink-0 place-items-center rounded-full text-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-gold)]"
+      style={{
+        background: "color-mix(in srgb, var(--color-gold) 14%, transparent)",
+        color: "var(--color-gold)",
+        boxShadow: "inset 0 0 0 1px var(--color-gold)",
+      }}
+    >
+      🔊
+    </button>
   );
 }

@@ -25,7 +25,8 @@
   --bg-secondary:   #E8D5A3;   /* Sand */
   --bg-card:        #FFF8E7;   /* Light card */
   --text-primary:   #1A1208;   /* Deep ink */
-  --text-secondary: #8B6914;   /* Dune brown */
+  --text-secondary: #6B4F10;   /* Dune brown */
+  --text-card-subtitle: #5C4A1E;
   --sky-top:        #87CEEB;   /* Daytime sky */
   --sky-bottom:     #FDD835;   /* Sun-kissed horizon */
   --dune-color:     #C4A96A;   /* Sand dune */
@@ -40,6 +41,7 @@
   --bg-card:        #162032;   /* Card surface */
   --text-primary:   #F5E6C8;   /* Warm moonlight text */
   --text-secondary: #C9A84C;   /* Gold accent */
+  --text-card-subtitle: #D4B896;
   --sky-top:        #0A0F1E;   /* Midnight sky */
   --sky-bottom:     #1A237E;   /* Deep blue horizon */
   --dune-color:     #2C3E50;   /* Dark silhouette dunes */
@@ -58,9 +60,87 @@
   --font-reem-kufi:   "Reem Kufi", "Avenir Next", "Segoe UI", sans-serif;
   --font-nunito:      "Nunito", "Avenir Next", "Segoe UI", sans-serif;
   --font-amiri:       "Amiri", "Noto Naskh Arabic", "Geeza Pro", serif;
+  --card-border-subtle: rgba(201, 168, 76, 0.15);
 }
 
 /* ── Smooth theme transitions on all elements ── */
 *, *::before, *::after {
   transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+*:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button {
+  min-height: 52px;
+  font-weight: 700;
+}
+
+button:disabled {
+  opacity: 0.45 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+}
+
+.dq-btn-primary {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 4px 12px rgba(201, 168, 76, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.dq-btn-primary:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 8px 20px rgba(201, 168, 76, 0.42);
+}
+
+.dq-btn-primary:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 3px 8px rgba(201, 168, 76, 0.24);
+}
+
+.dq-btn-ghost {
+  border: 2px solid var(--color-gold);
+  color: var(--color-gold);
+  font-weight: 600;
+}
+
+.dq-btn-ghost:hover {
+  background: rgba(201, 168, 76, 0.1);
+}
+
+.dq-skeleton {
+  background: color-mix(in srgb, var(--bg-secondary) 55%, transparent);
+  animation: dq-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes dq-pulse {
+  0%,
+  100% { opacity: 0.45; }
+  50% { opacity: 0.85; }
 }

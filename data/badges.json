@@ -1,0 +1,197 @@
+[
+  {
+    "id": "first_step",
+    "emoji": "👣",
+    "condition": "completedLevels >= 1",
+    "en": {
+      "name": "First Step",
+      "desc": "Complete your first quiz"
+    },
+    "ar": {
+      "name": "الخطوة الأولى",
+      "desc": "أكمل أول اختبار"
+    }
+  },
+  {
+    "id": "halfway",
+    "emoji": "🌴",
+    "condition": "completedLevels >= 3",
+    "en": {
+      "name": "Halfway There",
+      "desc": "Complete 3 levels"
+    },
+    "ar": {
+      "name": "في المنتصف",
+      "desc": "أكمل ٣ مستويات"
+    }
+  },
+  {
+    "id": "desert_master",
+    "emoji": "🏆",
+    "condition": "completedLevels >= 5",
+    "en": {
+      "name": "Desert Master",
+      "desc": "Complete all 5 levels"
+    },
+    "ar": {
+      "name": "سيد الصحراء",
+      "desc": "أكمل جميع المستويات"
+    }
+  },
+  {
+    "id": "perfect_quiz",
+    "emoji": "⭐",
+    "condition": "any level has 3 stars",
+    "en": {
+      "name": "Perfect Score",
+      "desc": "Get 5/5 on any quiz"
+    },
+    "ar": {
+      "name": "درجة مثالية",
+      "desc": "احصل على ٥/٥ في أي اختبار"
+    }
+  },
+  {
+    "id": "gold_collector",
+    "emoji": "💰",
+    "condition": "totalDirhams >= 200",
+    "en": {
+      "name": "Gold Collector",
+      "desc": "Earn 200 Dirhams"
+    },
+    "ar": {
+      "name": "جامع الذهب",
+      "desc": "اكسب ٢٠٠ درهم"
+    }
+  },
+  {
+    "id": "streak_3",
+    "emoji": "🔥",
+    "condition": "streak >= 3",
+    "en": {
+      "name": "On Fire",
+      "desc": "3-day streak"
+    },
+    "ar": {
+      "name": "في النار",
+      "desc": "سلسلة ٣ أيام"
+    }
+  },
+  {
+    "id": "streak_7",
+    "emoji": "🌟",
+    "condition": "streak >= 7",
+    "en": {
+      "name": "Week Warrior",
+      "desc": "7-day streak"
+    },
+    "ar": {
+      "name": "محارب الأسبوع",
+      "desc": "سلسلة ٧ أيام"
+    }
+  },
+  {
+    "id": "math_adder",
+    "emoji": "➕",
+    "condition": "complete level 0",
+    "en": {
+      "name": "Number Cruncher",
+      "desc": "Complete the addition level"
+    },
+    "ar": {
+      "name": "محترف الأرقام",
+      "desc": "أكمل مستوى الجمع"
+    }
+  },
+  {
+    "id": "multiplier",
+    "emoji": "✖️",
+    "condition": "complete level 1",
+    "en": {
+      "name": "Multiplier",
+      "desc": "Complete the multiplication level"
+    },
+    "ar": {
+      "name": "المضاعف",
+      "desc": "أكمل مستوى الضرب"
+    }
+  },
+  {
+    "id": "divider",
+    "emoji": "➗",
+    "condition": "complete level 2",
+    "en": {
+      "name": "Divider",
+      "desc": "Complete the division level"
+    },
+    "ar": {
+      "name": "القاسم",
+      "desc": "أكمل مستوى القسمة"
+    }
+  },
+  {
+    "id": "fraction_hero",
+    "emoji": "½",
+    "condition": "complete level 3",
+    "en": {
+      "name": "Fraction Hero",
+      "desc": "Complete the fractions level"
+    },
+    "ar": {
+      "name": "بطل الكسور",
+      "desc": "أكمل مستوى الكسور"
+    }
+  },
+  {
+    "id": "geometry_pro",
+    "emoji": "📐",
+    "condition": "complete level 4",
+    "en": {
+      "name": "Geometry Pro",
+      "desc": "Complete the geometry level"
+    },
+    "ar": {
+      "name": "محترف الهندسة",
+      "desc": "أكمل مستوى الهندسة"
+    }
+  },
+  {
+    "id": "night_owl",
+    "emoji": "🦉",
+    "condition": "complete a quiz in night mode",
+    "en": {
+      "name": "Night Owl",
+      "desc": "Complete a quiz in night mode"
+    },
+    "ar": {
+      "name": "بومة الليل",
+      "desc": "أكمل اختباراً في الوضع الليلي"
+    }
+  },
+  {
+    "id": "bilingual",
+    "emoji": "🌐",
+    "condition": "complete a quiz in Arabic mode",
+    "en": {
+      "name": "Bilingual",
+      "desc": "Complete a quiz in Arabic mode"
+    },
+    "ar": {
+      "name": "ثنائي اللغة",
+      "desc": "أكمل اختباراً بالعربية"
+    }
+  },
+  {
+    "id": "comeback_kid",
+    "emoji": "💪",
+    "condition": "retry a wrong question and get it correct",
+    "en": {
+      "name": "Comeback Kid",
+      "desc": "Retry a wrong question and get it right"
+    },
+    "ar": {
+      "name": "العودة القوية",
+      "desc": "أعد سؤالاً خاطئاً وأجب صحيحاً"
+    }
+  }
+]

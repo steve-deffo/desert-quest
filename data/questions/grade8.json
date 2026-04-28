@@ -6,16 +6,82 @@
     "topic": "algebra",
     "en": {
       "question": "A merchant in Dubai sells x scarves at 45 AED each and earns 360 AED. Find x.",
-      "answers": ["6", "7", "8", "9"],
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "hint": "Set up: 45x = 360, then divide both sides by 45."
     },
     "ar": {
       "question": "تاجر في دبي يبيع س وشاحاً بـ٤٥ درهماً للقطعة ويربح ٣٦٠ درهماً. أوجد س.",
-      "answers": ["٦", "٧", "٨", "٩"],
+      "answers": [
+        "٦",
+        "٧",
+        "٨",
+        "٩"
+      ],
       "hint": "اكتب: ٤٥س = ٣٦٠، ثم اقسم الطرفين على ٤٥."
     },
     "correct": 2,
-    "arabicNumerals": ["٦", "٧", "٨", "٩"]
+    "arabicNumerals": [
+      "٦",
+      "٧",
+      "٨",
+      "٩"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Set up: 45x = 360, then divide both sides by 45. The correct answer is 8.",
+      "ar": "اكتب: ٤٥س = ٣٦٠، ثم اقسم الطرفين على ٤٥. الإجابة الصحيحة هي ٨."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A merchant in Dubai sells x scarves at 45 AED each and earns 360 AED. Find x.",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "Set up: 45x = 360, then divide both sides by 45."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تاجر في دبي يبيع س وشاحاً بـ٤٥ درهماً للقطعة ويربح ٣٦٠ درهماً. أوجد س.",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "اكتب: ٤٥س = ٣٦٠، ثم اقسم الطرفين على ٤٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A merchant in Dubai sells x scarves at 45 AED each and earns 360 AED. Find x.",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "Set up: 45x = 360, then divide both sides by 45."
+        },
+        "ar": {
+          "question": "تحدٍ — تاجر في دبي يبيع س وشاحاً بـ٤٥ درهماً للقطعة ويربح ٣٦٠ درهماً. أوجد س.",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "اكتب: ٤٥س = ٣٦٠، ثم اقسم الطرفين على ٤٥."
+        }
+      }
+    }
   },
   {
     "id": "g8-l0-q2",
@@ -24,16 +90,82 @@
     "topic": "algebra",
     "en": {
       "question": "Simplify the expression: 3x + 5x",
-      "answers": ["7x", "8x", "9x", "15x"],
+      "answers": [
+        "7x",
+        "8x",
+        "9x",
+        "15x"
+      ],
       "hint": "Combine like terms: 3x + 5x = (3+5)x."
     },
     "ar": {
       "question": "بسّط التعبير الجبري: ٣س + ٥س",
-      "answers": ["٧س", "٨س", "٩س", "١٥س"],
+      "answers": [
+        "٧س",
+        "٨س",
+        "٩س",
+        "١٥س"
+      ],
       "hint": "اجمع الحدود المتشابهة: ٣س + ٥س = (٣+٥)س."
     },
     "correct": 1,
-    "arabicNumerals": ["٧س", "٨س", "٩س", "١٥س"]
+    "arabicNumerals": [
+      "٧س",
+      "٨س",
+      "٩س",
+      "١٥س"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Combine like terms: 3x + 5x = (3+5)x. The correct answer is 8x.",
+      "ar": "اجمع الحدود المتشابهة: ٣س + ٥س = (٣+٥)س. الإجابة الصحيحة هي ٨س."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Simplify the expression: 3x + 5x",
+          "answers": [
+            "7x",
+            "8x",
+            "9x",
+            "15x"
+          ],
+          "hint": "Combine like terms: 3x + 5x = (3+5)x."
+        },
+        "ar": {
+          "question": "نسخة أبسط — بسّط التعبير الجبري: ٣س + ٥س",
+          "answers": [
+            "٧س",
+            "٨س",
+            "٩س",
+            "١٥س"
+          ],
+          "hint": "اجمع الحدود المتشابهة: ٣س + ٥س = (٣+٥)س."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Simplify the expression: 3x + 5x",
+          "answers": [
+            "7x",
+            "8x",
+            "9x",
+            "15x"
+          ],
+          "hint": "Combine like terms: 3x + 5x = (3+5)x."
+        },
+        "ar": {
+          "question": "تحدٍ — بسّط التعبير الجبري: ٣س + ٥س",
+          "answers": [
+            "٧س",
+            "٨س",
+            "٩س",
+            "١٥س"
+          ],
+          "hint": "اجمع الحدود المتشابهة: ٣س + ٥س = (٣+٥)س."
+        }
+      }
+    }
   },
   {
     "id": "g8-l0-q3",
@@ -42,16 +174,82 @@
     "topic": "algebra",
     "en": {
       "question": "A souk trader earns double his daily wage minus 4 AED in fees, taking home 12 AED. Solve for x: 2x − 4 = 12.",
-      "answers": ["6", "7", "8", "9"],
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "hint": "Add 4 to both sides: 2x = 16. Then divide by 2."
     },
     "ar": {
       "question": "تاجر سوق يكسب ضعف أجره اليومي ناقصًا ٤ دراهم رسوم، ويأخذ ١٢ درهمًا. حل: ٢س − ٤ = ١٢.",
-      "answers": ["٦", "٧", "٨", "٩"],
+      "answers": [
+        "٦",
+        "٧",
+        "٨",
+        "٩"
+      ],
       "hint": "أضف ٤ للطرفين: ٢س = ١٦. ثم اقسم على ٢."
     },
     "correct": 2,
-    "arabicNumerals": ["٦", "٧", "٨", "٩"]
+    "arabicNumerals": [
+      "٦",
+      "٧",
+      "٨",
+      "٩"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Add 4 to both sides: 2x = 16. Then divide by 2. The correct answer is 8.",
+      "ar": "أضف ٤ للطرفين: ٢س = ١٦. ثم اقسم على ٢. الإجابة الصحيحة هي ٨."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A souk trader earns double his daily wage minus 4 AED in fees, taking home 12 AED. Solve for x: 2x − 4 = 12.",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "Add 4 to both sides: 2x = 16. Then divide by 2."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تاجر سوق يكسب ضعف أجره اليومي ناقصًا ٤ دراهم رسوم، ويأخذ ١٢ درهمًا. حل: ٢س − ٤ = ١٢.",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "أضف ٤ للطرفين: ٢س = ١٦. ثم اقسم على ٢."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A souk trader earns double his daily wage minus 4 AED in fees, taking home 12 AED. Solve for x: 2x − 4 = 12.",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "Add 4 to both sides: 2x = 16. Then divide by 2."
+        },
+        "ar": {
+          "question": "تحدٍ — تاجر سوق يكسب ضعف أجره اليومي ناقصًا ٤ دراهم رسوم، ويأخذ ١٢ درهمًا. حل: ٢س − ٤ = ١٢.",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "أضف ٤ للطرفين: ٢س = ١٦. ثم اقسم على ٢."
+        }
+      }
+    }
   },
   {
     "id": "g8-l0-q4",
@@ -60,16 +258,82 @@
     "topic": "algebra",
     "en": {
       "question": "Simplify: 4x + 2y − x + 3y",
-      "answers": ["3x + 4y", "3x + 5y", "5x + 5y", "4x + 5y"],
+      "answers": [
+        "3x + 4y",
+        "3x + 5y",
+        "5x + 5y",
+        "4x + 5y"
+      ],
       "hint": "Group like terms: (4x − x) + (2y + 3y) = 3x + 5y."
     },
     "ar": {
       "question": "بسّط: ٤س + ٢ص − س + ٣ص",
-      "answers": ["٣س + ٤ص", "٣س + ٥ص", "٥س + ٥ص", "٤س + ٥ص"],
+      "answers": [
+        "٣س + ٤ص",
+        "٣س + ٥ص",
+        "٥س + ٥ص",
+        "٤س + ٥ص"
+      ],
       "hint": "اجمع الحدود المتشابهة: (٤س − س) + (٢ص + ٣ص) = ٣س + ٥ص."
     },
     "correct": 1,
-    "arabicNumerals": ["٣س + ٤ص", "٣س + ٥ص", "٥س + ٥ص", "٤س + ٥ص"]
+    "arabicNumerals": [
+      "٣س + ٤ص",
+      "٣س + ٥ص",
+      "٥س + ٥ص",
+      "٤س + ٥ص"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Group like terms: (4x − x) + (2y + 3y) = 3x + 5y. The correct answer is 3x + 5y.",
+      "ar": "اجمع الحدود المتشابهة: (٤س − س) + (٢ص + ٣ص) = ٣س + ٥ص. الإجابة الصحيحة هي ٣س + ٥ص."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Simplify: 4x + 2y − x + 3y",
+          "answers": [
+            "3x + 4y",
+            "3x + 5y",
+            "5x + 5y",
+            "4x + 5y"
+          ],
+          "hint": "Group like terms: (4x − x) + (2y + 3y) = 3x + 5y."
+        },
+        "ar": {
+          "question": "نسخة أبسط — بسّط: ٤س + ٢ص − س + ٣ص",
+          "answers": [
+            "٣س + ٤ص",
+            "٣س + ٥ص",
+            "٥س + ٥ص",
+            "٤س + ٥ص"
+          ],
+          "hint": "اجمع الحدود المتشابهة: (٤س − س) + (٢ص + ٣ص) = ٣س + ٥ص."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Simplify: 4x + 2y − x + 3y",
+          "answers": [
+            "3x + 4y",
+            "3x + 5y",
+            "5x + 5y",
+            "4x + 5y"
+          ],
+          "hint": "Group like terms: (4x − x) + (2y + 3y) = 3x + 5y."
+        },
+        "ar": {
+          "question": "تحدٍ — بسّط: ٤س + ٢ص − س + ٣ص",
+          "answers": [
+            "٣س + ٤ص",
+            "٣س + ٥ص",
+            "٥س + ٥ص",
+            "٤س + ٥ص"
+          ],
+          "hint": "اجمع الحدود المتشابهة: (٤س − س) + (٢ص + ٣ص) = ٣س + ٥ص."
+        }
+      }
+    }
   },
   {
     "id": "g8-l0-q5",
@@ -78,16 +342,82 @@
     "topic": "algebra",
     "en": {
       "question": "A Dubai trader divides profits equally into 4 accounts; each account receives 9 AED. What were the total profits? (Solve: x ÷ 4 = 9)",
-      "answers": ["27", "32", "36", "45"],
+      "answers": [
+        "27",
+        "32",
+        "36",
+        "45"
+      ],
       "hint": "Multiply both sides by 4: x = 9 × 4."
     },
     "ar": {
       "question": "تاجر دبي يوزّع أرباحه بالتساوي على ٤ حسابات، وكل حساب ينال ٩ دراهم. ما إجمالي الأرباح؟ (حل: س ÷ ٤ = ٩)",
-      "answers": ["٢٧", "٣٢", "٣٦", "٤٥"],
+      "answers": [
+        "٢٧",
+        "٣٢",
+        "٣٦",
+        "٤٥"
+      ],
       "hint": "اضرب الطرفين في ٤: س = ٩ × ٤."
     },
     "correct": 2,
-    "arabicNumerals": ["٢٧", "٣٢", "٣٦", "٤٥"]
+    "arabicNumerals": [
+      "٢٧",
+      "٣٢",
+      "٣٦",
+      "٤٥"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Multiply both sides by 4: x = 9 × 4. The correct answer is 36.",
+      "ar": "اضرب الطرفين في ٤: س = ٩ × ٤. الإجابة الصحيحة هي ٣٦."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A Dubai trader divides profits equally into 4 accounts; each account receives 9 AED. What were the total profits? (Solve: x ÷ 4 = 9)",
+          "answers": [
+            "27",
+            "32",
+            "36",
+            "45"
+          ],
+          "hint": "Multiply both sides by 4: x = 9 × 4."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تاجر دبي يوزّع أرباحه بالتساوي على ٤ حسابات، وكل حساب ينال ٩ دراهم. ما إجمالي الأرباح؟ (حل: س ÷ ٤ = ٩)",
+          "answers": [
+            "٢٧",
+            "٣٢",
+            "٣٦",
+            "٤٥"
+          ],
+          "hint": "اضرب الطرفين في ٤: س = ٩ × ٤."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A Dubai trader divides profits equally into 4 accounts; each account receives 9 AED. What were the total profits? (Solve: x ÷ 4 = 9)",
+          "answers": [
+            "27",
+            "32",
+            "36",
+            "45"
+          ],
+          "hint": "Multiply both sides by 4: x = 9 × 4."
+        },
+        "ar": {
+          "question": "تحدٍ — تاجر دبي يوزّع أرباحه بالتساوي على ٤ حسابات، وكل حساب ينال ٩ دراهم. ما إجمالي الأرباح؟ (حل: س ÷ ٤ = ٩)",
+          "answers": [
+            "٢٧",
+            "٣٢",
+            "٣٦",
+            "٤٥"
+          ],
+          "hint": "اضرب الطرفين في ٤: س = ٩ × ٤."
+        }
+      }
+    }
   },
   {
     "id": "g8-l1-q1",
@@ -96,16 +426,82 @@
     "topic": "linear-equations",
     "en": {
       "question": "A ticket to the Sheikh Zayed Grand Mosque costs x AED. Maria paid 120 AED for 3 tickets. Find x.",
-      "answers": ["30", "35", "40", "45"],
+      "answers": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
       "hint": "Set up: 3x = 120. Divide both sides by 3."
     },
     "ar": {
       "question": "تذكرة جامع الشيخ زايد الكبير تكلّف س درهمًا. دفعت مريم ١٢٠ درهمًا مقابل ٣ تذاكر. أوجد س.",
-      "answers": ["٣٠", "٣٥", "٤٠", "٤٥"],
+      "answers": [
+        "٣٠",
+        "٣٥",
+        "٤٠",
+        "٤٥"
+      ],
       "hint": "اكتب: ٣س = ١٢٠. اقسم الطرفين على ٣."
     },
     "correct": 2,
-    "arabicNumerals": ["٣٠", "٣٥", "٤٠", "٤٥"]
+    "arabicNumerals": [
+      "٣٠",
+      "٣٥",
+      "٤٠",
+      "٤٥"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Set up: 3x = 120. Divide both sides by 3. The correct answer is 40.",
+      "ar": "اكتب: ٣س = ١٢٠. اقسم الطرفين على ٣. الإجابة الصحيحة هي ٤٠."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A ticket to the Sheikh Zayed Grand Mosque costs x AED. Maria paid 120 AED for 3 tickets. Find x.",
+          "answers": [
+            "30",
+            "35",
+            "40",
+            "45"
+          ],
+          "hint": "Set up: 3x = 120. Divide both sides by 3."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تذكرة جامع الشيخ زايد الكبير تكلّف س درهمًا. دفعت مريم ١٢٠ درهمًا مقابل ٣ تذاكر. أوجد س.",
+          "answers": [
+            "٣٠",
+            "٣٥",
+            "٤٠",
+            "٤٥"
+          ],
+          "hint": "اكتب: ٣س = ١٢٠. اقسم الطرفين على ٣."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A ticket to the Sheikh Zayed Grand Mosque costs x AED. Maria paid 120 AED for 3 tickets. Find x.",
+          "answers": [
+            "30",
+            "35",
+            "40",
+            "45"
+          ],
+          "hint": "Set up: 3x = 120. Divide both sides by 3."
+        },
+        "ar": {
+          "question": "تحدٍ — تذكرة جامع الشيخ زايد الكبير تكلّف س درهمًا. دفعت مريم ١٢٠ درهمًا مقابل ٣ تذاكر. أوجد س.",
+          "answers": [
+            "٣٠",
+            "٣٥",
+            "٤٠",
+            "٤٥"
+          ],
+          "hint": "اكتب: ٣س = ١٢٠. اقسم الطرفين على ٣."
+        }
+      }
+    }
   },
   {
     "id": "g8-l1-q2",
@@ -114,16 +510,82 @@
     "topic": "linear-equations",
     "en": {
       "question": "Two Abu Dhabi merchants together earn 80 AED. One earns 20 AED more than the other. How much does the smaller earner make?",
-      "answers": ["25", "28", "30", "35"],
+      "answers": [
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
       "hint": "Let smaller = x. Then x + (x + 20) = 80 → 2x = 60 → x = 30."
     },
     "ar": {
       "question": "تاجران في أبوظبي يكسبان معًا ٨٠ درهمًا. أحدهما يكسب ٢٠ درهمًا أكثر من الآخر. كم يكسب الأقل؟",
-      "answers": ["٢٥", "٢٨", "٣٠", "٣٥"],
+      "answers": [
+        "٢٥",
+        "٢٨",
+        "٣٠",
+        "٣٥"
+      ],
       "hint": "لتكن الأصغر = س. إذن س + (س + ٢٠) = ٨٠ → ٢س = ٦٠ → س = ٣٠."
     },
     "correct": 2,
-    "arabicNumerals": ["٢٥", "٢٨", "٣٠", "٣٥"]
+    "arabicNumerals": [
+      "٢٥",
+      "٢٨",
+      "٣٠",
+      "٣٥"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Let smaller = x. Then x + (x + 20) = 80 → 2x = 60 → x = 30. The correct answer is 30.",
+      "ar": "لتكن الأصغر = س. إذن س + (س + ٢٠) = ٨٠ → ٢س = ٦٠ → س = ٣٠. الإجابة الصحيحة هي ٣٠."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Two Abu Dhabi merchants together earn 80 AED. One earns 20 AED more than the other. How much does the smaller earner make?",
+          "answers": [
+            "25",
+            "28",
+            "30",
+            "35"
+          ],
+          "hint": "Let smaller = x. Then x + (x + 20) = 80 → 2x = 60 → x = 30."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تاجران في أبوظبي يكسبان معًا ٨٠ درهمًا. أحدهما يكسب ٢٠ درهمًا أكثر من الآخر. كم يكسب الأقل؟",
+          "answers": [
+            "٢٥",
+            "٢٨",
+            "٣٠",
+            "٣٥"
+          ],
+          "hint": "لتكن الأصغر = س. إذن س + (س + ٢٠) = ٨٠ → ٢س = ٦٠ → س = ٣٠."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Two Abu Dhabi merchants together earn 80 AED. One earns 20 AED more than the other. How much does the smaller earner make?",
+          "answers": [
+            "25",
+            "28",
+            "30",
+            "35"
+          ],
+          "hint": "Let smaller = x. Then x + (x + 20) = 80 → 2x = 60 → x = 30."
+        },
+        "ar": {
+          "question": "تحدٍ — تاجران في أبوظبي يكسبان معًا ٨٠ درهمًا. أحدهما يكسب ٢٠ درهمًا أكثر من الآخر. كم يكسب الأقل؟",
+          "answers": [
+            "٢٥",
+            "٢٨",
+            "٣٠",
+            "٣٥"
+          ],
+          "hint": "لتكن الأصغر = س. إذن س + (س + ٢٠) = ٨٠ → ٢س = ٦٠ → س = ٣٠."
+        }
+      }
+    }
   },
   {
     "id": "g8-l1-q3",
@@ -132,16 +594,82 @@
     "topic": "linear-equations",
     "en": {
       "question": "A camel owner has 5 camels plus 10 AED in supplies, totalling 60 AED. If each camel is worth x AED, find x. (5x + 10 = 60)",
-      "answers": ["8", "9", "10", "12"],
+      "answers": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
       "hint": "Subtract 10 from both sides: 5x = 50. Then divide by 5."
     },
     "ar": {
       "question": "يملك صاحب الإبل ٥ نياق ومستلزمات بـ١٠ دراهم، والمجموع ٦٠ درهمًا. إذا كانت قيمة كل ناقة س درهمًا، أوجد س. (٥س + ١٠ = ٦٠)",
-      "answers": ["٨", "٩", "١٠", "١٢"],
+      "answers": [
+        "٨",
+        "٩",
+        "١٠",
+        "١٢"
+      ],
       "hint": "اطرح ١٠ من الطرفين: ٥س = ٥٠. ثم اقسم على ٥."
     },
     "correct": 2,
-    "arabicNumerals": ["٨", "٩", "١٠", "١٢"]
+    "arabicNumerals": [
+      "٨",
+      "٩",
+      "١٠",
+      "١٢"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Subtract 10 from both sides: 5x = 50. Then divide by 5. The correct answer is 10.",
+      "ar": "اطرح ١٠ من الطرفين: ٥س = ٥٠. ثم اقسم على ٥. الإجابة الصحيحة هي ١٠."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A camel owner has 5 camels plus 10 AED in supplies, totalling 60 AED. If each camel is worth x AED, find x. (5x + 10 = 60)",
+          "answers": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "hint": "Subtract 10 from both sides: 5x = 50. Then divide by 5."
+        },
+        "ar": {
+          "question": "نسخة أبسط — يملك صاحب الإبل ٥ نياق ومستلزمات بـ١٠ دراهم، والمجموع ٦٠ درهمًا. إذا كانت قيمة كل ناقة س درهمًا، أوجد س. (٥س + ١٠ = ٦٠)",
+          "answers": [
+            "٨",
+            "٩",
+            "١٠",
+            "١٢"
+          ],
+          "hint": "اطرح ١٠ من الطرفين: ٥س = ٥٠. ثم اقسم على ٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A camel owner has 5 camels plus 10 AED in supplies, totalling 60 AED. If each camel is worth x AED, find x. (5x + 10 = 60)",
+          "answers": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "hint": "Subtract 10 from both sides: 5x = 50. Then divide by 5."
+        },
+        "ar": {
+          "question": "تحدٍ — يملك صاحب الإبل ٥ نياق ومستلزمات بـ١٠ دراهم، والمجموع ٦٠ درهمًا. إذا كانت قيمة كل ناقة س درهمًا، أوجد س. (٥س + ١٠ = ٦٠)",
+          "answers": [
+            "٨",
+            "٩",
+            "١٠",
+            "١٢"
+          ],
+          "hint": "اطرح ١٠ من الطرفين: ٥س = ٥٠. ثم اقسم على ٥."
+        }
+      }
+    }
   },
   {
     "id": "g8-l1-q4",
@@ -150,16 +678,82 @@
     "topic": "linear-equations",
     "en": {
       "question": "An Abu Dhabi pearl diver earns 7 AED per dive minus a 3-AED fee, totalling 39 AED. How many dives did he make? (7n − 3 = 39)",
-      "answers": ["5", "6", "7", "8"],
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "hint": "Add 3 to both sides: 7n = 42. Then divide by 7."
     },
     "ar": {
       "question": "غوّاص لؤلؤ في أبوظبي يكسب ٧ دراهم في كل غوصة ناقصًا ٣ دراهم رسوم، والمجموع ٣٩ درهمًا. كم غوصة أجرى؟ (٧ن − ٣ = ٣٩)",
-      "answers": ["٥", "٦", "٧", "٨"],
+      "answers": [
+        "٥",
+        "٦",
+        "٧",
+        "٨"
+      ],
       "hint": "أضف ٣ للطرفين: ٧ن = ٤٢. ثم اقسم على ٧."
     },
     "correct": 1,
-    "arabicNumerals": ["٥", "٦", "٧", "٨"]
+    "arabicNumerals": [
+      "٥",
+      "٦",
+      "٧",
+      "٨"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Add 3 to both sides: 7n = 42. Then divide by 7. The correct answer is 6.",
+      "ar": "أضف ٣ للطرفين: ٧ن = ٤٢. ثم اقسم على ٧. الإجابة الصحيحة هي ٦."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — An Abu Dhabi pearl diver earns 7 AED per dive minus a 3-AED fee, totalling 39 AED. How many dives did he make? (7n − 3 = 39)",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "Add 3 to both sides: 7n = 42. Then divide by 7."
+        },
+        "ar": {
+          "question": "نسخة أبسط — غوّاص لؤلؤ في أبوظبي يكسب ٧ دراهم في كل غوصة ناقصًا ٣ دراهم رسوم، والمجموع ٣٩ درهمًا. كم غوصة أجرى؟ (٧ن − ٣ = ٣٩)",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "أضف ٣ للطرفين: ٧ن = ٤٢. ثم اقسم على ٧."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — An Abu Dhabi pearl diver earns 7 AED per dive minus a 3-AED fee, totalling 39 AED. How many dives did he make? (7n − 3 = 39)",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "Add 3 to both sides: 7n = 42. Then divide by 7."
+        },
+        "ar": {
+          "question": "تحدٍ — غوّاص لؤلؤ في أبوظبي يكسب ٧ دراهم في كل غوصة ناقصًا ٣ دراهم رسوم، والمجموع ٣٩ درهمًا. كم غوصة أجرى؟ (٧ن − ٣ = ٣٩)",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "أضف ٣ للطرفين: ٧ن = ٤٢. ثم اقسم على ٧."
+        }
+      }
+    }
   },
   {
     "id": "g8-l1-q5",
@@ -168,16 +762,82 @@
     "topic": "linear-equations",
     "en": {
       "question": "Two routes to the mosque take 4x and 3x minutes. If both routes together take 49 minutes, find x.",
-      "answers": ["5", "6", "7", "8"],
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "hint": "4x + 3x = 49 → 7x = 49 → x = 7."
     },
     "ar": {
       "question": "طريقان للمسجد يستغرقان ٤س و٣س دقيقة. إذا كان مجموعهما ٤٩ دقيقة، أوجد س.",
-      "answers": ["٥", "٦", "٧", "٨"],
+      "answers": [
+        "٥",
+        "٦",
+        "٧",
+        "٨"
+      ],
       "hint": "٤س + ٣س = ٤٩ → ٧س = ٤٩ → س = ٧."
     },
     "correct": 2,
-    "arabicNumerals": ["٥", "٦", "٧", "٨"]
+    "arabicNumerals": [
+      "٥",
+      "٦",
+      "٧",
+      "٨"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "4x + 3x = 49 → 7x = 49 → x = 7. The correct answer is 7.",
+      "ar": "٤س + ٣س = ٤٩ → ٧س = ٤٩ → س = ٧. الإجابة الصحيحة هي ٧."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Two routes to the mosque take 4x and 3x minutes. If both routes together take 49 minutes, find x.",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "4x + 3x = 49 → 7x = 49 → x = 7."
+        },
+        "ar": {
+          "question": "نسخة أبسط — طريقان للمسجد يستغرقان ٤س و٣س دقيقة. إذا كان مجموعهما ٤٩ دقيقة، أوجد س.",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "٤س + ٣س = ٤٩ → ٧س = ٤٩ → س = ٧."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Two routes to the mosque take 4x and 3x minutes. If both routes together take 49 minutes, find x.",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "4x + 3x = 49 → 7x = 49 → x = 7."
+        },
+        "ar": {
+          "question": "تحدٍ — طريقان للمسجد يستغرقان ٤س و٣س دقيقة. إذا كان مجموعهما ٤٩ دقيقة، أوجد س.",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "٤س + ٣س = ٤٩ → ٧س = ٤٩ → س = ٧."
+        }
+      }
+    }
   },
   {
     "id": "g8-l2-q1",
@@ -186,16 +846,82 @@
     "topic": "geometry",
     "en": {
       "question": "A triangular garden in Al Ain has two angles of 55° and 75°. What is the third angle?",
-      "answers": ["45°", "50°", "55°", "60°"],
+      "answers": [
+        "45°",
+        "50°",
+        "55°",
+        "60°"
+      ],
       "hint": "Angles in a triangle sum to 180°. Third = 180 − 55 − 75."
     },
     "ar": {
       "question": "حديقة مثلّثة الشكل في العين فيها زاويتان تساويان ٥٥° و٧٥°. ما الزاوية الثالثة؟",
-      "answers": ["٤٥°", "٥٠°", "٥٥°", "٦٠°"],
+      "answers": [
+        "٤٥°",
+        "٥٠°",
+        "٥٥°",
+        "٦٠°"
+      ],
       "hint": "مجموع زوايا المثلث ١٨٠°. الثالثة = ١٨٠ − ٥٥ − ٧٥."
     },
     "correct": 1,
-    "arabicNumerals": ["٤٥°", "٥٠°", "٥٥°", "٦٠°"]
+    "arabicNumerals": [
+      "٤٥°",
+      "٥٠°",
+      "٥٥°",
+      "٦٠°"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Angles in a triangle sum to 180°. Third = 180 − 55 − 75. The correct answer is 50°.",
+      "ar": "مجموع زوايا المثلث ١٨٠°. الثالثة = ١٨٠ − ٥٥ − ٧٥. الإجابة الصحيحة هي ٥٠°."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A triangular garden in Al Ain has two angles of 55° and 75°. What is the third angle?",
+          "answers": [
+            "45°",
+            "50°",
+            "55°",
+            "60°"
+          ],
+          "hint": "Angles in a triangle sum to 180°. Third = 180 − 55 − 75."
+        },
+        "ar": {
+          "question": "نسخة أبسط — حديقة مثلّثة الشكل في العين فيها زاويتان تساويان ٥٥° و٧٥°. ما الزاوية الثالثة؟",
+          "answers": [
+            "٤٥°",
+            "٥٠°",
+            "٥٥°",
+            "٦٠°"
+          ],
+          "hint": "مجموع زوايا المثلث ١٨٠°. الثالثة = ١٨٠ − ٥٥ − ٧٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A triangular garden in Al Ain has two angles of 55° and 75°. What is the third angle?",
+          "answers": [
+            "45°",
+            "50°",
+            "55°",
+            "60°"
+          ],
+          "hint": "Angles in a triangle sum to 180°. Third = 180 − 55 − 75."
+        },
+        "ar": {
+          "question": "تحدٍ — حديقة مثلّثة الشكل في العين فيها زاويتان تساويان ٥٥° و٧٥°. ما الزاوية الثالثة؟",
+          "answers": [
+            "٤٥°",
+            "٥٠°",
+            "٥٥°",
+            "٦٠°"
+          ],
+          "hint": "مجموع زوايا المثلث ١٨٠°. الثالثة = ١٨٠ − ٥٥ − ٧٥."
+        }
+      }
+    }
   },
   {
     "id": "g8-l2-q2",
@@ -204,16 +930,82 @@
     "topic": "geometry",
     "en": {
       "question": "An Al Ain oasis pool is trapezoidal with parallel sides of 12 m and 8 m, and a height of 5 m. What is its area?",
-      "answers": ["40 m²", "50 m²", "60 m²", "100 m²"],
+      "answers": [
+        "40 m²",
+        "50 m²",
+        "60 m²",
+        "100 m²"
+      ],
       "hint": "Area of trapezoid = ½ × (sum of parallel sides) × height = ½ × (12+8) × 5."
     },
     "ar": {
       "question": "بركة واحة العين على شكل شبه منحرف أضلاعه المتوازية ١٢م و٨م وارتفاعه ٥م. ما مساحته؟",
-      "answers": ["٤٠ م²", "٥٠ م²", "٦٠ م²", "١٠٠ م²"],
+      "answers": [
+        "٤٠ م²",
+        "٥٠ م²",
+        "٦٠ م²",
+        "١٠٠ م²"
+      ],
       "hint": "مساحة شبه المنحرف = ½ × (مجموع الضلعين المتوازيين) × الارتفاع = ½ × (١٢+٨) × ٥."
     },
     "correct": 1,
-    "arabicNumerals": ["٤٠ م²", "٥٠ م²", "٦٠ م²", "١٠٠ م²"]
+    "arabicNumerals": [
+      "٤٠ م²",
+      "٥٠ م²",
+      "٦٠ م²",
+      "١٠٠ م²"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Area of trapezoid = ½ × (sum of parallel sides) × height = ½ × (12+8) × 5. The correct answer is 50 m².",
+      "ar": "مساحة شبه المنحرف = ½ × (مجموع الضلعين المتوازيين) × الارتفاع = ½ × (١٢+٨) × ٥. الإجابة الصحيحة هي ٥٠ م²."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — An Al Ain oasis pool is trapezoidal with parallel sides of 12 m and 8 m, and a height of 5 m. What is its area?",
+          "answers": [
+            "40 m²",
+            "50 m²",
+            "60 m²",
+            "100 m²"
+          ],
+          "hint": "Area of trapezoid = ½ × (sum of parallel sides) × height = ½ × (12+8) × 5."
+        },
+        "ar": {
+          "question": "نسخة أبسط — بركة واحة العين على شكل شبه منحرف أضلاعه المتوازية ١٢م و٨م وارتفاعه ٥م. ما مساحته؟",
+          "answers": [
+            "٤٠ م²",
+            "٥٠ م²",
+            "٦٠ م²",
+            "١٠٠ م²"
+          ],
+          "hint": "مساحة شبه المنحرف = ½ × (مجموع الضلعين المتوازيين) × الارتفاع = ½ × (١٢+٨) × ٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — An Al Ain oasis pool is trapezoidal with parallel sides of 12 m and 8 m, and a height of 5 m. What is its area?",
+          "answers": [
+            "40 m²",
+            "50 m²",
+            "60 m²",
+            "100 m²"
+          ],
+          "hint": "Area of trapezoid = ½ × (sum of parallel sides) × height = ½ × (12+8) × 5."
+        },
+        "ar": {
+          "question": "تحدٍ — بركة واحة العين على شكل شبه منحرف أضلاعه المتوازية ١٢م و٨م وارتفاعه ٥م. ما مساحته؟",
+          "answers": [
+            "٤٠ م²",
+            "٥٠ م²",
+            "٦٠ م²",
+            "١٠٠ م²"
+          ],
+          "hint": "مساحة شبه المنحرف = ½ × (مجموع الضلعين المتوازيين) × الارتفاع = ½ × (١٢+٨) × ٥."
+        }
+      }
+    }
   },
   {
     "id": "g8-l2-q3",
@@ -222,16 +1014,82 @@
     "topic": "geometry",
     "en": {
       "question": "Two supplementary angles are 3x° and (x + 40)°. Find x.",
-      "answers": ["30", "35", "40", "45"],
+      "answers": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
       "hint": "Supplementary angles sum to 180°: 3x + (x + 40) = 180 → 4x = 140."
     },
     "ar": {
       "question": "زاويتان متكاملتان (مكمّلتان) تساويان ٣س° و(س + ٤٠)°. أوجد س.",
-      "answers": ["٣٠", "٣٥", "٤٠", "٤٥"],
+      "answers": [
+        "٣٠",
+        "٣٥",
+        "٤٠",
+        "٤٥"
+      ],
       "hint": "الزاويتان المتكاملتان مجموعهما ١٨٠°: ٣س + (س + ٤٠) = ١٨٠ → ٤س = ١٤٠."
     },
     "correct": 1,
-    "arabicNumerals": ["٣٠", "٣٥", "٤٠", "٤٥"]
+    "arabicNumerals": [
+      "٣٠",
+      "٣٥",
+      "٤٠",
+      "٤٥"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Supplementary angles sum to 180°: 3x + (x + 40) = 180 → 4x = 140. The correct answer is 35.",
+      "ar": "الزاويتان المتكاملتان مجموعهما ١٨٠°: ٣س + (س + ٤٠) = ١٨٠ → ٤س = ١٤٠. الإجابة الصحيحة هي ٣٥."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Two supplementary angles are 3x° and (x + 40)°. Find x.",
+          "answers": [
+            "30",
+            "35",
+            "40",
+            "45"
+          ],
+          "hint": "Supplementary angles sum to 180°: 3x + (x + 40) = 180 → 4x = 140."
+        },
+        "ar": {
+          "question": "نسخة أبسط — زاويتان متكاملتان (مكمّلتان) تساويان ٣س° و(س + ٤٠)°. أوجد س.",
+          "answers": [
+            "٣٠",
+            "٣٥",
+            "٤٠",
+            "٤٥"
+          ],
+          "hint": "الزاويتان المتكاملتان مجموعهما ١٨٠°: ٣س + (س + ٤٠) = ١٨٠ → ٤س = ١٤٠."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Two supplementary angles are 3x° and (x + 40)°. Find x.",
+          "answers": [
+            "30",
+            "35",
+            "40",
+            "45"
+          ],
+          "hint": "Supplementary angles sum to 180°: 3x + (x + 40) = 180 → 4x = 140."
+        },
+        "ar": {
+          "question": "تحدٍ — زاويتان متكاملتان (مكمّلتان) تساويان ٣س° و(س + ٤٠)°. أوجد س.",
+          "answers": [
+            "٣٠",
+            "٣٥",
+            "٤٠",
+            "٤٥"
+          ],
+          "hint": "الزاويتان المتكاملتان مجموعهما ١٨٠°: ٣س + (س + ٤٠) = ١٨٠ → ٤س = ١٤٠."
+        }
+      }
+    }
   },
   {
     "id": "g8-l2-q4",
@@ -240,16 +1098,82 @@
     "topic": "geometry",
     "en": {
       "question": "A circular falaj pool has a radius of 7 m. What is its area? (Use π ≈ 22/7)",
-      "answers": ["121 m²", "154 m²", "196 m²", "220 m²"],
+      "answers": [
+        "121 m²",
+        "154 m²",
+        "196 m²",
+        "220 m²"
+      ],
       "hint": "Area = π × r² = (22/7) × 7 × 7 = 22 × 7 = 154 m²."
     },
     "ar": {
       "question": "بركة فلج دائرية نصف قطرها ٧ أمتار. ما مساحتها؟ (استخدم π ≈ ٢٢/٧)",
-      "answers": ["١٢١ م²", "١٥٤ م²", "١٩٦ م²", "٢٢٠ م²"],
+      "answers": [
+        "١٢١ م²",
+        "١٥٤ م²",
+        "١٩٦ م²",
+        "٢٢٠ م²"
+      ],
       "hint": "المساحة = π × نق² = (٢٢/٧) × ٧ × ٧ = ٢٢ × ٧ = ١٥٤ م²."
     },
     "correct": 1,
-    "arabicNumerals": ["١٢١ م²", "١٥٤ م²", "١٩٦ م²", "٢٢٠ م²"]
+    "arabicNumerals": [
+      "١٢١ م²",
+      "١٥٤ م²",
+      "١٩٦ م²",
+      "٢٢٠ م²"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Area = π × r² = (22/7) × 7 × 7 = 22 × 7 = 154 m². The correct answer is 154 m².",
+      "ar": "المساحة = π × نق² = (٢٢/٧) × ٧ × ٧ = ٢٢ × ٧ = ١٥٤ م². الإجابة الصحيحة هي ١٥٤ م²."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A circular falaj pool has a radius of 7 m. What is its area? (Use π ≈ 22/7)",
+          "answers": [
+            "121 m²",
+            "154 m²",
+            "196 m²",
+            "220 m²"
+          ],
+          "hint": "Area = π × r² = (22/7) × 7 × 7 = 22 × 7 = 154 m²."
+        },
+        "ar": {
+          "question": "نسخة أبسط — بركة فلج دائرية نصف قطرها ٧ أمتار. ما مساحتها؟ (استخدم π ≈ ٢٢/٧)",
+          "answers": [
+            "١٢١ م²",
+            "١٥٤ م²",
+            "١٩٦ م²",
+            "٢٢٠ م²"
+          ],
+          "hint": "المساحة = π × نق² = (٢٢/٧) × ٧ × ٧ = ٢٢ × ٧ = ١٥٤ م²."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A circular falaj pool has a radius of 7 m. What is its area? (Use π ≈ 22/7)",
+          "answers": [
+            "121 m²",
+            "154 m²",
+            "196 m²",
+            "220 m²"
+          ],
+          "hint": "Area = π × r² = (22/7) × 7 × 7 = 22 × 7 = 154 m²."
+        },
+        "ar": {
+          "question": "تحدٍ — بركة فلج دائرية نصف قطرها ٧ أمتار. ما مساحتها؟ (استخدم π ≈ ٢٢/٧)",
+          "answers": [
+            "١٢١ م²",
+            "١٥٤ م²",
+            "١٩٦ م²",
+            "٢٢٠ م²"
+          ],
+          "hint": "المساحة = π × نق² = (٢٢/٧) × ٧ × ٧ = ٢٢ × ٧ = ١٥٤ م²."
+        }
+      }
+    }
   },
   {
     "id": "g8-l2-q5",
@@ -258,16 +1182,82 @@
     "topic": "geometry",
     "en": {
       "question": "A regular hexagonal Islamic tile has how many degrees in each interior angle?",
-      "answers": ["90°", "108°", "120°", "135°"],
+      "answers": [
+        "90°",
+        "108°",
+        "120°",
+        "135°"
+      ],
       "hint": "Sum of interior angles = (6−2) × 180° = 720°. Each angle = 720° ÷ 6."
     },
     "ar": {
       "question": "بلاطة إسلامية سداسية منتظمة — كم درجة تبلغ كل زاوية داخلية فيها؟",
-      "answers": ["٩٠°", "١٠٨°", "١٢٠°", "١٣٥°"],
+      "answers": [
+        "٩٠°",
+        "١٠٨°",
+        "١٢٠°",
+        "١٣٥°"
+      ],
       "hint": "مجموع الزوايا الداخلية = (٦−٢) × ١٨٠° = ٧٢٠°. كل زاوية = ٧٢٠° ÷ ٦."
     },
     "correct": 2,
-    "arabicNumerals": ["٩٠°", "١٠٨°", "١٢٠°", "١٣٥°"]
+    "arabicNumerals": [
+      "٩٠°",
+      "١٠٨°",
+      "١٢٠°",
+      "١٣٥°"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Sum of interior angles = (6−2) × 180° = 720°. Each angle = 720° ÷ 6. The correct answer is 120°.",
+      "ar": "مجموع الزوايا الداخلية = (٦−٢) × ١٨٠° = ٧٢٠°. كل زاوية = ٧٢٠° ÷ ٦. الإجابة الصحيحة هي ١٢٠°."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A regular hexagonal Islamic tile has how many degrees in each interior angle?",
+          "answers": [
+            "90°",
+            "108°",
+            "120°",
+            "135°"
+          ],
+          "hint": "Sum of interior angles = (6−2) × 180° = 720°. Each angle = 720° ÷ 6."
+        },
+        "ar": {
+          "question": "نسخة أبسط — بلاطة إسلامية سداسية منتظمة — كم درجة تبلغ كل زاوية داخلية فيها؟",
+          "answers": [
+            "٩٠°",
+            "١٠٨°",
+            "١٢٠°",
+            "١٣٥°"
+          ],
+          "hint": "مجموع الزوايا الداخلية = (٦−٢) × ١٨٠° = ٧٢٠°. كل زاوية = ٧٢٠° ÷ ٦."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A regular hexagonal Islamic tile has how many degrees in each interior angle?",
+          "answers": [
+            "90°",
+            "108°",
+            "120°",
+            "135°"
+          ],
+          "hint": "Sum of interior angles = (6−2) × 180° = 720°. Each angle = 720° ÷ 6."
+        },
+        "ar": {
+          "question": "تحدٍ — بلاطة إسلامية سداسية منتظمة — كم درجة تبلغ كل زاوية داخلية فيها؟",
+          "answers": [
+            "٩٠°",
+            "١٠٨°",
+            "١٢٠°",
+            "١٣٥°"
+          ],
+          "hint": "مجموع الزوايا الداخلية = (٦−٢) × ١٨٠° = ٧٢٠°. كل زاوية = ٧٢٠° ÷ ٦."
+        }
+      }
+    }
   },
   {
     "id": "g8-l3-q1",
@@ -276,16 +1266,82 @@
     "topic": "statistics",
     "en": {
       "question": "Liwa temperatures for 5 days were: 38, 42, 40, 36, 44°C. What is the mean temperature?",
-      "answers": ["38°C", "39°C", "40°C", "42°C"],
+      "answers": [
+        "38°C",
+        "39°C",
+        "40°C",
+        "42°C"
+      ],
       "hint": "Mean = sum ÷ count = (38+42+40+36+44) ÷ 5 = 200 ÷ 5."
     },
     "ar": {
       "question": "درجات حرارة ليوا لمدة ٥ أيام: ٣٨، ٤٢، ٤٠، ٣٦، ٤٤ درجة. ما متوسط درجة الحرارة؟",
-      "answers": ["٣٨°", "٣٩°", "٤٠°", "٤٢°"],
+      "answers": [
+        "٣٨°",
+        "٣٩°",
+        "٤٠°",
+        "٤٢°"
+      ],
       "hint": "المتوسط = المجموع ÷ العدد = (٣٨+٤٢+٤٠+٣٦+٤٤) ÷ ٥ = ٢٠٠ ÷ ٥."
     },
     "correct": 2,
-    "arabicNumerals": ["٣٨°", "٣٩°", "٤٠°", "٤٢°"]
+    "arabicNumerals": [
+      "٣٨°",
+      "٣٩°",
+      "٤٠°",
+      "٤٢°"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Mean = sum ÷ count = (38+42+40+36+44) ÷ 5 = 200 ÷ 5. The correct answer is 40°C.",
+      "ar": "المتوسط = المجموع ÷ العدد = (٣٨+٤٢+٤٠+٣٦+٤٤) ÷ ٥ = ٢٠٠ ÷ ٥. الإجابة الصحيحة هي ٤٠°."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Liwa temperatures for 5 days were: 38, 42, 40, 36, 44°C. What is the mean temperature?",
+          "answers": [
+            "38°C",
+            "39°C",
+            "40°C",
+            "42°C"
+          ],
+          "hint": "Mean = sum ÷ count = (38+42+40+36+44) ÷ 5 = 200 ÷ 5."
+        },
+        "ar": {
+          "question": "نسخة أبسط — درجات حرارة ليوا لمدة ٥ أيام: ٣٨، ٤٢، ٤٠، ٣٦، ٤٤ درجة. ما متوسط درجة الحرارة؟",
+          "answers": [
+            "٣٨°",
+            "٣٩°",
+            "٤٠°",
+            "٤٢°"
+          ],
+          "hint": "المتوسط = المجموع ÷ العدد = (٣٨+٤٢+٤٠+٣٦+٤٤) ÷ ٥ = ٢٠٠ ÷ ٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Liwa temperatures for 5 days were: 38, 42, 40, 36, 44°C. What is the mean temperature?",
+          "answers": [
+            "38°C",
+            "39°C",
+            "40°C",
+            "42°C"
+          ],
+          "hint": "Mean = sum ÷ count = (38+42+40+36+44) ÷ 5 = 200 ÷ 5."
+        },
+        "ar": {
+          "question": "تحدٍ — درجات حرارة ليوا لمدة ٥ أيام: ٣٨، ٤٢، ٤٠، ٣٦، ٤٤ درجة. ما متوسط درجة الحرارة؟",
+          "answers": [
+            "٣٨°",
+            "٣٩°",
+            "٤٠°",
+            "٤٢°"
+          ],
+          "hint": "المتوسط = المجموع ÷ العدد = (٣٨+٤٢+٤٠+٣٦+٤٤) ÷ ٥ = ٢٠٠ ÷ ٥."
+        }
+      }
+    }
   },
   {
     "id": "g8-l3-q2",
@@ -294,16 +1350,82 @@
     "topic": "statistics",
     "en": {
       "question": "Five students scored: 72, 85, 91, 68, 79. What is the median score?",
-      "answers": ["72", "79", "81", "85"],
+      "answers": [
+        "72",
+        "79",
+        "81",
+        "85"
+      ],
       "hint": "Sort ascending: 68, 72, 79, 85, 91. The middle value (3rd) is the median."
     },
     "ar": {
       "question": "درجات ٥ طلاب: ٧٢، ٨٥، ٩١، ٦٨، ٧٩. ما الوسيط؟",
-      "answers": ["٧٢", "٧٩", "٨١", "٨٥"],
+      "answers": [
+        "٧٢",
+        "٧٩",
+        "٨١",
+        "٨٥"
+      ],
       "hint": "رتّبها تصاعديًا: ٦٨، ٧٢، ٧٩، ٨٥، ٩١. القيمة الوسطى (الثالثة) هي الوسيط."
     },
     "correct": 1,
-    "arabicNumerals": ["٧٢", "٧٩", "٨١", "٨٥"]
+    "arabicNumerals": [
+      "٧٢",
+      "٧٩",
+      "٨١",
+      "٨٥"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Sort ascending: 68, 72, 79, 85, 91. The middle value (3rd) is the median. The correct answer is 79.",
+      "ar": "رتّبها تصاعديًا: ٦٨، ٧٢، ٧٩، ٨٥، ٩١. القيمة الوسطى (الثالثة) هي الوسيط. الإجابة الصحيحة هي ٧٩."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Five students scored: 72, 85, 91, 68, 79. What is the median score?",
+          "answers": [
+            "72",
+            "79",
+            "81",
+            "85"
+          ],
+          "hint": "Sort ascending: 68, 72, 79, 85, 91. The middle value (3rd) is the median."
+        },
+        "ar": {
+          "question": "نسخة أبسط — درجات ٥ طلاب: ٧٢، ٨٥، ٩١، ٦٨، ٧٩. ما الوسيط؟",
+          "answers": [
+            "٧٢",
+            "٧٩",
+            "٨١",
+            "٨٥"
+          ],
+          "hint": "رتّبها تصاعديًا: ٦٨، ٧٢، ٧٩، ٨٥، ٩١. القيمة الوسطى (الثالثة) هي الوسيط."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Five students scored: 72, 85, 91, 68, 79. What is the median score?",
+          "answers": [
+            "72",
+            "79",
+            "81",
+            "85"
+          ],
+          "hint": "Sort ascending: 68, 72, 79, 85, 91. The middle value (3rd) is the median."
+        },
+        "ar": {
+          "question": "تحدٍ — درجات ٥ طلاب: ٧٢، ٨٥، ٩١، ٦٨، ٧٩. ما الوسيط؟",
+          "answers": [
+            "٧٢",
+            "٧٩",
+            "٨١",
+            "٨٥"
+          ],
+          "hint": "رتّبها تصاعديًا: ٦٨، ٧٢، ٧٩، ٨٥، ٩١. القيمة الوسطى (الثالثة) هي الوسيط."
+        }
+      }
+    }
   },
   {
     "id": "g8-l3-q3",
@@ -312,16 +1434,82 @@
     "topic": "statistics",
     "en": {
       "question": "Dates sold at the Liwa market over 7 days: 15, 22, 15, 30, 22, 15, 28. What is the mode?",
-      "answers": ["15", "22", "28", "30"],
+      "answers": [
+        "15",
+        "22",
+        "28",
+        "30"
+      ],
       "hint": "The mode is the value that appears most often. Count the frequency of each number."
     },
     "ar": {
       "question": "كميات التمور المباعة في سوق ليوا لمدة ٧ أيام: ١٥، ٢٢، ١٥، ٣٠، ٢٢، ١٥، ٢٨. ما المنوال؟",
-      "answers": ["١٥", "٢٢", "٢٨", "٣٠"],
+      "answers": [
+        "١٥",
+        "٢٢",
+        "٢٨",
+        "٣٠"
+      ],
       "hint": "المنوال هو القيمة الأكثر تكرارًا. احسب تكرار كل رقم."
     },
     "correct": 0,
-    "arabicNumerals": ["١٥", "٢٢", "٢٨", "٣٠"]
+    "arabicNumerals": [
+      "١٥",
+      "٢٢",
+      "٢٨",
+      "٣٠"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "The mode is the value that appears most often. Count the frequency of each number. The correct answer is 15.",
+      "ar": "المنوال هو القيمة الأكثر تكرارًا. احسب تكرار كل رقم. الإجابة الصحيحة هي ١٥."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Dates sold at the Liwa market over 7 days: 15, 22, 15, 30, 22, 15, 28. What is the mode?",
+          "answers": [
+            "15",
+            "22",
+            "28",
+            "30"
+          ],
+          "hint": "The mode is the value that appears most often. Count the frequency of each number."
+        },
+        "ar": {
+          "question": "نسخة أبسط — كميات التمور المباعة في سوق ليوا لمدة ٧ أيام: ١٥، ٢٢، ١٥، ٣٠، ٢٢، ١٥، ٢٨. ما المنوال؟",
+          "answers": [
+            "١٥",
+            "٢٢",
+            "٢٨",
+            "٣٠"
+          ],
+          "hint": "المنوال هو القيمة الأكثر تكرارًا. احسب تكرار كل رقم."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Dates sold at the Liwa market over 7 days: 15, 22, 15, 30, 22, 15, 28. What is the mode?",
+          "answers": [
+            "15",
+            "22",
+            "28",
+            "30"
+          ],
+          "hint": "The mode is the value that appears most often. Count the frequency of each number."
+        },
+        "ar": {
+          "question": "تحدٍ — كميات التمور المباعة في سوق ليوا لمدة ٧ أيام: ١٥، ٢٢، ١٥، ٣٠، ٢٢، ١٥، ٢٨. ما المنوال؟",
+          "answers": [
+            "١٥",
+            "٢٢",
+            "٢٨",
+            "٣٠"
+          ],
+          "hint": "المنوال هو القيمة الأكثر تكرارًا. احسب تكرار كل رقم."
+        }
+      }
+    }
   },
   {
     "id": "g8-l3-q4",
@@ -330,16 +1518,82 @@
     "topic": "statistics",
     "en": {
       "question": "Camel race times (minutes): 12.5, 11.2, 13.8, 10.9, 12.1. What is the range?",
-      "answers": ["2.4", "2.9", "3.1", "3.5"],
+      "answers": [
+        "2.4",
+        "2.9",
+        "3.1",
+        "3.5"
+      ],
       "hint": "Range = Maximum − Minimum = 13.8 − 10.9."
     },
     "ar": {
       "question": "أوقات سباق الإبل (بالدقائق): ١٢٫٥، ١١٫٢، ١٣٫٨، ١٠٫٩، ١٢٫١. ما المدى؟",
-      "answers": ["٢٫٤", "٢٫٩", "٣٫١", "٣٫٥"],
+      "answers": [
+        "٢٫٤",
+        "٢٫٩",
+        "٣٫١",
+        "٣٫٥"
+      ],
       "hint": "المدى = الأكبر − الأصغر = ١٣٫٨ − ١٠٫٩."
     },
     "correct": 1,
-    "arabicNumerals": ["٢٫٤", "٢٫٩", "٣٫١", "٣٫٥"]
+    "arabicNumerals": [
+      "٢٫٤",
+      "٢٫٩",
+      "٣٫١",
+      "٣٫٥"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Range = Maximum − Minimum = 13.8 − 10.9. The correct answer is 2.9.",
+      "ar": "المدى = الأكبر − الأصغر = ١٣٫٨ − ١٠٫٩. الإجابة الصحيحة هي ٢٫٩."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Camel race times (minutes): 12.5, 11.2, 13.8, 10.9, 12.1. What is the range?",
+          "answers": [
+            "2.4",
+            "2.9",
+            "3.1",
+            "3.5"
+          ],
+          "hint": "Range = Maximum − Minimum = 13.8 − 10.9."
+        },
+        "ar": {
+          "question": "نسخة أبسط — أوقات سباق الإبل (بالدقائق): ١٢٫٥، ١١٫٢، ١٣٫٨، ١٠٫٩، ١٢٫١. ما المدى؟",
+          "answers": [
+            "٢٫٤",
+            "٢٫٩",
+            "٣٫١",
+            "٣٫٥"
+          ],
+          "hint": "المدى = الأكبر − الأصغر = ١٣٫٨ − ١٠٫٩."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Camel race times (minutes): 12.5, 11.2, 13.8, 10.9, 12.1. What is the range?",
+          "answers": [
+            "2.4",
+            "2.9",
+            "3.1",
+            "3.5"
+          ],
+          "hint": "Range = Maximum − Minimum = 13.8 − 10.9."
+        },
+        "ar": {
+          "question": "تحدٍ — أوقات سباق الإبل (بالدقائق): ١٢٫٥، ١١٫٢، ١٣٫٨، ١٠٫٩، ١٢٫١. ما المدى؟",
+          "answers": [
+            "٢٫٤",
+            "٢٫٩",
+            "٣٫١",
+            "٣٫٥"
+          ],
+          "hint": "المدى = الأكبر − الأصغر = ١٣٫٨ − ١٠٫٩."
+        }
+      }
+    }
   },
   {
     "id": "g8-l3-q5",
@@ -348,16 +1602,82 @@
     "topic": "statistics",
     "en": {
       "question": "Five data values have a mean of 14. Four of the values are: 12, 16, 18, 10. Find the missing value.",
-      "answers": ["12", "14", "16", "18"],
+      "answers": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
       "hint": "Total sum = mean × count = 14 × 5 = 70. Known sum = 12+16+18+10 = 56. Missing = 70 − 56."
     },
     "ar": {
       "question": "خمس قيم متوسطها ١٤. أربع منها: ١٢، ١٦، ١٨، ١٠. ما القيمة المفقودة؟",
-      "answers": ["١٢", "١٤", "١٦", "١٨"],
+      "answers": [
+        "١٢",
+        "١٤",
+        "١٦",
+        "١٨"
+      ],
       "hint": "المجموع الكلي = المتوسط × العدد = ١٤ × ٥ = ٧٠. مجموع المعلوم = ١٢+١٦+١٨+١٠ = ٥٦. المفقود = ٧٠ − ٥٦."
     },
     "correct": 1,
-    "arabicNumerals": ["١٢", "١٤", "١٦", "١٨"]
+    "arabicNumerals": [
+      "١٢",
+      "١٤",
+      "١٦",
+      "١٨"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Total sum = mean × count = 14 × 5 = 70. Known sum = 12+16+18+10 = 56. Missing = 70 − 56. The correct answer is 14.",
+      "ar": "المجموع الكلي = المتوسط × العدد = ١٤ × ٥ = ٧٠. مجموع المعلوم = ١٢+١٦+١٨+١٠ = ٥٦. المفقود = ٧٠ − ٥٦. الإجابة الصحيحة هي ١٤."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Five data values have a mean of 14. Four of the values are: 12, 16, 18, 10. Find the missing value.",
+          "answers": [
+            "12",
+            "14",
+            "16",
+            "18"
+          ],
+          "hint": "Total sum = mean × count = 14 × 5 = 70. Known sum = 12+16+18+10 = 56. Missing = 70 − 56."
+        },
+        "ar": {
+          "question": "نسخة أبسط — خمس قيم متوسطها ١٤. أربع منها: ١٢، ١٦، ١٨، ١٠. ما القيمة المفقودة؟",
+          "answers": [
+            "١٢",
+            "١٤",
+            "١٦",
+            "١٨"
+          ],
+          "hint": "المجموع الكلي = المتوسط × العدد = ١٤ × ٥ = ٧٠. مجموع المعلوم = ١٢+١٦+١٨+١٠ = ٥٦. المفقود = ٧٠ − ٥٦."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Five data values have a mean of 14. Four of the values are: 12, 16, 18, 10. Find the missing value.",
+          "answers": [
+            "12",
+            "14",
+            "16",
+            "18"
+          ],
+          "hint": "Total sum = mean × count = 14 × 5 = 70. Known sum = 12+16+18+10 = 56. Missing = 70 − 56."
+        },
+        "ar": {
+          "question": "تحدٍ — خمس قيم متوسطها ١٤. أربع منها: ١٢، ١٦، ١٨، ١٠. ما القيمة المفقودة؟",
+          "answers": [
+            "١٢",
+            "١٤",
+            "١٦",
+            "١٨"
+          ],
+          "hint": "المجموع الكلي = المتوسط × العدد = ١٤ × ٥ = ٧٠. مجموع المعلوم = ١٢+١٦+١٨+١٠ = ٥٦. المفقود = ٧٠ − ٥٦."
+        }
+      }
+    }
   },
   {
     "id": "g8-l4-q1",
@@ -366,16 +1686,82 @@
     "topic": "ratios-percentages",
     "en": {
       "question": "The exchange rate is 1 USD = 3.67 AED (rounded). How many AED do you get for 20 USD?",
-      "answers": ["63.4 AED", "70.4 AED", "73.4 AED", "76.4 AED"],
+      "answers": [
+        "63.4 AED",
+        "70.4 AED",
+        "73.4 AED",
+        "76.4 AED"
+      ],
       "hint": "Multiply: 20 × 3.67 = 73.4 AED."
     },
     "ar": {
       "question": "سعر الصرف ١ دولار = ٣٫٦٧ درهمًا (تقريبًا). كم درهمًا تحصل مقابل ٢٠ دولارًا؟",
-      "answers": ["٦٣٫٤ د.إ", "٧٠٫٤ د.إ", "٧٣٫٤ د.إ", "٧٦٫٤ د.إ"],
+      "answers": [
+        "٦٣٫٤ د.إ",
+        "٧٠٫٤ د.إ",
+        "٧٣٫٤ د.إ",
+        "٧٦٫٤ د.إ"
+      ],
       "hint": "اضرب: ٢٠ × ٣٫٦٧ = ٧٣٫٤ درهمًا."
     },
     "correct": 2,
-    "arabicNumerals": ["٦٣٫٤ د.إ", "٧٠٫٤ د.إ", "٧٣٫٤ د.إ", "٧٦٫٤ د.إ"]
+    "arabicNumerals": [
+      "٦٣٫٤ د.إ",
+      "٧٠٫٤ د.إ",
+      "٧٣٫٤ د.إ",
+      "٧٦٫٤ د.إ"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Multiply: 20 × 3.67 = 73.4 AED. The correct answer is 73.4 AED.",
+      "ar": "اضرب: ٢٠ × ٣٫٦٧ = ٧٣٫٤ درهمًا. الإجابة الصحيحة هي ٧٣٫٤ د.إ."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — The exchange rate is 1 USD = 3.67 AED (rounded). How many AED do you get for 20 USD?",
+          "answers": [
+            "63.4 AED",
+            "70.4 AED",
+            "73.4 AED",
+            "76.4 AED"
+          ],
+          "hint": "Multiply: 20 × 3.67 = 73.4 AED."
+        },
+        "ar": {
+          "question": "نسخة أبسط — سعر الصرف ١ دولار = ٣٫٦٧ درهمًا (تقريبًا). كم درهمًا تحصل مقابل ٢٠ دولارًا؟",
+          "answers": [
+            "٦٣٫٤ د.إ",
+            "٧٠٫٤ د.إ",
+            "٧٣٫٤ د.إ",
+            "٧٦٫٤ د.إ"
+          ],
+          "hint": "اضرب: ٢٠ × ٣٫٦٧ = ٧٣٫٤ درهمًا."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — The exchange rate is 1 USD = 3.67 AED (rounded). How many AED do you get for 20 USD?",
+          "answers": [
+            "63.4 AED",
+            "70.4 AED",
+            "73.4 AED",
+            "76.4 AED"
+          ],
+          "hint": "Multiply: 20 × 3.67 = 73.4 AED."
+        },
+        "ar": {
+          "question": "تحدٍ — سعر الصرف ١ دولار = ٣٫٦٧ درهمًا (تقريبًا). كم درهمًا تحصل مقابل ٢٠ دولارًا؟",
+          "answers": [
+            "٦٣٫٤ د.إ",
+            "٧٠٫٤ د.إ",
+            "٧٣٫٤ د.إ",
+            "٧٦٫٤ د.إ"
+          ],
+          "hint": "اضرب: ٢٠ × ٣٫٦٧ = ٧٣٫٤ درهمًا."
+        }
+      }
+    }
   },
   {
     "id": "g8-l4-q2",
@@ -384,16 +1770,82 @@
     "topic": "ratios-percentages",
     "en": {
       "question": "A carpet originally priced at 200 AED is on sale with a 15% discount. What is the sale price?",
-      "answers": ["150 AED", "160 AED", "170 AED", "180 AED"],
+      "answers": [
+        "150 AED",
+        "160 AED",
+        "170 AED",
+        "180 AED"
+      ],
       "hint": "Discount = 15% × 200 = 30 AED. Sale price = 200 − 30."
     },
     "ar": {
       "question": "سجادة سعرها الأصلي ٢٠٠ درهم معروضة بخصم ١٥٪. ما سعر البيع؟",
-      "answers": ["١٥٠ د.إ", "١٦٠ د.إ", "١٧٠ د.إ", "١٨٠ د.إ"],
+      "answers": [
+        "١٥٠ د.إ",
+        "١٦٠ د.إ",
+        "١٧٠ د.إ",
+        "١٨٠ د.إ"
+      ],
       "hint": "الخصم = ١٥٪ × ٢٠٠ = ٣٠ درهمًا. سعر البيع = ٢٠٠ − ٣٠."
     },
     "correct": 2,
-    "arabicNumerals": ["١٥٠ د.إ", "١٦٠ د.إ", "١٧٠ د.إ", "١٨٠ د.إ"]
+    "arabicNumerals": [
+      "١٥٠ د.إ",
+      "١٦٠ د.إ",
+      "١٧٠ د.إ",
+      "١٨٠ د.إ"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Discount = 15% × 200 = 30 AED. Sale price = 200 − 30. The correct answer is 170 AED.",
+      "ar": "الخصم = ١٥٪ × ٢٠٠ = ٣٠ درهمًا. سعر البيع = ٢٠٠ − ٣٠. الإجابة الصحيحة هي ١٧٠ د.إ."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A carpet originally priced at 200 AED is on sale with a 15% discount. What is the sale price?",
+          "answers": [
+            "150 AED",
+            "160 AED",
+            "170 AED",
+            "180 AED"
+          ],
+          "hint": "Discount = 15% × 200 = 30 AED. Sale price = 200 − 30."
+        },
+        "ar": {
+          "question": "نسخة أبسط — سجادة سعرها الأصلي ٢٠٠ درهم معروضة بخصم ١٥٪. ما سعر البيع؟",
+          "answers": [
+            "١٥٠ د.إ",
+            "١٦٠ د.إ",
+            "١٧٠ د.إ",
+            "١٨٠ د.إ"
+          ],
+          "hint": "الخصم = ١٥٪ × ٢٠٠ = ٣٠ درهمًا. سعر البيع = ٢٠٠ − ٣٠."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A carpet originally priced at 200 AED is on sale with a 15% discount. What is the sale price?",
+          "answers": [
+            "150 AED",
+            "160 AED",
+            "170 AED",
+            "180 AED"
+          ],
+          "hint": "Discount = 15% × 200 = 30 AED. Sale price = 200 − 30."
+        },
+        "ar": {
+          "question": "تحدٍ — سجادة سعرها الأصلي ٢٠٠ درهم معروضة بخصم ١٥٪. ما سعر البيع؟",
+          "answers": [
+            "١٥٠ د.إ",
+            "١٦٠ د.إ",
+            "١٧٠ د.إ",
+            "١٨٠ د.إ"
+          ],
+          "hint": "الخصم = ١٥٪ × ٢٠٠ = ٣٠ درهمًا. سعر البيع = ٢٠٠ − ٣٠."
+        }
+      }
+    }
   },
   {
     "id": "g8-l4-q3",
@@ -402,16 +1854,82 @@
     "topic": "ratios-percentages",
     "en": {
       "question": "The ratio of traders to camels in a caravan is 2:5. If there are 14 traders, how many camels are there?",
-      "answers": ["25", "30", "35", "40"],
+      "answers": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
       "hint": "Scale the ratio: 14 ÷ 2 = 7. Camels = 5 × 7 = 35."
     },
     "ar": {
       "question": "نسبة التجار إلى الإبل في القافلة ٢:٥. إذا كان عدد التجار ١٤، كم عدد الإبل؟",
-      "answers": ["٢٥", "٣٠", "٣٥", "٤٠"],
+      "answers": [
+        "٢٥",
+        "٣٠",
+        "٣٥",
+        "٤٠"
+      ],
       "hint": "حدّد المضاعف: ١٤ ÷ ٢ = ٧. الإبل = ٥ × ٧ = ٣٥."
     },
     "correct": 2,
-    "arabicNumerals": ["٢٥", "٣٠", "٣٥", "٤٠"]
+    "arabicNumerals": [
+      "٢٥",
+      "٣٠",
+      "٣٥",
+      "٤٠"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Scale the ratio: 14 ÷ 2 = 7. Camels = 5 × 7 = 35. The correct answer is 35.",
+      "ar": "حدّد المضاعف: ١٤ ÷ ٢ = ٧. الإبل = ٥ × ٧ = ٣٥. الإجابة الصحيحة هي ٣٥."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — The ratio of traders to camels in a caravan is 2:5. If there are 14 traders, how many camels are there?",
+          "answers": [
+            "25",
+            "30",
+            "35",
+            "40"
+          ],
+          "hint": "Scale the ratio: 14 ÷ 2 = 7. Camels = 5 × 7 = 35."
+        },
+        "ar": {
+          "question": "نسخة أبسط — نسبة التجار إلى الإبل في القافلة ٢:٥. إذا كان عدد التجار ١٤، كم عدد الإبل؟",
+          "answers": [
+            "٢٥",
+            "٣٠",
+            "٣٥",
+            "٤٠"
+          ],
+          "hint": "حدّد المضاعف: ١٤ ÷ ٢ = ٧. الإبل = ٥ × ٧ = ٣٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — The ratio of traders to camels in a caravan is 2:5. If there are 14 traders, how many camels are there?",
+          "answers": [
+            "25",
+            "30",
+            "35",
+            "40"
+          ],
+          "hint": "Scale the ratio: 14 ÷ 2 = 7. Camels = 5 × 7 = 35."
+        },
+        "ar": {
+          "question": "تحدٍ — نسبة التجار إلى الإبل في القافلة ٢:٥. إذا كان عدد التجار ١٤، كم عدد الإبل؟",
+          "answers": [
+            "٢٥",
+            "٣٠",
+            "٣٥",
+            "٤٠"
+          ],
+          "hint": "حدّد المضاعف: ١٤ ÷ ٢ = ٧. الإبل = ٥ × ٧ = ٣٥."
+        }
+      }
+    }
   },
   {
     "id": "g8-l4-q4",
@@ -420,16 +1938,82 @@
     "topic": "ratios-percentages",
     "en": {
       "question": "UAE oil production was 500,000 barrels per day and increased by 20%. What is the new daily production?",
-      "answers": ["550,000", "580,000", "600,000", "620,000"],
+      "answers": [
+        "550,000",
+        "580,000",
+        "600,000",
+        "620,000"
+      ],
       "hint": "Increase = 20% × 500,000 = 100,000. New production = 500,000 + 100,000."
     },
     "ar": {
       "question": "إنتاج النفط الإماراتي كان ٥٠٠٬٠٠٠ برميل يوميًا وزاد بنسبة ٢٠٪. ما الإنتاج الجديد؟",
-      "answers": ["٥٥٠٬٠٠٠", "٥٨٠٬٠٠٠", "٦٠٠٬٠٠٠", "٦٢٠٬٠٠٠"],
+      "answers": [
+        "٥٥٠٬٠٠٠",
+        "٥٨٠٬٠٠٠",
+        "٦٠٠٬٠٠٠",
+        "٦٢٠٬٠٠٠"
+      ],
       "hint": "الزيادة = ٢٠٪ × ٥٠٠٬٠٠٠ = ١٠٠٬٠٠٠. الإنتاج الجديد = ٥٠٠٬٠٠٠ + ١٠٠٬٠٠٠."
     },
     "correct": 2,
-    "arabicNumerals": ["٥٥٠٬٠٠٠", "٥٨٠٬٠٠٠", "٦٠٠٬٠٠٠", "٦٢٠٬٠٠٠"]
+    "arabicNumerals": [
+      "٥٥٠٬٠٠٠",
+      "٥٨٠٬٠٠٠",
+      "٦٠٠٬٠٠٠",
+      "٦٢٠٬٠٠٠"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Increase = 20% × 500,000 = 100,000. New production = 500,000 + 100,000. The correct answer is 600,000.",
+      "ar": "الزيادة = ٢٠٪ × ٥٠٠٬٠٠٠ = ١٠٠٬٠٠٠. الإنتاج الجديد = ٥٠٠٬٠٠٠ + ١٠٠٬٠٠٠. الإجابة الصحيحة هي ٦٠٠٬٠٠٠."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — UAE oil production was 500,000 barrels per day and increased by 20%. What is the new daily production?",
+          "answers": [
+            "550,000",
+            "580,000",
+            "600,000",
+            "620,000"
+          ],
+          "hint": "Increase = 20% × 500,000 = 100,000. New production = 500,000 + 100,000."
+        },
+        "ar": {
+          "question": "نسخة أبسط — إنتاج النفط الإماراتي كان ٥٠٠٬٠٠٠ برميل يوميًا وزاد بنسبة ٢٠٪. ما الإنتاج الجديد؟",
+          "answers": [
+            "٥٥٠٬٠٠٠",
+            "٥٨٠٬٠٠٠",
+            "٦٠٠٬٠٠٠",
+            "٦٢٠٬٠٠٠"
+          ],
+          "hint": "الزيادة = ٢٠٪ × ٥٠٠٬٠٠٠ = ١٠٠٬٠٠٠. الإنتاج الجديد = ٥٠٠٬٠٠٠ + ١٠٠٬٠٠٠."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — UAE oil production was 500,000 barrels per day and increased by 20%. What is the new daily production?",
+          "answers": [
+            "550,000",
+            "580,000",
+            "600,000",
+            "620,000"
+          ],
+          "hint": "Increase = 20% × 500,000 = 100,000. New production = 500,000 + 100,000."
+        },
+        "ar": {
+          "question": "تحدٍ — إنتاج النفط الإماراتي كان ٥٠٠٬٠٠٠ برميل يوميًا وزاد بنسبة ٢٠٪. ما الإنتاج الجديد؟",
+          "answers": [
+            "٥٥٠٬٠٠٠",
+            "٥٨٠٬٠٠٠",
+            "٦٠٠٬٠٠٠",
+            "٦٢٠٬٠٠٠"
+          ],
+          "hint": "الزيادة = ٢٠٪ × ٥٠٠٬٠٠٠ = ١٠٠٬٠٠٠. الإنتاج الجديد = ٥٠٠٬٠٠٠ + ١٠٠٬٠٠٠."
+        }
+      }
+    }
   },
   {
     "id": "g8-l4-q5",
@@ -438,15 +2022,81 @@
     "topic": "ratios-percentages",
     "en": {
       "question": "A desert quest prize of 500 AED is split in a 3:2 ratio. How much does the larger share receive?",
-      "answers": ["200 AED", "250 AED", "300 AED", "350 AED"],
+      "answers": [
+        "200 AED",
+        "250 AED",
+        "300 AED",
+        "350 AED"
+      ],
       "hint": "Total parts = 3+2 = 5. Larger share = (3/5) × 500 = 300 AED."
     },
     "ar": {
       "question": "جائزة رحلة الصحراء ٥٠٠ درهم تُقسَّم بنسبة ٣:٢. كم تحصل الحصة الأكبر؟",
-      "answers": ["٢٠٠ د.إ", "٢٥٠ د.إ", "٣٠٠ د.إ", "٣٥٠ د.إ"],
+      "answers": [
+        "٢٠٠ د.إ",
+        "٢٥٠ د.إ",
+        "٣٠٠ د.إ",
+        "٣٥٠ د.إ"
+      ],
       "hint": "مجموع الأجزاء = ٣+٢ = ٥. الحصة الأكبر = (٣/٥) × ٥٠٠ = ٣٠٠ درهمًا."
     },
     "correct": 2,
-    "arabicNumerals": ["٢٠٠ د.إ", "٢٥٠ د.إ", "٣٠٠ د.إ", "٣٥٠ د.إ"]
+    "arabicNumerals": [
+      "٢٠٠ د.إ",
+      "٢٥٠ د.إ",
+      "٣٠٠ د.إ",
+      "٣٥٠ د.إ"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Total parts = 3+2 = 5. Larger share = (3/5) × 500 = 300 AED. The correct answer is 300 AED.",
+      "ar": "مجموع الأجزاء = ٣+٢ = ٥. الحصة الأكبر = (٣/٥) × ٥٠٠ = ٣٠٠ درهمًا. الإجابة الصحيحة هي ٣٠٠ د.إ."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A desert quest prize of 500 AED is split in a 3:2 ratio. How much does the larger share receive?",
+          "answers": [
+            "200 AED",
+            "250 AED",
+            "300 AED",
+            "350 AED"
+          ],
+          "hint": "Total parts = 3+2 = 5. Larger share = (3/5) × 500 = 300 AED."
+        },
+        "ar": {
+          "question": "نسخة أبسط — جائزة رحلة الصحراء ٥٠٠ درهم تُقسَّم بنسبة ٣:٢. كم تحصل الحصة الأكبر؟",
+          "answers": [
+            "٢٠٠ د.إ",
+            "٢٥٠ د.إ",
+            "٣٠٠ د.إ",
+            "٣٥٠ د.إ"
+          ],
+          "hint": "مجموع الأجزاء = ٣+٢ = ٥. الحصة الأكبر = (٣/٥) × ٥٠٠ = ٣٠٠ درهمًا."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A desert quest prize of 500 AED is split in a 3:2 ratio. How much does the larger share receive?",
+          "answers": [
+            "200 AED",
+            "250 AED",
+            "300 AED",
+            "350 AED"
+          ],
+          "hint": "Total parts = 3+2 = 5. Larger share = (3/5) × 500 = 300 AED."
+        },
+        "ar": {
+          "question": "تحدٍ — جائزة رحلة الصحراء ٥٠٠ درهم تُقسَّم بنسبة ٣:٢. كم تحصل الحصة الأكبر؟",
+          "answers": [
+            "٢٠٠ د.إ",
+            "٢٥٠ د.إ",
+            "٣٠٠ د.إ",
+            "٣٥٠ د.إ"
+          ],
+          "hint": "مجموع الأجزاء = ٣+٢ = ٥. الحصة الأكبر = (٣/٥) × ٥٠٠ = ٣٠٠ درهمًا."
+        }
+      }
+    }
   }
 ]

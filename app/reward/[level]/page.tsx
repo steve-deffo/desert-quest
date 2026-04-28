@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useGameStore } from "@/store/useGameStore";
 import RewardScreen from "@/components/RewardScreen";
+import { isLoggedIn } from "@/lib/auth";
 
 export default function RewardPage() {
   const { level: levelStr } = useParams<{ level: string }>();
@@ -24,12 +25,17 @@ export default function RewardPage() {
       router.replace("/");
       return;
     }
+    if (!isLoggedIn()) {
+      router.replace("/login");
+      return;
+    }
     if (!validLevel || !completed) {
       router.replace("/map");
     }
   }, [mounted, grade, validLevel, completed, router]);
 
-  if (!mounted || grade === null || !validLevel || !completed) return null;
+  if (!mounted || grade === null || !isLoggedIn() || !validLevel || !completed)
+    return null;
 
   return <RewardScreen level={level} grade={grade} />;
 }

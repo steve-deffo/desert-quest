@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { useGameStore } from "@/store/useGameStore";
 import { useTranslation } from "@/lib/i18n";
+import { clearProfile } from "@/lib/auth";
 import AnimatedCamel from "./AnimatedCamel";
 import { Sounds, playSound } from "@/lib/sounds";
 
@@ -41,6 +42,7 @@ export default function ChangeGradeModal({
 
   const handleConfirm = () => {
     playSound(Sounds.buttonClick);
+    clearProfile();
     resetAll();
     onClose();
     router.push("/?returning=1");

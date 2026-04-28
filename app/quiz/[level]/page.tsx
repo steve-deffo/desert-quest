@@ -7,6 +7,7 @@ import { useTranslation } from "@/lib/i18n";
 import QuizCard from "@/components/QuizCard";
 import Starfield from "@/components/Starfield";
 import BackButton from "@/components/ui/BackButton";
+import { isLoggedIn } from "@/lib/auth";
 
 export default function QuizPage() {
   const { level: levelStr } = useParams<{ level: string }>();
@@ -30,12 +31,16 @@ export default function QuizPage() {
       router.replace("/");
       return;
     }
+    if (!isLoggedIn()) {
+      router.replace("/login");
+      return;
+    }
     if (!allowed) {
       router.replace("/map");
     }
   }, [mounted, grade, allowed, router]);
 
-  if (!mounted || grade === null || !allowed) return null;
+  if (!mounted || grade === null || !isLoggedIn() || !allowed) return null;
 
   return (
     <div

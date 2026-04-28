@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useGameStore } from "@/store/useGameStore";
 import NavBar from "@/components/ui/NavBar";
 import SandTransition from "@/components/SandTransition";
+import SageChatbot from "@/components/SageChatbot";
 
 const TITLES: Record<"en" | "ar", string> = {
   en: "Desert Quest — La Caravane des Nombres",
@@ -43,13 +44,14 @@ export default function ClientLayout({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
+            transition={{ duration: 0.25, ease: "easeOut" }}
             className="flex flex-1 flex-col"
           >
             {children}
           </motion.div>
         </AnimatePresence>
       </main>
+      <SageChatbot />
     </>
   );
 }

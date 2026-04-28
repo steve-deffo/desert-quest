@@ -3,440 +3,440 @@
     "id": "g4-l0",
     "grade": 4,
     "level": 0,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=AuX7nPBqDts",
     "en": {
       "title": "Addition & Subtraction",
-      "objective": "Learn to add and subtract numbers up to 100 using the desert souk as our playground.",
-      "explanation": "When you add numbers, you combine two groups into one bigger group. When you subtract, you take away from a group. Always work column by column — units first, then tens — so you never get lost.",
+      "objective": "Add and subtract numbers up to 100 using the UAE souk.",
+      "explanation": "Addition means combining two groups into one total. Subtraction means taking away from a group to find what remains. Always start from the units column on the right.",
       "keyPoints": [
-        "Always start from the units column on the right",
-        "Carry over a 1 to the tens when the units sum exceeds 9",
-        "Subtraction is just addition in reverse"
+        "Start adding or subtracting from the right (units)",
+        "Carry over 1 when units exceed 9",
+        "Check your answer by doing the reverse operation"
       ],
       "workedExample": {
-        "problem": "Ahmed has 47 dates and buys 36 more at the souk. How many does he have in total?",
+        "problem": "Ahmed has 47 dates 🌴 and buys 36 more at the souk. How many total?",
         "steps": [
-          "Units column: 7 + 6 = 13. Write 3, carry 1.",
-          "Tens column: 4 + 3 + 1 (carried) = 8.",
-          "Final answer: 83 dates 🌴"
+          "Units: 7 + 6 = 13 → write 3, carry 1",
+          "Tens: 4 + 3 + 1 (carried) = 8",
+          "Answer: 83 dates ✓"
         ]
       },
-      "tip": "Think of it like counting date palms in an oasis row by row — never skip a row!"
+      "tip": "Think of dates in baskets — fill one basket at a time! 🧺"
     },
     "ar": {
       "title": "الجمع والطرح",
-      "objective": "تعلّم جمع الأعداد وطرحها حتى ١٠٠ عبر السوق الصحراوي كملعب لنا.",
-      "explanation": "عندما تجمع الأعداد فأنت تضمّ مجموعتين في مجموعة أكبر. وعندما تطرح فأنت تأخذ من مجموعة. اعمل عموداً تلو عمود — الآحاد أولاً ثم العشرات — لكي لا تضيع.",
+      "objective": "جمع وطرح الأعداد حتى ١٠٠ باستخدام سوق الإمارات.",
+      "explanation": "الجمع يعني دمج مجموعتين في مجموع واحد. الطرح يعني إزالة عدد من مجموعة لإيجاد الباقي. ابدأ دائماً من خانة الآحاد على اليمين.",
       "keyPoints": [
-        "ابدأ دائماً من عمود الآحاد إلى اليمين",
-        "احمل ١ إلى العشرات عندما يتجاوز مجموع الآحاد ٩",
-        "الطرح هو الجمع بالعكس"
+        "ابدأ الجمع أو الطرح من اليمين (الآحاد)",
+        "انقل ١ عندما تتجاوز الآحاد ٩",
+        "تحقق من إجابتك بالعملية العكسية"
       ],
       "workedExample": {
-        "problem": "لدى أحمد ٤٧ تمرة، واشترى ٣٦ تمرة أخرى من السوق. كم عدد التمرات لديه؟",
+        "problem": "لدى أحمد ٤٧ تمرة 🌴 واشترى ٣٦ أخرى من السوق. كم المجموع؟",
         "steps": [
-          "عمود الآحاد: ٧ + ٦ = ١٣. اكتب ٣، احمل ١.",
-          "عمود العشرات: ٤ + ٣ + ١ (المحمول) = ٨.",
-          "الإجابة النهائية: ٨٣ تمرة 🌴"
+          "الآحاد: ٧ + ٦ = ١٣ → اكتب ٣ واحمل ١",
+          "العشرات: ٤ + ٣ + ١ (محمول) = ٨",
+          "الجواب: ٨٣ تمرة ✓"
         ]
       },
-      "tip": "تخيّلها كأنك تعدّ نخيل التمر في الواحة صفّاً صفّاً — لا تتخطَّ أي صف!"
+      "tip": "فكر في التمر في سلال — املأ سلة واحدة في كل مرة! 🧺"
     }
   },
   {
     "id": "g4-l1",
     "grade": 4,
     "level": 1,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=mvOkMYCygps",
     "en": {
       "title": "Multiplication",
-      "objective": "Master multiplication tables from 1 to 10 by counting goods in the souk's stalls.",
-      "explanation": "Multiplication is repeated addition. 4 × 5 means 'four groups of five' — exactly the same as 5 + 5 + 5 + 5. Knowing your tables makes math much faster.",
+      "objective": "Multiply numbers using times tables 1 to 10.",
+      "explanation": "Multiplication is fast addition — 4×3 means adding 4 three times. Learning your times tables by heart makes all math faster. Look for patterns in the numbers!",
       "keyPoints": [
-        "Multiplication is repeated addition",
-        "Order doesn't matter: 3 × 7 equals 7 × 3",
-        "Use known facts to find new ones (e.g. 6 × 7 = 5 × 7 + 7)"
+        "Any number × 1 = itself",
+        "Any number × 10 = add a zero",
+        "The order doesn't matter: 3×4 = 4×3"
       ],
       "workedExample": {
-        "problem": "A trader has 6 baskets, each holding 9 dates. How many dates does she have in total?",
+        "problem": "A UAE falcon 🦅 lays eggs in 6 nests with 7 eggs each. How many total?",
         "steps": [
-          "We need 6 × 9.",
-          "Use 6 × 10 = 60, then subtract one group of 6: 60 − 6 = 54.",
-          "Final answer: 54 dates"
+          "6 × 7 = ?",
+          "Think: 6 × 5 = 30, then 6 × 2 = 12",
+          "30 + 12 = 42 eggs ✓"
         ]
       },
-      "tip": "Sing your times tables out loud — it makes them stick like sand on a sweet date!"
+      "tip": "Sing your times tables! Music helps memory 🎵"
     },
     "ar": {
       "title": "الضرب",
-      "objective": "أتقن جدول الضرب من ١ إلى ١٠ من خلال عدّ البضائع في أكشاك السوق.",
-      "explanation": "الضرب هو جمع متكرّر. ٤ × ٥ تعني «أربع مجموعات من خمسة» — أي ٥ + ٥ + ٥ + ٥ بالضبط. حفظ جدول الضرب يجعل الحساب أسرع بكثير.",
+      "objective": "ضرب الأعداد باستخدام جداول الضرب من ١ إلى ١٠.",
+      "explanation": "الضرب هو جمع سريع — ٤×٣ تعني جمع ٤ ثلاث مرات. حفظ جداول الضرب يجعل الرياضيات أسرع. ابحث عن الأنماط في الأرقام!",
       "keyPoints": [
-        "الضرب هو جمع متكرّر",
-        "الترتيب لا يهم: ٣ × ٧ تساوي ٧ × ٣",
-        "استخدم ما تعرف لإيجاد الجديد (مثلاً ٦ × ٧ = ٥ × ٧ + ٧)"
+        "أي عدد × ١ = نفسه",
+        "أي عدد × ١٠ = أضف صفراً",
+        "الترتيب لا يهم: ٣×٤ = ٤×٣"
       ],
       "workedExample": {
-        "problem": "لدى تاجرة ٦ سلال، في كل واحدة ٩ تمرات. كم تمرة لديها في المجموع؟",
+        "problem": "صقر إماراتي 🦅 يضع بيضاً في ٦ أعشاش بـ٧ بيضات لكل عش. كم المجموع؟",
         "steps": [
-          "نحتاج إلى ٦ × ٩.",
-          "استخدم ٦ × ١٠ = ٦٠، ثم اطرح مجموعة من ٦: ٦٠ − ٦ = ٥٤.",
-          "الإجابة النهائية: ٥٤ تمرة"
+          "٦ × ٧ = ؟",
+          "فكر: ٦ × ٥ = ٣٠، ثم ٦ × ٢ = ١٢",
+          "٣٠ + ١٢ = ٤٢ بيضة ✓"
         ]
       },
-      "tip": "ردّد جدول الضرب بصوت عالٍ — يلتصق في الذاكرة كالرمل على تمرة حلوة!"
+      "tip": "رنم جداول الضرب! الموسيقى تساعد الذاكرة 🎵"
     }
   },
   {
     "id": "g4-l2",
     "grade": 4,
     "level": 2,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=3KjU7XKbR5c",
     "en": {
       "title": "Division",
-      "objective": "Share fairly! Learn to divide groups equally — sometimes with a remainder left over.",
-      "explanation": "Division splits a number into equal groups. 20 ÷ 4 asks 'how many groups of 4 fit into 20?' The answer is 5. If the number doesn't split evenly, there's a leftover called the remainder.",
+      "objective": "Divide numbers and understand remainders.",
+      "explanation": "Division means splitting into equal groups. If you can't split evenly, the leftover amount is called the remainder. Division is the reverse of multiplication.",
       "keyPoints": [
-        "Division is splitting into equal groups",
-        "It is the opposite of multiplication: if 4 × 5 = 20, then 20 ÷ 5 = 4",
-        "If the split is not perfect, the leftover is the remainder"
+        "Division splits a total into equal groups",
+        "Remainder = what is left over after equal sharing",
+        "Check: (answer × divisor) + remainder = original number"
       ],
       "workedExample": {
-        "problem": "63 palm trees are planted in 9 equal rows at the Al Ain oasis. How many trees per row?",
+        "problem": "35 camels 🐪 must be divided equally into 6 caravans. How many per caravan?",
         "steps": [
-          "Ask: 9 × ? = 63.",
-          "From the 9 times table, 9 × 7 = 63.",
-          "Final answer: 7 trees per row 🌴"
+          "35 ÷ 6 = ?",
+          "6 × 5 = 30 (closest without going over)",
+          "35 - 30 = 5 remainder → 5 remainder 5 ✓"
         ]
       },
-      "tip": "Sharing dates with friends? That's division in everyday life!"
+      "tip": "Use multiplication facts you already know to divide faster! 💡"
     },
     "ar": {
       "title": "القسمة",
-      "objective": "اقسم بالعدل! تعلّم تقسيم المجموعات بالتساوي — وأحياناً يتبقّى باقٍ صغير.",
-      "explanation": "القسمة تقسّم العدد إلى مجموعات متساوية. ٢٠ ÷ ٤ تسأل: «كم مجموعة من ٤ تدخل في ٢٠؟» الجواب ٥. إذا لم تنقسم الكمية بالتساوي، فما يتبقّى يُسمّى الباقي.",
+      "objective": "قسمة الأعداد وفهم الباقي.",
+      "explanation": "القسمة تعني التقسيم إلى مجموعات متساوية. إذا لم يمكن التقسيم بالتساوي، فالمتبقي يُسمى الباقي. القسمة هي عكس الضرب.",
       "keyPoints": [
-        "القسمة هي تقسيم إلى مجموعات متساوية",
-        "هي عكس الضرب: إذا كان ٤ × ٥ = ٢٠، فإن ٢٠ ÷ ٥ = ٤",
-        "إن لم تكن القسمة تامّة، فما يتبقّى هو الباقي"
+        "القسمة تقسم المجموع إلى مجموعات متساوية",
+        "الباقي = ما تبقى بعد المشاركة المتساوية",
+        "تحقق: (الناتج × المقسوم عليه) + الباقي = العدد الأصلي"
       ],
       "workedExample": {
-        "problem": "زُرعت ٦٣ نخلة في ٩ صفوف متساوية بواحة العين. كم نخلة في كل صف؟",
+        "problem": "٣٥ جملاً 🐪 يجب تقسيمها بالتساوي على ٦ قوافل. كم لكل قافلة؟",
         "steps": [
-          "اسأل: ٩ × ؟ = ٦٣.",
-          "من جدول ٩: ٩ × ٧ = ٦٣.",
-          "الإجابة النهائية: ٧ نخلات في كل صف 🌴"
+          "٣٥ ÷ ٦ = ؟",
+          "٦ × ٥ = ٣٠ (أقرب دون تجاوز)",
+          "٣٥ - ٣٠ = ٥ باقٍ → ٥ والباقي ٥ ✓"
         ]
       },
-      "tip": "تقاسم التمر مع الأصدقاء؟ هذه هي القسمة في حياتك اليومية!"
+      "tip": "استخدم حقائق الضرب التي تعرفها للقسمة بشكل أسرع! 💡"
     }
   },
   {
     "id": "g4-l3",
     "grade": 4,
     "level": 3,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=n0FZhQ_GkKw",
     "en": {
       "title": "Fractions",
-      "objective": "Discover halves, thirds, quarters and how to find a fraction of a whole quantity.",
-      "explanation": "A fraction shows part of a whole. The bottom number (denominator) tells you how many equal pieces the whole is cut into; the top number (numerator) tells you how many of those pieces you have.",
+      "objective": "Understand and compare fractions using UAE contexts.",
+      "explanation": "A fraction shows part of a whole — the bottom number (denominator) shows how many equal parts, the top (numerator) shows how many you have. The bigger the denominator, the smaller each piece.",
       "keyPoints": [
-        "Denominator = total equal pieces; numerator = pieces you have",
-        "To find 1/n of a number, divide the number by n",
-        "1/2 + 1/4 = 3/4 — but only when denominators match"
+        "Numerator (top) = parts you have",
+        "Denominator (bottom) = total equal parts",
+        "½ > ¼ because halves are bigger than quarters"
       ],
       "workedExample": {
-        "problem": "A water tank holds 40 litres. Three quarters of the water is used. How many litres are left?",
+        "problem": "Layla cuts a mango 🥭 into 8 equal pieces and eats 3. What fraction did she eat?",
         "steps": [
-          "Find 3/4 of 40: divide 40 by 4 to get 10, then multiply by 3 = 30.",
-          "30 litres are used.",
-          "Leftover: 40 − 30 = 10 litres 💧"
+          "Total pieces = 8 (denominator)",
+          "Pieces eaten = 3 (numerator)",
+          "Fraction eaten = 3/8 ✓"
         ]
       },
-      "tip": "Picture the fraction as slices of a date cake — easier when you see it!"
+      "tip": "Draw a circle and shade it — fractions become visual! 🎨"
     },
     "ar": {
       "title": "الكسور",
-      "objective": "اكتشف النصف والثلث والربع، وكيف تجد كسراً من كميّة كلّية.",
-      "explanation": "الكسر يمثّل جزءاً من الكلّ. الرقم السفلي (المقام) يخبرك بعدد الأجزاء المتساوية التي قُسِّم إليها الكل، والرقم العلوي (البسط) يخبرك بعدد الأجزاء التي لديك.",
+      "objective": "فهم الكسور ومقارنتها باستخدام سياقات إماراتية.",
+      "explanation": "يُظهر الكسر جزءاً من كل — العدد السفلي (المقام) يُظهر عدد الأجزاء المتساوية، والعلوي (البسط) يُظهر ما لديك. كلما كان المقام أكبر، كان كل جزء أصغر.",
       "keyPoints": [
-        "المقام = عدد الأجزاء المتساوية، والبسط = الأجزاء التي تملكها",
-        "لإيجاد ١/ن من عدد، اقسم العدد على ن",
-        "١/٢ + ١/٤ = ٣/٤ — فقط عندما يتساوى المقامان"
+        "البسط (فوق) = الأجزاء التي لديك",
+        "المقام (تحت) = إجمالي الأجزاء المتساوية",
+        "١/٢ > ١/٤ لأن الأنصاف أكبر من الأرباع"
       ],
       "workedExample": {
-        "problem": "خزّان ماء يسع ٤٠ لتراً. استُهلك ٣/٤ من الماء. كم لتراً تبقّى؟",
+        "problem": "تقطع ليلى مانجو 🥭 إلى ٨ قطع متساوية وتأكل ٣. ما الكسر الذي أكلته؟",
         "steps": [
-          "أوجد ٣/٤ من ٤٠: اقسم ٤٠ على ٤ تجد ١٠، ثم اضرب في ٣ = ٣٠.",
-          "تم استهلاك ٣٠ لتراً.",
-          "المتبقي: ٤٠ − ٣٠ = ١٠ لترات 💧"
+          "إجمالي القطع = ٨ (المقام)",
+          "القطع المأكولة = ٣ (البسط)",
+          "الكسر المأكول = ٣/٨ ✓"
         ]
       },
-      "tip": "تخيّل الكسر شرائح من كعكة التمر — يصبح أسهل بكثير عندما تراه!"
+      "tip": "ارسم دائرة وظللها — تصبح الكسور مرئية! 🎨"
     }
   },
   {
     "id": "g4-l4",
     "grade": 4,
     "level": 4,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=AAB0WhNt4EQ",
     "en": {
       "title": "Geometry — Perimeter & Area",
-      "objective": "Measure the lengths around shapes (perimeter) and the space inside them (area).",
-      "explanation": "The perimeter of a shape is the total distance around its edges — like walking around a fence. The area is the amount of space inside, measured in squares (m², cm²).",
+      "objective": "Calculate perimeter and area of rectangles and squares.",
+      "explanation": "Perimeter is the total distance around a shape — add all sides. Area is the space inside a shape — multiply length by width. Both are used in real UAE architecture!",
       "keyPoints": [
-        "Perimeter of a rectangle = 2 × (length + width)",
-        "Area of a rectangle = length × width",
-        "Area is always measured in square units"
+        "Perimeter = sum of all sides",
+        "Area of rectangle = length × width",
+        "Area is measured in square units (cm², m²)"
       ],
       "workedExample": {
-        "problem": "A desert camp's rectangular fence is 8 m long and 5 m wide. What is its perimeter?",
+        "problem": "A courtyard in an Emirati house 🏡 is 8m long and 5m wide. Find perimeter and area.",
         "steps": [
-          "Add length + width: 8 + 5 = 13.",
-          "Multiply by 2 (because each side appears twice): 13 × 2 = 26.",
-          "Final answer: perimeter = 26 metres 🚧"
+          "Perimeter = 8+5+8+5 = 26 metres",
+          "Area = 8 × 5 = 40",
+          "Area = 40 m² ✓"
         ]
       },
-      "tip": "Walk around the shape in your head — every step adds to the perimeter!"
+      "tip": "Perimeter = walking around the edge. Area = painting the floor! 🎨"
     },
     "ar": {
       "title": "الهندسة — المحيط والمساحة",
-      "objective": "قِس الأطوال حول الأشكال (المحيط) والمساحة بداخلها (المساحة).",
-      "explanation": "محيط الشكل هو المسافة الكليّة حول حوافّه — كأنك تسير حول سياج. والمساحة هي الفضاء الذي بالداخل، تُقاس بالمربعات (م²، سم²).",
+      "objective": "حساب محيط ومساحة المستطيلات والمربعات.",
+      "explanation": "المحيط هو المسافة الإجمالية حول الشكل — اجمع جميع الأضلاع. المساحة هي الفضاء داخل الشكل — اضرب الطول في العرض. كلاهما يُستخدم في العمارة الإماراتية الحقيقية!",
       "keyPoints": [
-        "محيط المستطيل = ٢ × (الطول + العرض)",
+        "المحيط = مجموع جميع الأضلاع",
         "مساحة المستطيل = الطول × العرض",
-        "تُقاس المساحة دائماً بوحدات مربّعة"
+        "المساحة تُقاس بالوحدات المربعة (سم²، م²)"
       ],
       "workedExample": {
-        "problem": "سياج مخيّم صحراوي مستطيل طوله ٨ أمتار وعرضه ٥ أمتار. ما محيطه؟",
+        "problem": "فناء منزل إماراتي 🏡 طوله ٨م وعرضه ٥م. أوجد المحيط والمساحة.",
         "steps": [
-          "اجمع الطول والعرض: ٨ + ٥ = ١٣.",
-          "اضرب في ٢ (لأن كل ضلع يتكرّر مرتين): ١٣ × ٢ = ٢٦.",
-          "الإجابة النهائية: المحيط = ٢٦ متراً 🚧"
+          "المحيط = ٨+٥+٨+٥ = ٢٦ متراً",
+          "المساحة = ٨ × ٥ = ٤٠",
+          "المساحة = ٤٠ م² ✓"
         ]
       },
-      "tip": "سِر حول الشكل في خيالك — كل خطوة تُضاف إلى المحيط!"
+      "tip": "المحيط = المشي حول الحافة. المساحة = طلاء الأرضية! 🎨"
     }
   },
   {
     "id": "g8-l0",
     "grade": 8,
     "level": 0,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=l3XzepN03KQ",
     "en": {
-      "title": "Algebra — Expressions & Equations",
-      "objective": "Simplify algebraic expressions and solve simple linear equations for x.",
-      "explanation": "Algebra uses letters (variables) to represent unknown numbers. To solve an equation, do the same operation to both sides until x is alone — that keeps the equation balanced like a fair scale.",
+      "title": "Algebra — Solving for X",
+      "objective": "Simplify expressions and solve one-step equations.",
+      "explanation": "Algebra uses letters to represent unknown numbers. To solve for x, do the same operation to both sides of the equation to isolate x. Think of it as a balance scale — keep both sides equal.",
       "keyPoints": [
-        "Like terms can be combined: 3x + 5x = 8x",
         "Whatever you do to one side, do to the other",
-        "To isolate x, undo each operation in reverse order"
+        "To remove +5, subtract 5 from both sides",
+        "To remove ×4, divide both sides by 4"
       ],
       "workedExample": {
-        "problem": "A merchant sells x scarves at 45 AED each and earns 360 AED. Find x.",
+        "problem": "A Dubai merchant earns 45x dirhams selling x scarves at 45 AED each. He earned 360 AED. Find x.",
         "steps": [
-          "Set up the equation: 45x = 360.",
-          "Divide both sides by 45: x = 360 ÷ 45.",
-          "Final answer: x = 8 scarves 🧣"
+          "Equation: 45x = 360",
+          "Divide both sides by 45",
+          "x = 360 ÷ 45 = 8 scarves ✓"
         ]
       },
-      "tip": "Always check your answer by plugging it back into the original equation!"
+      "tip": "Always check: substitute your answer back to verify! ✓"
     },
     "ar": {
-      "title": "الجبر — المقادير والمعادلات",
-      "objective": "بسّط المقادير الجبرية وحلّ المعادلات الخطيّة البسيطة لإيجاد س.",
-      "explanation": "الجبر يستعمل الحروف (المتغيّرات) لتمثيل أعداد مجهولة. لحل معادلة، اعمل العملية نفسها على الطرفين حتى يبقى س وحده — هكذا تبقى المعادلة متوازنة كميزان عادل.",
+      "title": "الجبر — حل قيمة س",
+      "objective": "تبسيط التعبيرات وحل المعادلات ذات الخطوة الواحدة.",
+      "explanation": "يستخدم الجبر الحروف لتمثيل الأرقام المجهولة. لحل قيمة س، نفذ نفس العملية على كلا طرفي المعادلة لعزل س. فكر في الأمر كميزان — أبقِ الطرفين متساويين.",
       "keyPoints": [
-        "الحدود المتشابهة تُجمع: ٣س + ٥س = ٨س",
-        "ما تفعله بطرف افعله بالآخر",
-        "لعزل س، أزل كل عملية بترتيب عكسي"
+        "ما تفعله لطرف، افعله للآخر",
+        "لإزالة +٥، اطرح ٥ من كلا الطرفين",
+        "لإزالة ×٤، اقسم كلا الطرفين على ٤"
       ],
       "workedExample": {
-        "problem": "تاجر يبيع س وشاحاً بـ٤٥ درهماً للقطعة ويربح ٣٦٠ درهماً. أوجد س.",
+        "problem": "تاجر دبي يكسب ٤٥س درهماً ببيع س وشاحاً بـ٤٥ درهماً. ربح ٣٦٠ درهماً. أوجد س.",
         "steps": [
-          "اكتب المعادلة: ٤٥س = ٣٦٠.",
-          "اقسم الطرفين على ٤٥: س = ٣٦٠ ÷ ٤٥.",
-          "الإجابة النهائية: س = ٨ وشاحات 🧣"
+          "المعادلة: ٤٥س = ٣٦٠",
+          "اقسم كلا الطرفين على ٤٥",
+          "س = ٣٦٠ ÷ ٤٥ = ٨ وشاحات ✓"
         ]
       },
-      "tip": "تحقّق دائماً من الإجابة بإعادة وضعها في المعادلة الأصلية!"
+      "tip": "تحقق دائماً: عوّض إجابتك للتحقق! ✓"
     }
   },
   {
     "id": "g8-l1",
     "grade": 8,
     "level": 1,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=9DxrF6Ttws4",
     "en": {
       "title": "Linear Equations — Word Problems",
-      "objective": "Translate UAE-themed real-world stories into linear equations and solve them.",
-      "explanation": "A word problem hides an equation inside a sentence. Read carefully, name the unknown (let x be...), and write the equation that matches the situation. Then solve it like any other linear equation.",
+      "objective": "Translate real-world UAE scenarios into equations and solve.",
+      "explanation": "Word problems describe a real situation using words. Your job is to find the unknown — identify what x represents, write the equation, then solve. Read carefully and underline key numbers.",
       "keyPoints": [
-        "Identify the unknown and call it x",
-        "Translate phrases like 'is', 'totals', 'each' into = and ×",
-        "Work backwards from the total to find x"
+        "Underline the numbers and what you're finding",
+        "Define x clearly before writing the equation",
+        "Write the equation, solve, then write the answer in words"
       ],
       "workedExample": {
-        "problem": "A pearl diver earns 7 AED per dive minus a 3 AED daily fee, and takes home 39 AED. How many dives did he make?",
+        "problem": "Tickets to the Abu Dhabi Grand Prix cost 120 AED each. Omar spent 840 AED. How many tickets did he buy?",
         "steps": [
-          "Let n = number of dives. Equation: 7n − 3 = 39.",
-          "Add 3 to both sides: 7n = 42.",
-          "Divide by 7: n = 6 dives 🐚"
+          "Let x = number of tickets",
+          "Equation: 120x = 840",
+          "x = 840 ÷ 120 = 7 tickets ✓"
         ]
       },
-      "tip": "Underline the numbers and circle the unknown — the equation almost writes itself!"
+      "tip": "Underline, define, equation, solve — four steps every time! 📝"
     },
     "ar": {
-      "title": "المعادلات الخطيّة — مسائل لفظيّة",
-      "objective": "حوّل القصص اليومية الإماراتيّة إلى معادلات خطيّة وحُلّها.",
-      "explanation": "المسألة اللفظيّة تخفي معادلة داخل الجملة. اقرأ بتمعّن، سمِّ المجهول (لتكن س...)، واكتب المعادلة المطابقة للموقف. ثم حلّها كأيّ معادلة خطيّة.",
+      "title": "المعادلات الخطية — المسائل اللفظية",
+      "objective": "تحويل سيناريوهات إماراتية حقيقية إلى معادلات وحلها.",
+      "explanation": "المسائل اللفظية تصف موقفاً حقيقياً بالكلمات. مهمتك إيجاد المجهول — حدد ما يمثله س، اكتب المعادلة، ثم حلها. اقرأ بعناية وضع خطاً تحت الأرقام الأساسية.",
       "keyPoints": [
-        "حدّد المجهول وسمِّه س",
-        "حوِّل عبارات مثل «يساوي» و«إجمالي» و«لكل» إلى = و×",
-        "اعمل بالعكس من المجموع لإيجاد س"
+        "ضع خطاً تحت الأرقام وما تبحث عنه",
+        "عرّف س بوضوح قبل كتابة المعادلة",
+        "اكتب المعادلة، حلها، ثم اكتب الإجابة بالكلمات"
       ],
       "workedExample": {
-        "problem": "غوّاص لؤلؤ يكسب ٧ دراهم في كل غوصة ناقصاً ٣ دراهم رسوم يومية، ويأخذ ٣٩ درهماً. كم غوصة أجرى؟",
+        "problem": "تذاكر جائزة أبوظبي الكبرى بـ١٢٠ درهماً للتذكرة. أنفق عمر ٨٤٠ درهماً. كم تذكرة اشترى؟",
         "steps": [
-          "لتكن ن = عدد الغوصات. المعادلة: ٧ن − ٣ = ٣٩.",
-          "أضف ٣ للطرفين: ٧ن = ٤٢.",
-          "اقسم على ٧: ن = ٦ غوصات 🐚"
+          "ليكن س = عدد التذاكر",
+          "المعادلة: ١٢٠س = ٨٤٠",
+          "س = ٨٤٠ ÷ ١٢٠ = ٧ تذاكر ✓"
         ]
       },
-      "tip": "ضع خطّاً تحت الأعداد ودائرة حول المجهول — تكاد المعادلة تكتب نفسها!"
+      "tip": "ضع خطاً، عرّف، معادلة، حل — أربع خطوات في كل مرة! 📝"
     }
   },
   {
     "id": "g8-l2",
     "grade": 8,
     "level": 2,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=7Uos1ED3KHI",
     "en": {
-      "title": "Geometry — Angles, Triangles & Areas",
-      "objective": "Use angle facts and area formulas to analyse triangles and complex shapes.",
-      "explanation": "The interior angles of any triangle add up to 180°. Two angles on a straight line are supplementary (they sum to 180°). For complex shapes, split them into simpler pieces (rectangles, triangles) and add the areas.",
+      "title": "Geometry — Angles & Areas",
+      "objective": "Calculate angles in triangles and areas of complex shapes.",
+      "explanation": "Angles in any triangle always add up to 180°. For complex shapes, split them into rectangles and triangles, calculate each area separately, then add them together.",
       "keyPoints": [
-        "Angles in a triangle sum to 180°",
-        "Supplementary angles sum to 180°; complementary angles sum to 90°",
-        "Area of a triangle = ½ × base × height"
+        "Triangle angles always sum to 180°",
+        "Area of triangle = ½ × base × height",
+        "Complex shapes = sum of simpler shapes inside"
       ],
       "workedExample": {
-        "problem": "A triangular oasis garden has two angles of 55° and 75°. What is the third angle?",
+        "problem": "The roof of an Emirati wind tower ⛩ is triangular: base 12m, height 5m. Find the area.",
         "steps": [
-          "Use the rule: 55 + 75 + third = 180.",
-          "Combine: 130 + third = 180.",
-          "Third angle = 180 − 130 = 50°"
+          "Area = ½ × base × height",
+          "Area = ½ × 12 × 5",
+          "Area = 30 m² ✓"
         ]
       },
-      "tip": "Sketch the shape! A quick drawing turns abstract angles into something you can see."
+      "tip": "Split any complex shape into triangles + rectangles! ✂️"
     },
     "ar": {
-      "title": "الهندسة — الزوايا والمثلّثات والمساحات",
-      "objective": "استخدم خصائص الزوايا وقوانين المساحة لتحليل المثلّثات والأشكال المركّبة.",
-      "explanation": "مجموع الزوايا الداخلية لأي مثلّث ١٨٠°. الزاويتان على خطّ مستقيم متكاملتان (مجموعهما ١٨٠°). للأشكال المركّبة، قسّمها إلى أشكال أبسط (مستطيلات، مثلّثات) واجمع مساحاتها.",
+      "title": "الهندسة — الزوايا والمساحات",
+      "objective": "حساب الزوايا في المثلثات ومساحات الأشكال المركبة.",
+      "explanation": "زوايا أي مثلث تجمع دائماً إلى ١٨٠°. للأشكال المركبة، قسّمها إلى مستطيلات ومثلثات، احسب كل مساحة على حدة، ثم اجمعها.",
       "keyPoints": [
-        "مجموع زوايا المثلّث = ١٨٠°",
-        "الزاويتان المتكاملتان مجموعهما ١٨٠°، والمتتامتان ٩٠°",
-        "مساحة المثلّث = ½ × القاعدة × الارتفاع"
+        "زوايا المثلث تجمع دائماً إلى ١٨٠°",
+        "مساحة المثلث = ½ × القاعدة × الارتفاع",
+        "الأشكال المركبة = مجموع الأشكال الأبسط بداخلها"
       ],
       "workedExample": {
-        "problem": "حديقة واحة على شكل مثلّث، زاويتان فيها ٥٥° و٧٥°. ما الزاوية الثالثة؟",
+        "problem": "سقف برج الرياح الإماراتي ⛩ مثلثي الشكل: قاعدته ١٢م وارتفاعه ٥م. أوجد المساحة.",
         "steps": [
-          "استخدم القاعدة: ٥٥ + ٧٥ + الثالثة = ١٨٠.",
-          "اجمع: ١٣٠ + الثالثة = ١٨٠.",
-          "الزاوية الثالثة = ١٨٠ − ١٣٠ = ٥٠°"
+          "المساحة = ½ × القاعدة × الارتفاع",
+          "المساحة = ½ × ١٢ × ٥",
+          "المساحة = ٣٠ م² ✓"
         ]
       },
-      "tip": "ارسم الشكل! رسمة سريعة تحوّل الزوايا المجرّدة إلى شيء تراه بعينك."
+      "tip": "قسّم أي شكل مركب إلى مثلثات + مستطيلات! ✂️"
     }
   },
   {
     "id": "g8-l3",
     "grade": 8,
     "level": 3,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=uhxtUt_-GyM",
     "en": {
-      "title": "Statistics — Mean, Median & Mode",
-      "objective": "Summarise UAE data sets using three different averages and know when to use each.",
-      "explanation": "The mean is the arithmetic average (sum ÷ count). The median is the middle value when data is sorted. The mode is the value that appears most often. Each one tells you something different about the data.",
+      "title": "Statistics — Mean, Median, Mode",
+      "objective": "Find and interpret mean, median and mode from UAE data sets.",
+      "explanation": "Mean is the average (sum ÷ count). Median is the middle value when sorted. Mode is the most frequent value. Each tells a different story about your data.",
       "keyPoints": [
-        "Mean = sum of values ÷ number of values",
-        "Median = middle value of the sorted list",
+        "Mean = total sum ÷ number of values",
+        "Median = middle value after sorting low→high",
         "Mode = the value that appears most often"
       ],
       "workedExample": {
-        "problem": "Liwa temperatures over 5 days: 38°, 42°, 40°, 36°, 44°C. What is the mean?",
+        "problem": "Daily temperatures in Dubai (°C) for 5 days: 38, 41, 36, 41, 39. Find mean, median, mode.",
         "steps": [
-          "Add the values: 38 + 42 + 40 + 36 + 44 = 200.",
-          "Divide by the count: 200 ÷ 5 = 40.",
-          "Final answer: mean = 40°C 🌡️"
+          "Mean = (38+41+36+41+39) ÷ 5 = 195÷5 = 39°C",
+          "Sorted: 36,38,39,41,41 → Median = 39°C",
+          "Mode = 41°C (appears twice) ✓"
         ]
       },
-      "tip": "If a data set has extreme outliers, the median is often more reliable than the mean."
+      "tip": "Mean = fairest share. Median = middle. Mode = favourite! 📊"
     },
     "ar": {
       "title": "الإحصاء — المتوسط والوسيط والمنوال",
-      "objective": "لخّص مجموعات بيانات إماراتيّة باستخدام ثلاث مقاييس متوسّط، واعرف متى تستعمل كلّاً منها.",
-      "explanation": "المتوسط الحسابي = (المجموع ÷ العدد). الوسيط = القيمة الوسطى بعد الترتيب. المنوال = القيمة الأكثر تكراراً. كل واحد يخبرك شيئاً مختلفاً عن البيانات.",
+      "objective": "إيجاد وتفسير المتوسط والوسيط والمنوال من بيانات إماراتية.",
+      "explanation": "المتوسط هو المعدل (المجموع ÷ العدد). الوسيط هو القيمة الوسطى بعد الترتيب. المنوال هو القيمة الأكثر تكراراً. كل منها يحكي قصة مختلفة عن بياناتك.",
       "keyPoints": [
-        "المتوسط = مجموع القيم ÷ عددها",
-        "الوسيط = القيمة الوسطى من القائمة المرتّبة",
-        "المنوال = القيمة الأكثر تكراراً"
+        "المتوسط = مجموع القيم ÷ عدد القيم",
+        "الوسيط = القيمة الوسطى بعد الترتيب من الأصغر للأكبر",
+        "المنوال = القيمة التي تظهر أكثر من غيرها"
       ],
       "workedExample": {
-        "problem": "درجات حرارة ليوا خلال ٥ أيام: ٣٨°، ٤٢°، ٤٠°، ٣٦°، ٤٤°. ما المتوسط؟",
+        "problem": "درجات الحرارة اليومية في دبي (°م) لـ٥ أيام: ٣٨، ٤١، ٣٦، ٤١، ٣٩. أوجد المتوسط والوسيط والمنوال.",
         "steps": [
-          "اجمع القيم: ٣٨ + ٤٢ + ٤٠ + ٣٦ + ٤٤ = ٢٠٠.",
-          "اقسم على العدد: ٢٠٠ ÷ ٥ = ٤٠.",
-          "الإجابة النهائية: المتوسط = ٤٠° 🌡️"
+          "المتوسط = (٣٨+٤١+٣٦+٤١+٣٩) ÷ ٥ = ١٩٥÷٥ = ٣٩°م",
+          "مرتبة: ٣٦،٣٨،٣٩،٤١،٤١ → الوسيط = ٣٩°م",
+          "المنوال = ٤١°م (يظهر مرتين) ✓"
         ]
       },
-      "tip": "إذا احتوت البيانات على قيم شاذّة، فالوسيط أكثر موثوقيةً من المتوسط."
+      "tip": "المتوسط = أعدل قسمة. الوسيط = الوسط. المنوال = المفضل! 📊"
     }
   },
   {
     "id": "g8-l4",
     "grade": 8,
     "level": 4,
-    "videoUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=mHEnNZZMKSo",
     "en": {
       "title": "Ratios & Percentages",
-      "objective": "Apply ratios and percentages to currency exchange, discounts, and trading scenarios.",
-      "explanation": "A ratio compares two quantities (3 : 2). A percentage is a special ratio out of 100 (15% = 15/100). To find a percentage of a number, multiply the number by the percentage written as a fraction.",
+      "objective": "Apply ratios and percentages to real UAE trading scenarios.",
+      "explanation": "A ratio compares two quantities — written as a:b. A percentage is a ratio out of 100. To find a percentage of a number, multiply by the percentage then divide by 100.",
       "keyPoints": [
-        "x% of N = (x ÷ 100) × N",
-        "To split in ratio a : b, total parts = a + b",
-        "Percentage increase = (new − old) ÷ old × 100%"
+        "Ratio a:b means for every a there are b",
+        "Percentage % = parts per hundred",
+        "X% of Y = (X × Y) ÷ 100"
       ],
       "workedExample": {
-        "problem": "A carpet originally priced at 200 AED is on sale with a 15% discount. What is the sale price?",
+        "problem": "A Dubai Gold Souk merchant gives 15% discount on a 400 AED necklace. What is the final price?",
         "steps": [
-          "Find the discount: 15% of 200 = (15 ÷ 100) × 200 = 30 AED.",
-          "Subtract from the original: 200 − 30 = 170 AED.",
-          "Final answer: 170 AED 🧶"
+          "Discount = 15% × 400 = (15×400)÷100 = 60 AED",
+          "Final price = 400 - 60 = 340 AED",
+          "Final price = 340 د.إ ✓"
         ]
       },
-      "tip": "Always check: does the answer make sense? A discount makes the price LESS, not more."
+      "tip": "10% = divide by 10. Build other percentages from there! 🧮"
     },
     "ar": {
-      "title": "النسب والمئويات",
-      "objective": "طبّق النسب والمئويات على تحويل العملات والخصومات وسيناريوهات التجارة.",
-      "explanation": "النسبة تقارن كميّتين (٣ : ٢). والنسبة المئويّة هي نسبة خاصّة من ١٠٠ (١٥٪ = ١٥/١٠٠). لإيجاد نسبة من عدد، اضرب العدد في النسبة على شكل كسر.",
+      "title": "النسب والنسب المئوية",
+      "objective": "تطبيق النسب والنسب المئوية على سيناريوهات التجارة الإماراتية.",
+      "explanation": "النسبة تقارن كميتين — تُكتب كـأ:ب. النسبة المئوية هي نسبة من ١٠٠. لإيجاد نسبة مئوية من عدد، اضرب في النسبة ثم اقسم على ١٠٠.",
       "keyPoints": [
-        "س٪ من ن = (س ÷ ١٠٠) × ن",
-        "للقسمة بنسبة أ : ب، مجموع الأجزاء = أ + ب",
-        "النسبة المئويّة للزيادة = (الجديد − القديم) ÷ القديم × ١٠٠٪"
+        "النسبة أ:ب تعني لكل أ يوجد ب",
+        "النسبة المئوية % = أجزاء من كل مئة",
+        "س% من ص = (س × ص) ÷ ١٠٠"
       ],
       "workedExample": {
-        "problem": "سجادة سعرها الأصلي ٢٠٠ درهم معروضة بخصم ١٥٪. ما سعر البيع؟",
+        "problem": "تاجر في سوق الذهب بدبي يمنح خصماً ١٥٪ على قلادة بـ٤٠٠ درهم. ما السعر النهائي؟",
         "steps": [
-          "أوجد الخصم: ١٥٪ من ٢٠٠ = (١٥ ÷ ١٠٠) × ٢٠٠ = ٣٠ درهماً.",
-          "اطرح من السعر الأصلي: ٢٠٠ − ٣٠ = ١٧٠ درهماً.",
-          "الإجابة النهائية: ١٧٠ درهماً 🧶"
+          "الخصم = ١٥٪ × ٤٠٠ = (١٥×٤٠٠)÷١٠٠ = ٦٠ درهماً",
+          "السعر النهائي = ٤٠٠ - ٦٠ = ٣٤٠ درهماً",
+          "السعر النهائي = ٣٤٠ د.إ ✓"
         ]
       },
-      "tip": "تحقّق دائماً: هل الإجابة منطقيّة؟ الخصم يجعل السعر أقلّ، لا أكثر."
+      "tip": "١٠٪ = اقسم على ١٠. ابنِ النسب الأخرى من هناك! 🧮"
     }
   }
 ]

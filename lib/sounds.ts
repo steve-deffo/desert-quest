@@ -176,6 +176,17 @@ export const Sounds = {
       tone(1200, 0.08, "sine", 0.16, i * 0.06);
     }
   },
+
+  dragStart: () => {
+    // Soft short whoosh
+    noise(0.18, 0.04, 1100);
+  },
+
+  dropClick: () => {
+    // Slightly heavier click than buttonClick
+    tone(540, 0.07, "sine", 0.16);
+    tone(720, 0.05, "sine", 0.12, 0.04);
+  },
 };
 
 /**

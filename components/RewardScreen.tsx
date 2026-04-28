@@ -16,7 +16,7 @@ import { toArabicNumerals } from "@/lib/utils";
 import { Sounds, playSound } from "@/lib/sounds";
 import AnimatedCamel from "./AnimatedCamel";
 import landmarks from "@/data/landmarks.json";
-import type { Lang, Landmark } from "@/lib/types";
+import type { Lang, Landmark, QuizAttempt } from "@/lib/types";
 
 const UAE_FLAG_COLORS = [
   "#00732F",
@@ -26,6 +26,8 @@ const UAE_FLAG_COLORS = [
   "#C9A84C",
 ];
 const REWARD_SOUND_FLAG = "desert-quest-reward-pending";
+const PENDING_PERFECT_ATTEMPT_KEY = "desert-quest-pending-perfect-attempt";
+const QUIZ_METRICS_KEY = "desert-quest-quiz-metrics";
 
 export default function RewardScreen({
   level,
@@ -40,6 +42,7 @@ export default function RewardScreen({
 
   const levelStars = useGameStore((s) => s.levelStars);
   const levelDirhams = useGameStore((s) => s.levelDirhams);
+  const addQuizAttempt = useGameStore((s) => s.addQuizAttempt);
   const stars = levelStars[level] ?? 0;
   const dirhamsEarned = levelDirhams[level] ?? 0;
 
@@ -80,6 +83,22 @@ export default function RewardScreen({
       active = false;
     };
   }, [level]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const raw = window.sessionStorage.getItem(PENDING_PERFECT_ATTEMPT_KEY);
+    if (!raw) return;
+    try {
+      const parsed = JSON.parse(raw) as QuizAttempt;
+      if (parsed.level === level && parsed.grade === grade && parsed.score >= 5) {
+        addQuizAttempt(parsed);
+      }
+    } catch {
+      // Ignore malformed pending payload.
+    }
+    window.sessionStorage.removeItem(PENDING_PERFECT_ATTEMPT_KEY);
+    window.sessionStorage.removeItem(QUIZ_METRICS_KEY);
+  }, [addQuizAttempt, grade, level]);
 
   // ── Dirham counter (springs from 0 → earned) ─────────────────
   const dirhamMV = useMotionValue(0);

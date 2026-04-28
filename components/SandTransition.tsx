@@ -17,7 +17,7 @@ export default function SandTransition() {
     }
     setSweepKey(`${pathname}-${Date.now()}`);
     playSound(Sounds.pageTransition);
-    const timeout = setTimeout(() => setSweepKey(null), 850);
+    const timeout = setTimeout(() => setSweepKey(null), 550);
     return () => clearTimeout(timeout);
   }, [pathname, firstRender]);
 
@@ -31,7 +31,7 @@ export default function SandTransition() {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeOut" }}
+          transition={{ duration: 0.25, ease: "easeOut" }}
         >
           <motion.div
             className="absolute inset-y-0 left-0 w-full"
@@ -42,7 +42,7 @@ export default function SandTransition() {
             }}
             initial={{ x: "-100%" }}
             animate={{ x: "100%" }}
-            transition={{ duration: 0.8, ease: [0.65, 0, 0.35, 1] }}
+            transition={{ duration: 0.5, ease: [0.65, 0, 0.35, 1] }}
           />
         </motion.div>
       )}

@@ -1,14 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
 import { useGameStore } from "@/store/useGameStore";
 import { useTranslation } from "@/lib/i18n";
-import DesertMap from "@/components/DesertMap";
 import Starfield from "@/components/Starfield";
 import BackButton from "@/components/ui/BackButton";
+import PageLoader from "@/components/ui/PageLoader";
 import { toArabicNumerals } from "@/lib/utils";
+import { isLoggedIn } from "@/lib/auth";
+import { useHydration } from "@/lib/useHydration";
+
+const DesertMap = dynamic(() => import("@/components/DesertMap"), {
+  loading: () => <PageLoader />,
+  ssr: false,
+});
 
 const TOTAL_LEVELS = 5;
 const STARS_PER_LEVEL = 3;
@@ -21,16 +29,21 @@ export default function MapPage() {
   const completedLevels = useGameStore((s) => s.completedLevels);
   const levelStars = useGameStore((s) => s.levelStars);
 
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const ready = useHydration();
 
   useEffect(() => {
-    if (mounted && grade === null) {
+    if (!ready) return;
+    if (grade === null) {
       router.replace("/");
+      return;
     }
-  }, [mounted, grade, router]);
+    if (!isLoggedIn()) {
+      router.replace("/login");
+    }
+  }, [ready, grade, router]);
 
-  if (!mounted || grade === null) return null;
+  if (!ready) return <PageLoader />;
+  if (grade === null || !isLoggedIn()) return null;
 
   const totalStars = Object.values(levelStars).reduce<number>(
     (sum, s) => sum + (s ?? 0),
@@ -49,7 +62,7 @@ export default function MapPage() {
       dir={isRTL ? "rtl" : "ltr"}
     >
       <Starfield count={60} topRange={70} />
-      <BackButton href="/home" />
+      <BackButton href="/dashboard" />
 
       {/* Title */}
       <div className="px-4 pt-6">

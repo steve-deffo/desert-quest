@@ -6,16 +6,82 @@
     "topic": "addition",
     "en": {
       "question": "Ahmed has 24 dates. He receives 13 more at the souk. How many does he have?",
-      "answers": ["35", "37", "33", "38"],
+      "answers": [
+        "35",
+        "37",
+        "33",
+        "38"
+      ],
       "hint": "Add the tens first, then the units: 20+10=30, then 4+3=7."
     },
     "ar": {
       "question": "لدى أحمد ٢٤ تمرة. استلم ١٣ أخرى من السوق. كم أصبح عنده؟",
-      "answers": ["٣٥", "٣٧", "٣٣", "٣٨"],
+      "answers": [
+        "٣٥",
+        "٣٧",
+        "٣٣",
+        "٣٨"
+      ],
       "hint": "اجمع العشرات أولاً: ٢٠+١٠=٣٠، ثم الآحاد: ٤+٣=٧."
     },
     "correct": 1,
-    "arabicNumerals": ["٣٥", "٣٧", "٣٣", "٣٨"]
+    "arabicNumerals": [
+      "٣٥",
+      "٣٧",
+      "٣٣",
+      "٣٨"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Add the tens first, then the units: 20+10=30, then 4+3=7. The correct answer is 37.",
+      "ar": "اجمع العشرات أولاً: ٢٠+١٠=٣٠، ثم الآحاد: ٤+٣=٧. الإجابة الصحيحة هي ٣٧."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Ahmed has 24 dates. He receives 13 more at the souk. How many does he have?",
+          "answers": [
+            "35",
+            "37",
+            "33",
+            "38"
+          ],
+          "hint": "Add the tens first, then the units: 20+10=30, then 4+3=7."
+        },
+        "ar": {
+          "question": "نسخة أبسط — لدى أحمد ٢٤ تمرة. استلم ١٣ أخرى من السوق. كم أصبح عنده؟",
+          "answers": [
+            "٣٥",
+            "٣٧",
+            "٣٣",
+            "٣٨"
+          ],
+          "hint": "اجمع العشرات أولاً: ٢٠+١٠=٣٠، ثم الآحاد: ٤+٣=٧."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Ahmed has 24 dates. He receives 13 more at the souk. How many does he have?",
+          "answers": [
+            "35",
+            "37",
+            "33",
+            "38"
+          ],
+          "hint": "Add the tens first, then the units: 20+10=30, then 4+3=7."
+        },
+        "ar": {
+          "question": "تحدٍ — لدى أحمد ٢٤ تمرة. استلم ١٣ أخرى من السوق. كم أصبح عنده؟",
+          "answers": [
+            "٣٥",
+            "٣٧",
+            "٣٣",
+            "٣٨"
+          ],
+          "hint": "اجمع العشرات أولاً: ٢٠+١٠=٣٠، ثم الآحاد: ٤+٣=٧."
+        }
+      }
+    }
   },
   {
     "id": "g4-l0-q2",
@@ -24,16 +90,82 @@
     "topic": "subtraction",
     "en": {
       "question": "A camel carries 58 bags. 27 bags are unloaded at the oasis. How many remain?",
-      "answers": ["28", "31", "29", "30"],
+      "answers": [
+        "28",
+        "31",
+        "29",
+        "30"
+      ],
       "hint": "Subtract the units first: 8-7=1, then the tens: 50-20=30. Answer: 31."
     },
     "ar": {
       "question": "تحمل الناقة ٥٨ كيسًا. تم تفريغ ٢٧ كيسًا عند الواحة. كم كيسًا تبقّى؟",
-      "answers": ["٢٨", "٣١", "٢٩", "٣٠"],
+      "answers": [
+        "٢٨",
+        "٣١",
+        "٢٩",
+        "٣٠"
+      ],
       "hint": "اطرح الآحاد أولاً: ٨-٧=١، ثم العشرات: ٥٠-٢٠=٣٠. الجواب: ٣١."
     },
     "correct": 1,
-    "arabicNumerals": ["٢٨", "٣١", "٢٩", "٣٠"]
+    "arabicNumerals": [
+      "٢٨",
+      "٣١",
+      "٢٩",
+      "٣٠"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Subtract the units first: 8-7=1, then the tens: 50-20=30. Answer: 31. The correct answer is 31.",
+      "ar": "اطرح الآحاد أولاً: ٨-٧=١، ثم العشرات: ٥٠-٢٠=٣٠. الجواب: ٣١. الإجابة الصحيحة هي ٣١."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A camel carries 58 bags. 27 bags are unloaded at the oasis. How many remain?",
+          "answers": [
+            "28",
+            "31",
+            "29",
+            "30"
+          ],
+          "hint": "Subtract the units first: 8-7=1, then the tens: 50-20=30. Answer: 31."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تحمل الناقة ٥٨ كيسًا. تم تفريغ ٢٧ كيسًا عند الواحة. كم كيسًا تبقّى؟",
+          "answers": [
+            "٢٨",
+            "٣١",
+            "٢٩",
+            "٣٠"
+          ],
+          "hint": "اطرح الآحاد أولاً: ٨-٧=١، ثم العشرات: ٥٠-٢٠=٣٠. الجواب: ٣١."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A camel carries 58 bags. 27 bags are unloaded at the oasis. How many remain?",
+          "answers": [
+            "28",
+            "31",
+            "29",
+            "30"
+          ],
+          "hint": "Subtract the units first: 8-7=1, then the tens: 50-20=30. Answer: 31."
+        },
+        "ar": {
+          "question": "تحدٍ — تحمل الناقة ٥٨ كيسًا. تم تفريغ ٢٧ كيسًا عند الواحة. كم كيسًا تبقّى؟",
+          "answers": [
+            "٢٨",
+            "٣١",
+            "٢٩",
+            "٣٠"
+          ],
+          "hint": "اطرح الآحاد أولاً: ٨-٧=١، ثم العشرات: ٥٠-٢٠=٣٠. الجواب: ٣١."
+        }
+      }
+    }
   },
   {
     "id": "g4-l0-q3",
@@ -42,16 +174,82 @@
     "topic": "addition",
     "en": {
       "question": "Dubai has 143 buildings on this street. 52 new ones are added. How many total?",
-      "answers": ["190", "195", "185", "200"],
+      "answers": [
+        "190",
+        "195",
+        "185",
+        "200"
+      ],
       "hint": "Add units: 3+2=5. Add tens: 4+5=9. Add hundreds: 1. Answer: 195."
     },
     "ar": {
       "question": "في دبي ١٤٣ مبنى في هذا الشارع. أُضيفت ٥٢ مبانٍ جديدة. كم أصبح المجموع؟",
-      "answers": ["١٩٠", "١٩٥", "١٨٥", "٢٠٠"],
+      "answers": [
+        "١٩٠",
+        "١٩٥",
+        "١٨٥",
+        "٢٠٠"
+      ],
       "hint": "اجمع الآحاد: ٣+٢=٥. ثم العشرات: ٤+٥=٩. ثم المئات: ١. الجواب: ١٩٥."
     },
     "correct": 1,
-    "arabicNumerals": ["١٩٠", "١٩٥", "١٨٥", "٢٠٠"]
+    "arabicNumerals": [
+      "١٩٠",
+      "١٩٥",
+      "١٨٥",
+      "٢٠٠"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Add units: 3+2=5. Add tens: 4+5=9. Add hundreds: 1. Answer: 195. The correct answer is 195.",
+      "ar": "اجمع الآحاد: ٣+٢=٥. ثم العشرات: ٤+٥=٩. ثم المئات: ١. الجواب: ١٩٥. الإجابة الصحيحة هي ١٩٥."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Dubai has 143 buildings on this street. 52 new ones are added. How many total?",
+          "answers": [
+            "190",
+            "195",
+            "185",
+            "200"
+          ],
+          "hint": "Add units: 3+2=5. Add tens: 4+5=9. Add hundreds: 1. Answer: 195."
+        },
+        "ar": {
+          "question": "نسخة أبسط — في دبي ١٤٣ مبنى في هذا الشارع. أُضيفت ٥٢ مبانٍ جديدة. كم أصبح المجموع؟",
+          "answers": [
+            "١٩٠",
+            "١٩٥",
+            "١٨٥",
+            "٢٠٠"
+          ],
+          "hint": "اجمع الآحاد: ٣+٢=٥. ثم العشرات: ٤+٥=٩. ثم المئات: ١. الجواب: ١٩٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Dubai has 143 buildings on this street. 52 new ones are added. How many total?",
+          "answers": [
+            "190",
+            "195",
+            "185",
+            "200"
+          ],
+          "hint": "Add units: 3+2=5. Add tens: 4+5=9. Add hundreds: 1. Answer: 195."
+        },
+        "ar": {
+          "question": "تحدٍ — في دبي ١٤٣ مبنى في هذا الشارع. أُضيفت ٥٢ مبانٍ جديدة. كم أصبح المجموع؟",
+          "answers": [
+            "١٩٠",
+            "١٩٥",
+            "١٨٥",
+            "٢٠٠"
+          ],
+          "hint": "اجمع الآحاد: ٣+٢=٥. ثم العشرات: ٤+٥=٩. ثم المئات: ١. الجواب: ١٩٥."
+        }
+      }
+    }
   },
   {
     "id": "g4-l0-q4",
@@ -60,16 +258,82 @@
     "topic": "subtraction",
     "en": {
       "question": "Fatima earns 75 dirhams. She spends 38 at the souk. How many dirhams does she have left?",
-      "answers": ["37", "35", "43", "32"],
+      "answers": [
+        "37",
+        "35",
+        "43",
+        "32"
+      ],
       "hint": "75 - 38: borrow from the tens. 15-8=7, then 6-3=3. Answer: 37."
     },
     "ar": {
       "question": "تكسب فاطمة ٧٥ درهمًا وتنفق ٣٨ درهمًا في السوق. كم درهمًا يتبقّى معها؟",
-      "answers": ["٣٧", "٣٥", "٤٣", "٣٢"],
+      "answers": [
+        "٣٧",
+        "٣٥",
+        "٤٣",
+        "٣٢"
+      ],
       "hint": "٧٥ - ٣٨: استعِر من العشرات. ١٥-٨=٧، ثم ٦-٣=٣. الجواب: ٣٧."
     },
     "correct": 0,
-    "arabicNumerals": ["٣٧", "٣٥", "٤٣", "٣٢"]
+    "arabicNumerals": [
+      "٣٧",
+      "٣٥",
+      "٤٣",
+      "٣٢"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "75 - 38: borrow from the tens. 15-8=7, then 6-3=3. Answer: 37. The correct answer is 37.",
+      "ar": "٧٥ - ٣٨: استعِر من العشرات. ١٥-٨=٧، ثم ٦-٣=٣. الجواب: ٣٧. الإجابة الصحيحة هي ٣٧."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Fatima earns 75 dirhams. She spends 38 at the souk. How many dirhams does she have left?",
+          "answers": [
+            "37",
+            "35",
+            "43",
+            "32"
+          ],
+          "hint": "75 - 38: borrow from the tens. 15-8=7, then 6-3=3. Answer: 37."
+        },
+        "ar": {
+          "question": "نسخة أبسط — تكسب فاطمة ٧٥ درهمًا وتنفق ٣٨ درهمًا في السوق. كم درهمًا يتبقّى معها؟",
+          "answers": [
+            "٣٧",
+            "٣٥",
+            "٤٣",
+            "٣٢"
+          ],
+          "hint": "٧٥ - ٣٨: استعِر من العشرات. ١٥-٨=٧، ثم ٦-٣=٣. الجواب: ٣٧."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Fatima earns 75 dirhams. She spends 38 at the souk. How many dirhams does she have left?",
+          "answers": [
+            "37",
+            "35",
+            "43",
+            "32"
+          ],
+          "hint": "75 - 38: borrow from the tens. 15-8=7, then 6-3=3. Answer: 37."
+        },
+        "ar": {
+          "question": "تحدٍ — تكسب فاطمة ٧٥ درهمًا وتنفق ٣٨ درهمًا في السوق. كم درهمًا يتبقّى معها؟",
+          "answers": [
+            "٣٧",
+            "٣٥",
+            "٤٣",
+            "٣٢"
+          ],
+          "hint": "٧٥ - ٣٨: استعِر من العشرات. ١٥-٨=٧، ثم ٦-٣=٣. الجواب: ٣٧."
+        }
+      }
+    }
   },
   {
     "id": "g4-l0-q5",
@@ -78,16 +342,82 @@
     "topic": "addition",
     "en": {
       "question": "Khalid collects 46 shells on Monday and 35 on Tuesday. How many shells in total?",
-      "answers": ["80", "81", "71", "91"],
+      "answers": [
+        "80",
+        "81",
+        "71",
+        "91"
+      ],
       "hint": "Add tens: 40+30=70. Add units: 6+5=11. Carry the 1: 70+11=81."
     },
     "ar": {
       "question": "يجمع خالد ٤٦ صدفة يوم الاثنين و٣٥ صدفة يوم الثلاثاء. كم الصدف في المجموع؟",
-      "answers": ["٨٠", "٨١", "٧١", "٩١"],
+      "answers": [
+        "٨٠",
+        "٨١",
+        "٧١",
+        "٩١"
+      ],
       "hint": "اجمع العشرات: ٤٠+٣٠=٧٠. ثم الآحاد: ٦+٥=١١. احمل الـ١: ٧٠+١١=٨١."
     },
     "correct": 1,
-    "arabicNumerals": ["٨٠", "٨١", "٧١", "٩١"]
+    "arabicNumerals": [
+      "٨٠",
+      "٨١",
+      "٧١",
+      "٩١"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Add tens: 40+30=70. Add units: 6+5=11. Carry the 1: 70+11=81. The correct answer is 81.",
+      "ar": "اجمع العشرات: ٤٠+٣٠=٧٠. ثم الآحاد: ٦+٥=١١. احمل الـ١: ٧٠+١١=٨١. الإجابة الصحيحة هي ٨١."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Khalid collects 46 shells on Monday and 35 on Tuesday. How many shells in total?",
+          "answers": [
+            "80",
+            "81",
+            "71",
+            "91"
+          ],
+          "hint": "Add tens: 40+30=70. Add units: 6+5=11. Carry the 1: 70+11=81."
+        },
+        "ar": {
+          "question": "نسخة أبسط — يجمع خالد ٤٦ صدفة يوم الاثنين و٣٥ صدفة يوم الثلاثاء. كم الصدف في المجموع؟",
+          "answers": [
+            "٨٠",
+            "٨١",
+            "٧١",
+            "٩١"
+          ],
+          "hint": "اجمع العشرات: ٤٠+٣٠=٧٠. ثم الآحاد: ٦+٥=١١. احمل الـ١: ٧٠+١١=٨١."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Khalid collects 46 shells on Monday and 35 on Tuesday. How many shells in total?",
+          "answers": [
+            "80",
+            "81",
+            "71",
+            "91"
+          ],
+          "hint": "Add tens: 40+30=70. Add units: 6+5=11. Carry the 1: 70+11=81."
+        },
+        "ar": {
+          "question": "تحدٍ — يجمع خالد ٤٦ صدفة يوم الاثنين و٣٥ صدفة يوم الثلاثاء. كم الصدف في المجموع؟",
+          "answers": [
+            "٨٠",
+            "٨١",
+            "٧١",
+            "٩١"
+          ],
+          "hint": "اجمع العشرات: ٤٠+٣٠=٧٠. ثم الآحاد: ٦+٥=١١. احمل الـ١: ٧٠+١١=٨١."
+        }
+      }
+    }
   },
   {
     "id": "g4-l1-q1",
@@ -96,16 +426,82 @@
     "topic": "multiplication",
     "en": {
       "question": "A trader has 6 baskets with 9 dates in each. How many dates in total?",
-      "answers": ["45", "63", "54", "48"],
+      "answers": [
+        "45",
+        "63",
+        "54",
+        "48"
+      ],
       "hint": "6 × 9 = ? Count up by 9s: 9, 18, 27, 36, 45, 54."
     },
     "ar": {
       "question": "لدى تاجر ٦ سلال في كل واحدة ٩ تمرات. كم التمرات في المجموع؟",
-      "answers": ["٤٥", "٦٣", "٥٤", "٤٨"],
+      "answers": [
+        "٤٥",
+        "٦٣",
+        "٥٤",
+        "٤٨"
+      ],
       "hint": "٦ × ٩ = ؟ عدّ بتسعات: ٩، ١٨، ٢٧، ٣٦، ٤٥، ٥٤."
     },
     "correct": 2,
-    "arabicNumerals": ["٤٥", "٦٣", "٥٤", "٤٨"]
+    "arabicNumerals": [
+      "٤٥",
+      "٦٣",
+      "٥٤",
+      "٤٨"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "6 × 9 = ? Count up by 9s: 9, 18, 27, 36, 45, 54. The correct answer is 54.",
+      "ar": "٦ × ٩ = ؟ عدّ بتسعات: ٩، ١٨، ٢٧، ٣٦، ٤٥، ٥٤. الإجابة الصحيحة هي ٥٤."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A trader has 6 baskets with 9 dates in each. How many dates in total?",
+          "answers": [
+            "45",
+            "63",
+            "54",
+            "48"
+          ],
+          "hint": "6 × 9 = ? Count up by 9s: 9, 18, 27, 36, 45, 54."
+        },
+        "ar": {
+          "question": "نسخة أبسط — لدى تاجر ٦ سلال في كل واحدة ٩ تمرات. كم التمرات في المجموع؟",
+          "answers": [
+            "٤٥",
+            "٦٣",
+            "٥٤",
+            "٤٨"
+          ],
+          "hint": "٦ × ٩ = ؟ عدّ بتسعات: ٩، ١٨، ٢٧، ٣٦، ٤٥، ٥٤."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A trader has 6 baskets with 9 dates in each. How many dates in total?",
+          "answers": [
+            "45",
+            "63",
+            "54",
+            "48"
+          ],
+          "hint": "6 × 9 = ? Count up by 9s: 9, 18, 27, 36, 45, 54."
+        },
+        "ar": {
+          "question": "تحدٍ — لدى تاجر ٦ سلال في كل واحدة ٩ تمرات. كم التمرات في المجموع؟",
+          "answers": [
+            "٤٥",
+            "٦٣",
+            "٥٤",
+            "٤٨"
+          ],
+          "hint": "٦ × ٩ = ؟ عدّ بتسعات: ٩، ١٨، ٢٧، ٣٦، ٤٥، ٥٤."
+        }
+      }
+    }
   },
   {
     "id": "g4-l1-q2",
@@ -114,16 +510,82 @@
     "topic": "multiplication",
     "en": {
       "question": "An Emirati farmer plants 7 rows of palm trees with 8 trees in each row. How many trees?",
-      "answers": ["48", "54", "56", "63"],
+      "answers": [
+        "48",
+        "54",
+        "56",
+        "63"
+      ],
       "hint": "7 × 8 = ? Think: 7 × 8 = 7 × (4+4) = 28+28 = 56."
     },
     "ar": {
       "question": "يزرع مزارع إماراتي ٧ صفوف من النخيل في كل صف ٨ أشجار. كم شجرة في المجموع؟",
-      "answers": ["٤٨", "٥٤", "٥٦", "٦٣"],
+      "answers": [
+        "٤٨",
+        "٥٤",
+        "٥٦",
+        "٦٣"
+      ],
       "hint": "٧ × ٨ = ؟ فكّر: ٧ × ٨ = ٧ × (٤+٤) = ٢٨+٢٨ = ٥٦."
     },
     "correct": 2,
-    "arabicNumerals": ["٤٨", "٥٤", "٥٦", "٦٣"]
+    "arabicNumerals": [
+      "٤٨",
+      "٥٤",
+      "٥٦",
+      "٦٣"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "7 × 8 = ? Think: 7 × 8 = 7 × (4+4) = 28+28 = 56. The correct answer is 56.",
+      "ar": "٧ × ٨ = ؟ فكّر: ٧ × ٨ = ٧ × (٤+٤) = ٢٨+٢٨ = ٥٦. الإجابة الصحيحة هي ٥٦."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — An Emirati farmer plants 7 rows of palm trees with 8 trees in each row. How many trees?",
+          "answers": [
+            "48",
+            "54",
+            "56",
+            "63"
+          ],
+          "hint": "7 × 8 = ? Think: 7 × 8 = 7 × (4+4) = 28+28 = 56."
+        },
+        "ar": {
+          "question": "نسخة أبسط — يزرع مزارع إماراتي ٧ صفوف من النخيل في كل صف ٨ أشجار. كم شجرة في المجموع؟",
+          "answers": [
+            "٤٨",
+            "٥٤",
+            "٥٦",
+            "٦٣"
+          ],
+          "hint": "٧ × ٨ = ؟ فكّر: ٧ × ٨ = ٧ × (٤+٤) = ٢٨+٢٨ = ٥٦."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — An Emirati farmer plants 7 rows of palm trees with 8 trees in each row. How many trees?",
+          "answers": [
+            "48",
+            "54",
+            "56",
+            "63"
+          ],
+          "hint": "7 × 8 = ? Think: 7 × 8 = 7 × (4+4) = 28+28 = 56."
+        },
+        "ar": {
+          "question": "تحدٍ — يزرع مزارع إماراتي ٧ صفوف من النخيل في كل صف ٨ أشجار. كم شجرة في المجموع؟",
+          "answers": [
+            "٤٨",
+            "٥٤",
+            "٥٦",
+            "٦٣"
+          ],
+          "hint": "٧ × ٨ = ؟ فكّر: ٧ × ٨ = ٧ × (٤+٤) = ٢٨+٢٨ = ٥٦."
+        }
+      }
+    }
   },
   {
     "id": "g4-l1-q3",
@@ -132,16 +594,82 @@
     "topic": "multiplication",
     "en": {
       "question": "A falconer feeds 5 falcons. Each falcon eats 6 fish. How many fish in total?",
-      "answers": ["25", "28", "30", "35"],
+      "answers": [
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
       "hint": "5 × 6 = ? Count by 6s: 6, 12, 18, 24, 30."
     },
     "ar": {
       "question": "صقّار يطعم ٥ صقور، كل صقر يأكل ٦ أسماك. كم سمكة في المجموع؟",
-      "answers": ["٢٥", "٢٨", "٣٠", "٣٥"],
+      "answers": [
+        "٢٥",
+        "٢٨",
+        "٣٠",
+        "٣٥"
+      ],
       "hint": "٥ × ٦ = ؟ عدّ بستّات: ٦، ١٢، ١٨، ٢٤، ٣٠."
     },
     "correct": 2,
-    "arabicNumerals": ["٢٥", "٢٨", "٣٠", "٣٥"]
+    "arabicNumerals": [
+      "٢٥",
+      "٢٨",
+      "٣٠",
+      "٣٥"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "5 × 6 = ? Count by 6s: 6, 12, 18, 24, 30. The correct answer is 30.",
+      "ar": "٥ × ٦ = ؟ عدّ بستّات: ٦، ١٢، ١٨، ٢٤، ٣٠. الإجابة الصحيحة هي ٣٠."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A falconer feeds 5 falcons. Each falcon eats 6 fish. How many fish in total?",
+          "answers": [
+            "25",
+            "28",
+            "30",
+            "35"
+          ],
+          "hint": "5 × 6 = ? Count by 6s: 6, 12, 18, 24, 30."
+        },
+        "ar": {
+          "question": "نسخة أبسط — صقّار يطعم ٥ صقور، كل صقر يأكل ٦ أسماك. كم سمكة في المجموع؟",
+          "answers": [
+            "٢٥",
+            "٢٨",
+            "٣٠",
+            "٣٥"
+          ],
+          "hint": "٥ × ٦ = ؟ عدّ بستّات: ٦، ١٢، ١٨، ٢٤، ٣٠."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A falconer feeds 5 falcons. Each falcon eats 6 fish. How many fish in total?",
+          "answers": [
+            "25",
+            "28",
+            "30",
+            "35"
+          ],
+          "hint": "5 × 6 = ? Count by 6s: 6, 12, 18, 24, 30."
+        },
+        "ar": {
+          "question": "تحدٍ — صقّار يطعم ٥ صقور، كل صقر يأكل ٦ أسماك. كم سمكة في المجموع؟",
+          "answers": [
+            "٢٥",
+            "٢٨",
+            "٣٠",
+            "٣٥"
+          ],
+          "hint": "٥ × ٦ = ؟ عدّ بستّات: ٦، ١٢، ١٨، ٢٤، ٣٠."
+        }
+      }
+    }
   },
   {
     "id": "g4-l1-q4",
@@ -150,16 +678,82 @@
     "topic": "multiplication",
     "en": {
       "question": "The souk has 9 stalls. Each stall has 7 rugs for sale. How many rugs in total?",
-      "answers": ["54", "56", "63", "72"],
+      "answers": [
+        "54",
+        "56",
+        "63",
+        "72"
+      ],
       "hint": "9 × 7 = ? Think: 10 × 7 = 70, then subtract 7. Answer: 63."
     },
     "ar": {
       "question": "في السوق ٩ أكشاك. في كل كشك ٧ سجاجيد للبيع. كم السجاجيد في المجموع؟",
-      "answers": ["٥٤", "٥٦", "٦٣", "٧٢"],
+      "answers": [
+        "٥٤",
+        "٥٦",
+        "٦٣",
+        "٧٢"
+      ],
       "hint": "٩ × ٧ = ؟ فكّر: ١٠ × ٧ = ٧٠، ثم اطرح ٧. الجواب: ٦٣."
     },
     "correct": 2,
-    "arabicNumerals": ["٥٤", "٥٦", "٦٣", "٧٢"]
+    "arabicNumerals": [
+      "٥٤",
+      "٥٦",
+      "٦٣",
+      "٧٢"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "9 × 7 = ? Think: 10 × 7 = 70, then subtract 7. Answer: 63. The correct answer is 63.",
+      "ar": "٩ × ٧ = ؟ فكّر: ١٠ × ٧ = ٧٠، ثم اطرح ٧. الجواب: ٦٣. الإجابة الصحيحة هي ٦٣."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — The souk has 9 stalls. Each stall has 7 rugs for sale. How many rugs in total?",
+          "answers": [
+            "54",
+            "56",
+            "63",
+            "72"
+          ],
+          "hint": "9 × 7 = ? Think: 10 × 7 = 70, then subtract 7. Answer: 63."
+        },
+        "ar": {
+          "question": "نسخة أبسط — في السوق ٩ أكشاك. في كل كشك ٧ سجاجيد للبيع. كم السجاجيد في المجموع؟",
+          "answers": [
+            "٥٤",
+            "٥٦",
+            "٦٣",
+            "٧٢"
+          ],
+          "hint": "٩ × ٧ = ؟ فكّر: ١٠ × ٧ = ٧٠، ثم اطرح ٧. الجواب: ٦٣."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — The souk has 9 stalls. Each stall has 7 rugs for sale. How many rugs in total?",
+          "answers": [
+            "54",
+            "56",
+            "63",
+            "72"
+          ],
+          "hint": "9 × 7 = ? Think: 10 × 7 = 70, then subtract 7. Answer: 63."
+        },
+        "ar": {
+          "question": "تحدٍ — في السوق ٩ أكشاك. في كل كشك ٧ سجاجيد للبيع. كم السجاجيد في المجموع؟",
+          "answers": [
+            "٥٤",
+            "٥٦",
+            "٦٣",
+            "٧٢"
+          ],
+          "hint": "٩ × ٧ = ؟ فكّر: ١٠ × ٧ = ٧٠، ثم اطرح ٧. الجواب: ٦٣."
+        }
+      }
+    }
   },
   {
     "id": "g4-l1-q5",
@@ -168,16 +762,82 @@
     "topic": "multiplication",
     "en": {
       "question": "A craftsman makes 4 dhow models each day for 8 days. How many models does he make?",
-      "answers": ["28", "30", "32", "36"],
+      "answers": [
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
       "hint": "4 × 8 = ? Double double: 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32."
     },
     "ar": {
       "question": "يصنع حرفيٌّ ٤ نماذج للسفن كل يوم لمدة ٨ أيام. كم نموذجًا صنع؟",
-      "answers": ["٢٨", "٣٠", "٣٢", "٣٦"],
+      "answers": [
+        "٢٨",
+        "٣٠",
+        "٣٢",
+        "٣٦"
+      ],
       "hint": "٤ × ٨ = ؟ ضاعف: ٤ × ٢ = ٨، ثم ٨ × ٢ = ١٦، ثم ١٦ × ٢ = ٣٢."
     },
     "correct": 2,
-    "arabicNumerals": ["٢٨", "٣٠", "٣٢", "٣٦"]
+    "arabicNumerals": [
+      "٢٨",
+      "٣٠",
+      "٣٢",
+      "٣٦"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "4 × 8 = ? Double double: 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32. The correct answer is 32.",
+      "ar": "٤ × ٨ = ؟ ضاعف: ٤ × ٢ = ٨، ثم ٨ × ٢ = ١٦، ثم ١٦ × ٢ = ٣٢. الإجابة الصحيحة هي ٣٢."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A craftsman makes 4 dhow models each day for 8 days. How many models does he make?",
+          "answers": [
+            "28",
+            "30",
+            "32",
+            "36"
+          ],
+          "hint": "4 × 8 = ? Double double: 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32."
+        },
+        "ar": {
+          "question": "نسخة أبسط — يصنع حرفيٌّ ٤ نماذج للسفن كل يوم لمدة ٨ أيام. كم نموذجًا صنع؟",
+          "answers": [
+            "٢٨",
+            "٣٠",
+            "٣٢",
+            "٣٦"
+          ],
+          "hint": "٤ × ٨ = ؟ ضاعف: ٤ × ٢ = ٨، ثم ٨ × ٢ = ١٦، ثم ١٦ × ٢ = ٣٢."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A craftsman makes 4 dhow models each day for 8 days. How many models does he make?",
+          "answers": [
+            "28",
+            "30",
+            "32",
+            "36"
+          ],
+          "hint": "4 × 8 = ? Double double: 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32."
+        },
+        "ar": {
+          "question": "تحدٍ — يصنع حرفيٌّ ٤ نماذج للسفن كل يوم لمدة ٨ أيام. كم نموذجًا صنع؟",
+          "answers": [
+            "٢٨",
+            "٣٠",
+            "٣٢",
+            "٣٦"
+          ],
+          "hint": "٤ × ٨ = ؟ ضاعف: ٤ × ٢ = ٨، ثم ٨ × ٢ = ١٦، ثم ١٦ × ٢ = ٣٢."
+        }
+      }
+    }
   },
   {
     "id": "g4-l2-q1",
@@ -186,16 +846,82 @@
     "topic": "division",
     "en": {
       "question": "48 dates are shared equally among 6 children at the oasis. How many does each child get?",
-      "answers": ["6", "7", "8", "9"],
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "hint": "48 ÷ 6 = ? Ask: 6 × ? = 48. Answer: 8."
     },
     "ar": {
       "question": "وُزِّعت ٤٨ تمرة بالتساوي على ٦ أطفال عند الواحة. كم نصيب كل طفل؟",
-      "answers": ["٦", "٧", "٨", "٩"],
+      "answers": [
+        "٦",
+        "٧",
+        "٨",
+        "٩"
+      ],
       "hint": "٤٨ ÷ ٦ = ؟ اسأل: ٦ × ؟ = ٤٨. الجواب: ٨."
     },
     "correct": 2,
-    "arabicNumerals": ["٦", "٧", "٨", "٩"]
+    "arabicNumerals": [
+      "٦",
+      "٧",
+      "٨",
+      "٩"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "48 ÷ 6 = ? Ask: 6 × ? = 48. Answer: 8. The correct answer is 8.",
+      "ar": "٤٨ ÷ ٦ = ؟ اسأل: ٦ × ؟ = ٤٨. الجواب: ٨. الإجابة الصحيحة هي ٨."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — 48 dates are shared equally among 6 children at the oasis. How many does each child get?",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "48 ÷ 6 = ? Ask: 6 × ? = 48. Answer: 8."
+        },
+        "ar": {
+          "question": "نسخة أبسط — وُزِّعت ٤٨ تمرة بالتساوي على ٦ أطفال عند الواحة. كم نصيب كل طفل؟",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "٤٨ ÷ ٦ = ؟ اسأل: ٦ × ؟ = ٤٨. الجواب: ٨."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — 48 dates are shared equally among 6 children at the oasis. How many does each child get?",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "48 ÷ 6 = ? Ask: 6 × ? = 48. Answer: 8."
+        },
+        "ar": {
+          "question": "تحدٍ — وُزِّعت ٤٨ تمرة بالتساوي على ٦ أطفال عند الواحة. كم نصيب كل طفل؟",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "٤٨ ÷ ٦ = ؟ اسأل: ٦ × ؟ = ٤٨. الجواب: ٨."
+        }
+      }
+    }
   },
   {
     "id": "g4-l2-q2",
@@ -204,16 +930,82 @@
     "topic": "division",
     "en": {
       "question": "72 gold coins are divided equally among 8 merchants. How many coins does each get?",
-      "answers": ["7", "8", "9", "10"],
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "hint": "72 ÷ 8 = ? Ask: 8 × ? = 72. Answer: 9."
     },
     "ar": {
       "question": "وُزِّعت ٧٢ قطعة ذهبية بالتساوي على ٨ تجار. كم نصيب كل تاجر؟",
-      "answers": ["٧", "٨", "٩", "١٠"],
+      "answers": [
+        "٧",
+        "٨",
+        "٩",
+        "١٠"
+      ],
       "hint": "٧٢ ÷ ٨ = ؟ اسأل: ٨ × ؟ = ٧٢. الجواب: ٩."
     },
     "correct": 2,
-    "arabicNumerals": ["٧", "٨", "٩", "١٠"]
+    "arabicNumerals": [
+      "٧",
+      "٨",
+      "٩",
+      "١٠"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "72 ÷ 8 = ? Ask: 8 × ? = 72. Answer: 9. The correct answer is 9.",
+      "ar": "٧٢ ÷ ٨ = ؟ اسأل: ٨ × ؟ = ٧٢. الجواب: ٩. الإجابة الصحيحة هي ٩."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — 72 gold coins are divided equally among 8 merchants. How many coins does each get?",
+          "answers": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "hint": "72 ÷ 8 = ? Ask: 8 × ? = 72. Answer: 9."
+        },
+        "ar": {
+          "question": "نسخة أبسط — وُزِّعت ٧٢ قطعة ذهبية بالتساوي على ٨ تجار. كم نصيب كل تاجر؟",
+          "answers": [
+            "٧",
+            "٨",
+            "٩",
+            "١٠"
+          ],
+          "hint": "٧٢ ÷ ٨ = ؟ اسأل: ٨ × ؟ = ٧٢. الجواب: ٩."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — 72 gold coins are divided equally among 8 merchants. How many coins does each get?",
+          "answers": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "hint": "72 ÷ 8 = ? Ask: 8 × ? = 72. Answer: 9."
+        },
+        "ar": {
+          "question": "تحدٍ — وُزِّعت ٧٢ قطعة ذهبية بالتساوي على ٨ تجار. كم نصيب كل تاجر؟",
+          "answers": [
+            "٧",
+            "٨",
+            "٩",
+            "١٠"
+          ],
+          "hint": "٧٢ ÷ ٨ = ؟ اسأل: ٨ × ؟ = ٧٢. الجواب: ٩."
+        }
+      }
+    }
   },
   {
     "id": "g4-l2-q3",
@@ -222,16 +1014,82 @@
     "topic": "division",
     "en": {
       "question": "35 camels are grouped into 5 equal herds. How many camels are in each herd?",
-      "answers": ["5", "6", "7", "8"],
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "hint": "35 ÷ 5 = ? Count by 5s: 5, 10, 15, 20, 25, 30, 35. That's 7 steps."
     },
     "ar": {
       "question": "جُمعت ٣٥ ناقة في ٥ مجموعات متساوية. كم ناقة في كل مجموعة؟",
-      "answers": ["٥", "٦", "٧", "٨"],
+      "answers": [
+        "٥",
+        "٦",
+        "٧",
+        "٨"
+      ],
       "hint": "٣٥ ÷ ٥ = ؟ عدّ بخمسات: ٥، ١٠، ١٥، ٢٠، ٢٥، ٣٠، ٣٥. هذه ٧ خطوات."
     },
     "correct": 2,
-    "arabicNumerals": ["٥", "٦", "٧", "٨"]
+    "arabicNumerals": [
+      "٥",
+      "٦",
+      "٧",
+      "٨"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "35 ÷ 5 = ? Count by 5s: 5, 10, 15, 20, 25, 30, 35. That's 7 steps. The correct answer is 7.",
+      "ar": "٣٥ ÷ ٥ = ؟ عدّ بخمسات: ٥، ١٠، ١٥، ٢٠، ٢٥، ٣٠، ٣٥. هذه ٧ خطوات. الإجابة الصحيحة هي ٧."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — 35 camels are grouped into 5 equal herds. How many camels are in each herd?",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "35 ÷ 5 = ? Count by 5s: 5, 10, 15, 20, 25, 30, 35. That's 7 steps."
+        },
+        "ar": {
+          "question": "نسخة أبسط — جُمعت ٣٥ ناقة في ٥ مجموعات متساوية. كم ناقة في كل مجموعة؟",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "٣٥ ÷ ٥ = ؟ عدّ بخمسات: ٥، ١٠، ١٥، ٢٠، ٢٥، ٣٠، ٣٥. هذه ٧ خطوات."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — 35 camels are grouped into 5 equal herds. How many camels are in each herd?",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "35 ÷ 5 = ? Count by 5s: 5, 10, 15, 20, 25, 30, 35. That's 7 steps."
+        },
+        "ar": {
+          "question": "تحدٍ — جُمعت ٣٥ ناقة في ٥ مجموعات متساوية. كم ناقة في كل مجموعة؟",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "٣٥ ÷ ٥ = ؟ عدّ بخمسات: ٥، ١٠، ١٥، ٢٠، ٢٥، ٣٠، ٣٥. هذه ٧ خطوات."
+        }
+      }
+    }
   },
   {
     "id": "g4-l2-q4",
@@ -240,16 +1098,82 @@
     "topic": "division",
     "en": {
       "question": "63 palm trees at the Al Ain oasis are planted in 9 equal rows. How many per row?",
-      "answers": ["6", "7", "8", "9"],
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "hint": "63 ÷ 9 = ? Ask: 9 × ? = 63. Answer: 7."
     },
     "ar": {
       "question": "زُرعت ٦٣ نخلة في واحة العين في ٩ صفوف متساوية. كم نخلة في كل صف؟",
-      "answers": ["٦", "٧", "٨", "٩"],
+      "answers": [
+        "٦",
+        "٧",
+        "٨",
+        "٩"
+      ],
       "hint": "٦٣ ÷ ٩ = ؟ اسأل: ٩ × ؟ = ٦٣. الجواب: ٧."
     },
     "correct": 1,
-    "arabicNumerals": ["٦", "٧", "٨", "٩"]
+    "arabicNumerals": [
+      "٦",
+      "٧",
+      "٨",
+      "٩"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "63 ÷ 9 = ? Ask: 9 × ? = 63. Answer: 7. The correct answer is 7.",
+      "ar": "٦٣ ÷ ٩ = ؟ اسأل: ٩ × ؟ = ٦٣. الجواب: ٧. الإجابة الصحيحة هي ٧."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — 63 palm trees at the Al Ain oasis are planted in 9 equal rows. How many per row?",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "63 ÷ 9 = ? Ask: 9 × ? = 63. Answer: 7."
+        },
+        "ar": {
+          "question": "نسخة أبسط — زُرعت ٦٣ نخلة في واحة العين في ٩ صفوف متساوية. كم نخلة في كل صف؟",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "٦٣ ÷ ٩ = ؟ اسأل: ٩ × ؟ = ٦٣. الجواب: ٧."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — 63 palm trees at the Al Ain oasis are planted in 9 equal rows. How many per row?",
+          "answers": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "hint": "63 ÷ 9 = ? Ask: 9 × ? = 63. Answer: 7."
+        },
+        "ar": {
+          "question": "تحدٍ — زُرعت ٦٣ نخلة في واحة العين في ٩ صفوف متساوية. كم نخلة في كل صف؟",
+          "answers": [
+            "٦",
+            "٧",
+            "٨",
+            "٩"
+          ],
+          "hint": "٦٣ ÷ ٩ = ؟ اسأل: ٩ × ؟ = ٦٣. الجواب: ٧."
+        }
+      }
+    }
   },
   {
     "id": "g4-l2-q5",
@@ -258,16 +1182,82 @@
     "topic": "division",
     "en": {
       "question": "Ali earns 42 dirhams working for 7 days equally. How much does he earn each day?",
-      "answers": ["5", "6", "7", "8"],
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "hint": "42 ÷ 7 = ? Ask: 7 × ? = 42. Answer: 6."
     },
     "ar": {
       "question": "يكسب علي ٤٢ درهمًا يعمل ٧ أيام بالتساوي. كم يكسب في كل يوم؟",
-      "answers": ["٥", "٦", "٧", "٨"],
+      "answers": [
+        "٥",
+        "٦",
+        "٧",
+        "٨"
+      ],
       "hint": "٤٢ ÷ ٧ = ؟ اسأل: ٧ × ؟ = ٤٢. الجواب: ٦."
     },
     "correct": 1,
-    "arabicNumerals": ["٥", "٦", "٧", "٨"]
+    "arabicNumerals": [
+      "٥",
+      "٦",
+      "٧",
+      "٨"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "42 ÷ 7 = ? Ask: 7 × ? = 42. Answer: 6. The correct answer is 6.",
+      "ar": "٤٢ ÷ ٧ = ؟ اسأل: ٧ × ؟ = ٤٢. الجواب: ٦. الإجابة الصحيحة هي ٦."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Ali earns 42 dirhams working for 7 days equally. How much does he earn each day?",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "42 ÷ 7 = ? Ask: 7 × ? = 42. Answer: 6."
+        },
+        "ar": {
+          "question": "نسخة أبسط — يكسب علي ٤٢ درهمًا يعمل ٧ أيام بالتساوي. كم يكسب في كل يوم؟",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "٤٢ ÷ ٧ = ؟ اسأل: ٧ × ؟ = ٤٢. الجواب: ٦."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Ali earns 42 dirhams working for 7 days equally. How much does he earn each day?",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "hint": "42 ÷ 7 = ? Ask: 7 × ? = 42. Answer: 6."
+        },
+        "ar": {
+          "question": "تحدٍ — يكسب علي ٤٢ درهمًا يعمل ٧ أيام بالتساوي. كم يكسب في كل يوم؟",
+          "answers": [
+            "٥",
+            "٦",
+            "٧",
+            "٨"
+          ],
+          "hint": "٤٢ ÷ ٧ = ؟ اسأل: ٧ × ؟ = ٤٢. الجواب: ٦."
+        }
+      }
+    }
   },
   {
     "id": "g4-l3-q1",
@@ -276,16 +1266,82 @@
     "topic": "fractions",
     "en": {
       "question": "Ahmed ate 1/4 of a cake cut into 20 pieces. How many pieces did he eat?",
-      "answers": ["4", "5", "6", "8"],
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
       "hint": "Find 1/4 of 20: divide 20 by 4. Answer: 5."
     },
     "ar": {
       "question": "أكل أحمد ربع كعكة مقسّمة إلى ٢٠ قطعة. كم قطعة أكل؟",
-      "answers": ["٤", "٥", "٦", "٨"],
+      "answers": [
+        "٤",
+        "٥",
+        "٦",
+        "٨"
+      ],
       "hint": "اجد ربع ٢٠: قسّم ٢٠ على ٤. الجواب: ٥."
     },
     "correct": 1,
-    "arabicNumerals": ["٤", "٥", "٦", "٨"]
+    "arabicNumerals": [
+      "٤",
+      "٥",
+      "٦",
+      "٨"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Find 1/4 of 20: divide 20 by 4. Answer: 5. The correct answer is 5.",
+      "ar": "اجد ربع ٢٠: قسّم ٢٠ على ٤. الجواب: ٥. الإجابة الصحيحة هي ٥."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Ahmed ate 1/4 of a cake cut into 20 pieces. How many pieces did he eat?",
+          "answers": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "hint": "Find 1/4 of 20: divide 20 by 4. Answer: 5."
+        },
+        "ar": {
+          "question": "نسخة أبسط — أكل أحمد ربع كعكة مقسّمة إلى ٢٠ قطعة. كم قطعة أكل؟",
+          "answers": [
+            "٤",
+            "٥",
+            "٦",
+            "٨"
+          ],
+          "hint": "اجد ربع ٢٠: قسّم ٢٠ على ٤. الجواب: ٥."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Ahmed ate 1/4 of a cake cut into 20 pieces. How many pieces did he eat?",
+          "answers": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "hint": "Find 1/4 of 20: divide 20 by 4. Answer: 5."
+        },
+        "ar": {
+          "question": "تحدٍ — أكل أحمد ربع كعكة مقسّمة إلى ٢٠ قطعة. كم قطعة أكل؟",
+          "answers": [
+            "٤",
+            "٥",
+            "٦",
+            "٨"
+          ],
+          "hint": "اجد ربع ٢٠: قسّم ٢٠ على ٤. الجواب: ٥."
+        }
+      }
+    }
   },
   {
     "id": "g4-l3-q2",
@@ -294,16 +1350,82 @@
     "topic": "fractions",
     "en": {
       "question": "Noura has 24 dates. She gives away 1/3 to her friends. How many dates does she give away?",
-      "answers": ["6", "8", "10", "12"],
+      "answers": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
       "hint": "Find 1/3 of 24: divide 24 by 3. Answer: 8."
     },
     "ar": {
       "question": "لدى نورة ٢٤ تمرة. أعطت ثلثها لأصدقائها. كم تمرة أعطت؟",
-      "answers": ["٦", "٨", "١٠", "١٢"],
+      "answers": [
+        "٦",
+        "٨",
+        "١٠",
+        "١٢"
+      ],
       "hint": "اجد ثلث ٢٤: قسّم ٢٤ على ٣. الجواب: ٨."
     },
     "correct": 1,
-    "arabicNumerals": ["٦", "٨", "١٠", "١٢"]
+    "arabicNumerals": [
+      "٦",
+      "٨",
+      "١٠",
+      "١٢"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Find 1/3 of 24: divide 24 by 3. Answer: 8. The correct answer is 8.",
+      "ar": "اجد ثلث ٢٤: قسّم ٢٤ على ٣. الجواب: ٨. الإجابة الصحيحة هي ٨."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — Noura has 24 dates. She gives away 1/3 to her friends. How many dates does she give away?",
+          "answers": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "hint": "Find 1/3 of 24: divide 24 by 3. Answer: 8."
+        },
+        "ar": {
+          "question": "نسخة أبسط — لدى نورة ٢٤ تمرة. أعطت ثلثها لأصدقائها. كم تمرة أعطت؟",
+          "answers": [
+            "٦",
+            "٨",
+            "١٠",
+            "١٢"
+          ],
+          "hint": "اجد ثلث ٢٤: قسّم ٢٤ على ٣. الجواب: ٨."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — Noura has 24 dates. She gives away 1/3 to her friends. How many dates does she give away?",
+          "answers": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "hint": "Find 1/3 of 24: divide 24 by 3. Answer: 8."
+        },
+        "ar": {
+          "question": "تحدٍ — لدى نورة ٢٤ تمرة. أعطت ثلثها لأصدقائها. كم تمرة أعطت؟",
+          "answers": [
+            "٦",
+            "٨",
+            "١٠",
+            "١٢"
+          ],
+          "hint": "اجد ثلث ٢٤: قسّم ٢٤ على ٣. الجواب: ٨."
+        }
+      }
+    }
   },
   {
     "id": "g4-l3-q3",
@@ -312,16 +1434,82 @@
     "topic": "fractions",
     "en": {
       "question": "A merchant sells 3/5 of his 35 carpets. How many carpets does he sell?",
-      "answers": ["18", "20", "21", "25"],
+      "answers": [
+        "18",
+        "20",
+        "21",
+        "25"
+      ],
       "hint": "Find 3/5 of 35: first 1/5 of 35 = 7, then × 3 = 21."
     },
     "ar": {
       "question": "باع تاجر ٣/٥ من سجاجيده الـ٣٥. كم سجادة باع؟",
-      "answers": ["١٨", "٢٠", "٢١", "٢٥"],
+      "answers": [
+        "١٨",
+        "٢٠",
+        "٢١",
+        "٢٥"
+      ],
       "hint": "اجد ٣/٥ من ٣٥: أولاً ١/٥ من ٣٥ = ٧، ثم اضرب في ٣ = ٢١."
     },
     "correct": 2,
-    "arabicNumerals": ["١٨", "٢٠", "٢١", "٢٥"]
+    "arabicNumerals": [
+      "١٨",
+      "٢٠",
+      "٢١",
+      "٢٥"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Find 3/5 of 35: first 1/5 of 35 = 7, then × 3 = 21. The correct answer is 21.",
+      "ar": "اجد ٣/٥ من ٣٥: أولاً ١/٥ من ٣٥ = ٧، ثم اضرب في ٣ = ٢١. الإجابة الصحيحة هي ٢١."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A merchant sells 3/5 of his 35 carpets. How many carpets does he sell?",
+          "answers": [
+            "18",
+            "20",
+            "21",
+            "25"
+          ],
+          "hint": "Find 3/5 of 35: first 1/5 of 35 = 7, then × 3 = 21."
+        },
+        "ar": {
+          "question": "نسخة أبسط — باع تاجر ٣/٥ من سجاجيده الـ٣٥. كم سجادة باع؟",
+          "answers": [
+            "١٨",
+            "٢٠",
+            "٢١",
+            "٢٥"
+          ],
+          "hint": "اجد ٣/٥ من ٣٥: أولاً ١/٥ من ٣٥ = ٧، ثم اضرب في ٣ = ٢١."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A merchant sells 3/5 of his 35 carpets. How many carpets does he sell?",
+          "answers": [
+            "18",
+            "20",
+            "21",
+            "25"
+          ],
+          "hint": "Find 3/5 of 35: first 1/5 of 35 = 7, then × 3 = 21."
+        },
+        "ar": {
+          "question": "تحدٍ — باع تاجر ٣/٥ من سجاجيده الـ٣٥. كم سجادة باع؟",
+          "answers": [
+            "١٨",
+            "٢٠",
+            "٢١",
+            "٢٥"
+          ],
+          "hint": "اجد ٣/٥ من ٣٥: أولاً ١/٥ من ٣٥ = ٧، ثم اضرب في ٣ = ٢١."
+        }
+      }
+    }
   },
   {
     "id": "g4-l3-q4",
@@ -330,16 +1518,82 @@
     "topic": "fractions",
     "en": {
       "question": "A water tank holds 40 litres. 3/4 of it is used up. How many litres remain?",
-      "answers": ["8", "10", "12", "15"],
+      "answers": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
       "hint": "Used: 3/4 × 40 = 30 litres. Remaining: 40 - 30 = 10."
     },
     "ar": {
       "question": "خزّان ماء يسع ٤٠ لترًا. استُهلك ٣/٤ منه. كم لترًا تبقّى؟",
-      "answers": ["٨", "١٠", "١٢", "١٥"],
+      "answers": [
+        "٨",
+        "١٠",
+        "١٢",
+        "١٥"
+      ],
       "hint": "المستهلك: ٣/٤ × ٤٠ = ٣٠ لترًا. المتبقّي: ٤٠ - ٣٠ = ١٠."
     },
     "correct": 1,
-    "arabicNumerals": ["٨", "١٠", "١٢", "١٥"]
+    "arabicNumerals": [
+      "٨",
+      "١٠",
+      "١٢",
+      "١٥"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Used: 3/4 × 40 = 30 litres. Remaining: 40 - 30 = 10. The correct answer is 10.",
+      "ar": "المستهلك: ٣/٤ × ٤٠ = ٣٠ لترًا. المتبقّي: ٤٠ - ٣٠ = ١٠. الإجابة الصحيحة هي ١٠."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A water tank holds 40 litres. 3/4 of it is used up. How many litres remain?",
+          "answers": [
+            "8",
+            "10",
+            "12",
+            "15"
+          ],
+          "hint": "Used: 3/4 × 40 = 30 litres. Remaining: 40 - 30 = 10."
+        },
+        "ar": {
+          "question": "نسخة أبسط — خزّان ماء يسع ٤٠ لترًا. استُهلك ٣/٤ منه. كم لترًا تبقّى؟",
+          "answers": [
+            "٨",
+            "١٠",
+            "١٢",
+            "١٥"
+          ],
+          "hint": "المستهلك: ٣/٤ × ٤٠ = ٣٠ لترًا. المتبقّي: ٤٠ - ٣٠ = ١٠."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A water tank holds 40 litres. 3/4 of it is used up. How many litres remain?",
+          "answers": [
+            "8",
+            "10",
+            "12",
+            "15"
+          ],
+          "hint": "Used: 3/4 × 40 = 30 litres. Remaining: 40 - 30 = 10."
+        },
+        "ar": {
+          "question": "تحدٍ — خزّان ماء يسع ٤٠ لترًا. استُهلك ٣/٤ منه. كم لترًا تبقّى؟",
+          "answers": [
+            "٨",
+            "١٠",
+            "١٢",
+            "١٥"
+          ],
+          "hint": "المستهلك: ٣/٤ × ٤٠ = ٣٠ لترًا. المتبقّي: ٤٠ - ٣٠ = ١٠."
+        }
+      }
+    }
   },
   {
     "id": "g4-l3-q5",
@@ -348,16 +1602,82 @@
     "topic": "fractions",
     "en": {
       "question": "What is 1/2 + 1/4?",
-      "answers": ["1/2", "2/3", "3/4", "1"],
+      "answers": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1"
+      ],
       "hint": "Make equal denominators: 1/2 = 2/4. Then 2/4 + 1/4 = 3/4."
     },
     "ar": {
       "question": "ما حاصل ١/٢ + ١/٤؟",
-      "answers": ["١/٢", "٢/٣", "٣/٤", "١"],
+      "answers": [
+        "١/٢",
+        "٢/٣",
+        "٣/٤",
+        "١"
+      ],
       "hint": "اجعل المقامَيْن متساويَيْن: ١/٢ = ٢/٤. ثم ٢/٤ + ١/٤ = ٣/٤."
     },
     "correct": 2,
-    "arabicNumerals": ["١/٢", "٢/٣", "٣/٤", "١"]
+    "arabicNumerals": [
+      "١/٢",
+      "٢/٣",
+      "٣/٤",
+      "١"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Make equal denominators: 1/2 = 2/4. Then 2/4 + 1/4 = 3/4. The correct answer is 3/4.",
+      "ar": "اجعل المقامَيْن متساويَيْن: ١/٢ = ٢/٤. ثم ٢/٤ + ١/٤ = ٣/٤. الإجابة الصحيحة هي ٣/٤."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — What is 1/2 + 1/4?",
+          "answers": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "1"
+          ],
+          "hint": "Make equal denominators: 1/2 = 2/4. Then 2/4 + 1/4 = 3/4."
+        },
+        "ar": {
+          "question": "نسخة أبسط — ما حاصل ١/٢ + ١/٤؟",
+          "answers": [
+            "١/٢",
+            "٢/٣",
+            "٣/٤",
+            "١"
+          ],
+          "hint": "اجعل المقامَيْن متساويَيْن: ١/٢ = ٢/٤. ثم ٢/٤ + ١/٤ = ٣/٤."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — What is 1/2 + 1/4?",
+          "answers": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "1"
+          ],
+          "hint": "Make equal denominators: 1/2 = 2/4. Then 2/4 + 1/4 = 3/4."
+        },
+        "ar": {
+          "question": "تحدٍ — ما حاصل ١/٢ + ١/٤؟",
+          "answers": [
+            "١/٢",
+            "٢/٣",
+            "٣/٤",
+            "١"
+          ],
+          "hint": "اجعل المقامَيْن متساويَيْن: ١/٢ = ٢/٤. ثم ٢/٤ + ١/٤ = ٣/٤."
+        }
+      }
+    }
   },
   {
     "id": "g4-l4-q1",
@@ -366,16 +1686,82 @@
     "topic": "geometry",
     "en": {
       "question": "A desert camp has a rectangular fence 8m long and 5m wide. What is the perimeter?",
-      "answers": ["13m", "26m", "40m", "20m"],
+      "answers": [
+        "13m",
+        "26m",
+        "40m",
+        "20m"
+      ],
       "hint": "Perimeter = 2 × (length + width) = 2 × (8+5) = 2 × 13 = 26m."
     },
     "ar": {
       "question": "محيط حوش مخيّم مستطيل طوله ٨ أمتار وعرضه ٥ أمتار هو؟",
-      "answers": ["١٣م", "٢٦م", "٤٠م", "٢٠م"],
+      "answers": [
+        "١٣م",
+        "٢٦م",
+        "٤٠م",
+        "٢٠م"
+      ],
       "hint": "المحيط = ٢ × (الطول + العرض) = ٢ × (٨+٥) = ٢ × ١٣ = ٢٦م."
     },
     "correct": 1,
-    "arabicNumerals": ["١٣م", "٢٦م", "٤٠م", "٢٠م"]
+    "arabicNumerals": [
+      "١٣م",
+      "٢٦م",
+      "٤٠م",
+      "٢٠م"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Perimeter = 2 × (length + width) = 2 × (8+5) = 2 × 13 = 26m. The correct answer is 26m.",
+      "ar": "المحيط = ٢ × (الطول + العرض) = ٢ × (٨+٥) = ٢ × ١٣ = ٢٦م. الإجابة الصحيحة هي ٢٦م."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A desert camp has a rectangular fence 8m long and 5m wide. What is the perimeter?",
+          "answers": [
+            "13m",
+            "26m",
+            "40m",
+            "20m"
+          ],
+          "hint": "Perimeter = 2 × (length + width) = 2 × (8+5) = 2 × 13 = 26m."
+        },
+        "ar": {
+          "question": "نسخة أبسط — محيط حوش مخيّم مستطيل طوله ٨ أمتار وعرضه ٥ أمتار هو؟",
+          "answers": [
+            "١٣م",
+            "٢٦م",
+            "٤٠م",
+            "٢٠م"
+          ],
+          "hint": "المحيط = ٢ × (الطول + العرض) = ٢ × (٨+٥) = ٢ × ١٣ = ٢٦م."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A desert camp has a rectangular fence 8m long and 5m wide. What is the perimeter?",
+          "answers": [
+            "13m",
+            "26m",
+            "40m",
+            "20m"
+          ],
+          "hint": "Perimeter = 2 × (length + width) = 2 × (8+5) = 2 × 13 = 26m."
+        },
+        "ar": {
+          "question": "تحدٍ — محيط حوش مخيّم مستطيل طوله ٨ أمتار وعرضه ٥ أمتار هو؟",
+          "answers": [
+            "١٣م",
+            "٢٦م",
+            "٤٠م",
+            "٢٠م"
+          ],
+          "hint": "المحيط = ٢ × (الطول + العرض) = ٢ × (٨+٥) = ٢ × ١٣ = ٢٦م."
+        }
+      }
+    }
   },
   {
     "id": "g4-l4-q2",
@@ -384,16 +1770,82 @@
     "topic": "geometry",
     "en": {
       "question": "A square garden at an Emirati home has sides of 7 metres. What is its perimeter?",
-      "answers": ["14m", "21m", "28m", "49m"],
+      "answers": [
+        "14m",
+        "21m",
+        "28m",
+        "49m"
+      ],
       "hint": "Perimeter of a square = 4 × side = 4 × 7 = 28m."
     },
     "ar": {
       "question": "حديقة مربّعة الشكل في بيت إماراتي طول ضلعها ٧ أمتار. ما محيطها؟",
-      "answers": ["١٤م", "٢١م", "٢٨م", "٤٩م"],
+      "answers": [
+        "١٤م",
+        "٢١م",
+        "٢٨م",
+        "٤٩م"
+      ],
       "hint": "محيط المربّع = ٤ × الضلع = ٤ × ٧ = ٢٨م."
     },
     "correct": 2,
-    "arabicNumerals": ["١٤م", "٢١م", "٢٨م", "٤٩م"]
+    "arabicNumerals": [
+      "١٤م",
+      "٢١م",
+      "٢٨م",
+      "٤٩م"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Perimeter of a square = 4 × side = 4 × 7 = 28m. The correct answer is 28m.",
+      "ar": "محيط المربّع = ٤ × الضلع = ٤ × ٧ = ٢٨م. الإجابة الصحيحة هي ٢٨م."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A square garden at an Emirati home has sides of 7 metres. What is its perimeter?",
+          "answers": [
+            "14m",
+            "21m",
+            "28m",
+            "49m"
+          ],
+          "hint": "Perimeter of a square = 4 × side = 4 × 7 = 28m."
+        },
+        "ar": {
+          "question": "نسخة أبسط — حديقة مربّعة الشكل في بيت إماراتي طول ضلعها ٧ أمتار. ما محيطها؟",
+          "answers": [
+            "١٤م",
+            "٢١م",
+            "٢٨م",
+            "٤٩م"
+          ],
+          "hint": "محيط المربّع = ٤ × الضلع = ٤ × ٧ = ٢٨م."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A square garden at an Emirati home has sides of 7 metres. What is its perimeter?",
+          "answers": [
+            "14m",
+            "21m",
+            "28m",
+            "49m"
+          ],
+          "hint": "Perimeter of a square = 4 × side = 4 × 7 = 28m."
+        },
+        "ar": {
+          "question": "تحدٍ — حديقة مربّعة الشكل في بيت إماراتي طول ضلعها ٧ أمتار. ما محيطها؟",
+          "answers": [
+            "١٤م",
+            "٢١م",
+            "٢٨م",
+            "٤٩م"
+          ],
+          "hint": "محيط المربّع = ٤ × الضلع = ٤ × ٧ = ٢٨م."
+        }
+      }
+    }
   },
   {
     "id": "g4-l4-q3",
@@ -402,16 +1854,82 @@
     "topic": "geometry",
     "en": {
       "question": "A rectangular rug is 6 metres long and 4 metres wide. What is its area?",
-      "answers": ["10m²", "20m²", "24m²", "28m²"],
+      "answers": [
+        "10m²",
+        "20m²",
+        "24m²",
+        "28m²"
+      ],
       "hint": "Area = length × width = 6 × 4 = 24m²."
     },
     "ar": {
       "question": "سجّادة مستطيلة طولها ٦ أمتار وعرضها ٤ أمتار. ما مساحتها؟",
-      "answers": ["١٠م²", "٢٠م²", "٢٤م²", "٢٨م²"],
+      "answers": [
+        "١٠م²",
+        "٢٠م²",
+        "٢٤م²",
+        "٢٨م²"
+      ],
       "hint": "المساحة = الطول × العرض = ٦ × ٤ = ٢٤م²."
     },
     "correct": 2,
-    "arabicNumerals": ["١٠م²", "٢٠م²", "٢٤م²", "٢٨م²"]
+    "arabicNumerals": [
+      "١٠م²",
+      "٢٠م²",
+      "٢٤م²",
+      "٢٨م²"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Area = length × width = 6 × 4 = 24m². The correct answer is 24m².",
+      "ar": "المساحة = الطول × العرض = ٦ × ٤ = ٢٤م². الإجابة الصحيحة هي ٢٤م²."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A rectangular rug is 6 metres long and 4 metres wide. What is its area?",
+          "answers": [
+            "10m²",
+            "20m²",
+            "24m²",
+            "28m²"
+          ],
+          "hint": "Area = length × width = 6 × 4 = 24m²."
+        },
+        "ar": {
+          "question": "نسخة أبسط — سجّادة مستطيلة طولها ٦ أمتار وعرضها ٤ أمتار. ما مساحتها؟",
+          "answers": [
+            "١٠م²",
+            "٢٠م²",
+            "٢٤م²",
+            "٢٨م²"
+          ],
+          "hint": "المساحة = الطول × العرض = ٦ × ٤ = ٢٤م²."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A rectangular rug is 6 metres long and 4 metres wide. What is its area?",
+          "answers": [
+            "10m²",
+            "20m²",
+            "24m²",
+            "28m²"
+          ],
+          "hint": "Area = length × width = 6 × 4 = 24m²."
+        },
+        "ar": {
+          "question": "تحدٍ — سجّادة مستطيلة طولها ٦ أمتار وعرضها ٤ أمتار. ما مساحتها؟",
+          "answers": [
+            "١٠م²",
+            "٢٠م²",
+            "٢٤م²",
+            "٢٨م²"
+          ],
+          "hint": "المساحة = الطول × العرض = ٦ × ٤ = ٢٤م²."
+        }
+      }
+    }
   },
   {
     "id": "g4-l4-q4",
@@ -420,16 +1938,82 @@
     "topic": "geometry",
     "en": {
       "question": "A square prayer mat has sides of 3 metres. What is its area?",
-      "answers": ["6m²", "9m²", "12m²", "16m²"],
+      "answers": [
+        "6m²",
+        "9m²",
+        "12m²",
+        "16m²"
+      ],
       "hint": "Area of a square = side × side = 3 × 3 = 9m²."
     },
     "ar": {
       "question": "سجّادة صلاة مربّعة طول ضلعها ٣ أمتار. ما مساحتها؟",
-      "answers": ["٦م²", "٩م²", "١٢م²", "١٦م²"],
+      "answers": [
+        "٦م²",
+        "٩م²",
+        "١٢م²",
+        "١٦م²"
+      ],
       "hint": "مساحة المربّع = الضلع × الضلع = ٣ × ٣ = ٩م²."
     },
     "correct": 1,
-    "arabicNumerals": ["٦م²", "٩م²", "١٢م²", "١٦م²"]
+    "arabicNumerals": [
+      "٦م²",
+      "٩م²",
+      "١٢م²",
+      "١٦م²"
+    ],
+    "type": "mcq",
+    "explanation": {
+      "en": "Area of a square = side × side = 3 × 3 = 9m². The correct answer is 9m².",
+      "ar": "مساحة المربّع = الضلع × الضلع = ٣ × ٣ = ٩م². الإجابة الصحيحة هي ٩م²."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A square prayer mat has sides of 3 metres. What is its area?",
+          "answers": [
+            "6m²",
+            "9m²",
+            "12m²",
+            "16m²"
+          ],
+          "hint": "Area of a square = side × side = 3 × 3 = 9m²."
+        },
+        "ar": {
+          "question": "نسخة أبسط — سجّادة صلاة مربّعة طول ضلعها ٣ أمتار. ما مساحتها؟",
+          "answers": [
+            "٦م²",
+            "٩م²",
+            "١٢م²",
+            "١٦م²"
+          ],
+          "hint": "مساحة المربّع = الضلع × الضلع = ٣ × ٣ = ٩م²."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A square prayer mat has sides of 3 metres. What is its area?",
+          "answers": [
+            "6m²",
+            "9m²",
+            "12m²",
+            "16m²"
+          ],
+          "hint": "Area of a square = side × side = 3 × 3 = 9m²."
+        },
+        "ar": {
+          "question": "تحدٍ — سجّادة صلاة مربّعة طول ضلعها ٣ أمتار. ما مساحتها؟",
+          "answers": [
+            "٦م²",
+            "٩م²",
+            "١٢م²",
+            "١٦م²"
+          ],
+          "hint": "مساحة المربّع = الضلع × الضلع = ٣ × ٣ = ٩م²."
+        }
+      }
+    }
   },
   {
     "id": "g4-l4-q5",
@@ -438,15 +2022,81 @@
     "topic": "geometry",
     "en": {
       "question": "A triangular sand dune has a base of 10 metres and a height of 6 metres. What is its area?",
-      "answers": ["15m²", "30m²", "60m²", "25m²"],
+      "answers": [
+        "15m²",
+        "30m²",
+        "60m²",
+        "25m²"
+      ],
       "hint": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30m²."
     },
     "ar": {
       "question": "كثيب رملي مثلّث الشكل قاعدته ١٠ أمتار وارتفاعه ٦ أمتار. ما مساحته؟",
-      "answers": ["١٥م²", "٣٠م²", "٦٠م²", "٢٥م²"],
+      "answers": [
+        "١٥م²",
+        "٣٠م²",
+        "٦٠م²",
+        "٢٥م²"
+      ],
       "hint": "مساحة المثلّث = ½ × القاعدة × الارتفاع = ½ × ١٠ × ٦ = ٣٠م²."
     },
     "correct": 1,
-    "arabicNumerals": ["١٥م²", "٣٠م²", "٦٠م²", "٢٥م²"]
+    "arabicNumerals": [
+      "١٥م²",
+      "٣٠م²",
+      "٦٠م²",
+      "٢٥م²"
+    ],
+    "type": "dragdrop",
+    "explanation": {
+      "en": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30m². The correct answer is 30m².",
+      "ar": "مساحة المثلّث = ½ × القاعدة × الارتفاع = ½ × ١٠ × ٦ = ٣٠م². الإجابة الصحيحة هي ٣٠م²."
+    },
+    "variants": {
+      "easy": {
+        "en": {
+          "question": "Easier — A triangular sand dune has a base of 10 metres and a height of 6 metres. What is its area?",
+          "answers": [
+            "15m²",
+            "30m²",
+            "60m²",
+            "25m²"
+          ],
+          "hint": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30m²."
+        },
+        "ar": {
+          "question": "نسخة أبسط — كثيب رملي مثلّث الشكل قاعدته ١٠ أمتار وارتفاعه ٦ أمتار. ما مساحته؟",
+          "answers": [
+            "١٥م²",
+            "٣٠م²",
+            "٦٠م²",
+            "٢٥م²"
+          ],
+          "hint": "مساحة المثلّث = ½ × القاعدة × الارتفاع = ½ × ١٠ × ٦ = ٣٠م²."
+        }
+      },
+      "hard": {
+        "en": {
+          "question": "Challenge — A triangular sand dune has a base of 10 metres and a height of 6 metres. What is its area?",
+          "answers": [
+            "15m²",
+            "30m²",
+            "60m²",
+            "25m²"
+          ],
+          "hint": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30m²."
+        },
+        "ar": {
+          "question": "تحدٍ — كثيب رملي مثلّث الشكل قاعدته ١٠ أمتار وارتفاعه ٦ أمتار. ما مساحته؟",
+          "answers": [
+            "١٥م²",
+            "٣٠م²",
+            "٦٠م²",
+            "٢٥م²"
+          ],
+          "hint": "مساحة المثلّث = ½ × القاعدة × الارتفاع = ½ × ١٠ × ٦ = ٣٠م²."
+        }
+      }
+    }
   }
 ]

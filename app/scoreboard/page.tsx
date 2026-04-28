@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useGameStore } from "@/store/useGameStore";
 import Scoreboard from "@/components/Scoreboard";
 import BackButton from "@/components/ui/BackButton";
+import { isLoggedIn } from "@/lib/auth";
 
 export default function ScoreboardPage() {
   const router = useRouter();
@@ -14,12 +15,17 @@ export default function ScoreboardPage() {
   useEffect(() => setMounted(true), []);
 
   useEffect(() => {
-    if (mounted && grade === null) {
+    if (!mounted) return;
+    if (grade === null) {
       router.replace("/");
+      return;
+    }
+    if (!isLoggedIn()) {
+      router.replace("/login");
     }
   }, [mounted, grade, router]);
 
-  if (!mounted || grade === null) return null;
+  if (!mounted || grade === null || !isLoggedIn()) return null;
 
   return (
     <>

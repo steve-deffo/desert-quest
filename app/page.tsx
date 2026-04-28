@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { useGameStore } from "@/store/useGameStore";
 import { useTranslation } from "@/lib/i18n";
+import { isLoggedIn } from "@/lib/auth";
 import BismillahCalligraphy from "@/components/BismillahCalligraphy";
 import { NouraCamelSVG, ZayedCamelSVG } from "@/components/AnimatedCamel";
 import LanguageToggle from "@/components/ui/LanguageToggle";
@@ -37,7 +38,7 @@ function GradeSelectContent() {
   // Once hydrated, redirect away if grade was already chosen
   useEffect(() => {
     if (mounted && grade !== null) {
-      router.replace("/home");
+      router.replace(isLoggedIn() ? "/dashboard" : "/login");
     }
   }, [mounted, grade, router]);
 
@@ -50,7 +51,7 @@ function GradeSelectContent() {
     playSound(Sounds.gradeSelect);
     window.setTimeout(() => {
       setGrade(g);
-      router.push("/home");
+      router.push("/login");
     }, 500);
   };
 
