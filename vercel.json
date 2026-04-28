@@ -3,9 +3,6 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "env": {
-    "ANTHROPIC_API_KEY": "@anthropic_api_key"
-  },
   "headers": [
     {
       "source": "/(.*)",
